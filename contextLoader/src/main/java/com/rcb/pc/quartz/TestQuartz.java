@@ -5,6 +5,10 @@ public class TestQuartz {
 		
 	}
 	
+	public void dsds () {
+		
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("dsdsdsds");
 		System.out.println("dsdsddsdsd");
