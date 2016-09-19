@@ -4,6 +4,6 @@ public class TestQuartz {
 	public static void main(String[] args) {
 		System.out.println("dsdsdsds");
 		System.out.println("dsdsddsdsd");
-		system.out.println("dsdsdsdsdsdsdsds");
+		System.out.println("dsdsdsdsdsdsdsds");
 	}
 }
