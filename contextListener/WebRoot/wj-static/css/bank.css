@@ -1,0 +1,7 @@
+.bank-card-blank {display:block;width:100%; text-align: center;} 
+.mt10{height: 50px;line-height: 40px;width: 100%;} 
+.prm{width: 450px;float: right;line-height: 20px;}
+.mt10 .sign{font-size: 14px;}
+.mt10 select{width: 180px;height: 32px;}
+.mt10 input{height: 30px;font-size: 14px;width:180px;}
+.btnGroup .redBtn{color: white;font-size: 16px;height: 40px;width: 200px;border: none;background: #327DC3;margin: 50px 0px;text-align:center;}

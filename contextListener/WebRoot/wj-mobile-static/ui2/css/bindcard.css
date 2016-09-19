@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.bangding{
+	margin-top: 30px;
+	height: 356px;
+	color: #333;
+}
+.bangding p{
+	background-color: #FFFFFF;
+	padding: 5px auto;
+	margin-bottom: 5px;
+    width: 90%;
+    margin: 10px auto;
+    line-height: 46px;
+    border-radius: 3px;
+}
+.fab{
+	padding: 4px;
+	font-size: 16px;
+}
+.bangding span{
+	margin-left: 5px;
+}
+.fd{
+	float: right;
+}
+.bangding #tj{
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
+	line-height: 46px;
+}
+.bangding #tj a{
+	color: #ffffff;
+	display: block;
+    border-radius: 3px;
+	background-color: #ffa626;
+}
+.btt5{
+	margin-top: 356px;
+}
+.icon-span{
+    border-right: 1px solid;
+    padding: 0 3px;
+}
+.icon-span.b{
+    padding: 0 6px;
+}
+.icon-span.c{
+    padding: 0 7px;
+}
+.bangding select{
+    margin-left: 5px;
+    border:0;
+    width: 80%;
+}
+.bangding input{
+    margin-left: 5px;
+    border: 0;
+    width: 80%;
+    height: 25px;
+}
+.top2{
+	height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #299AD2;
+}
+.ddd {
+    width: 90%;
+    background-color: #d3edfb;
+    border-radius: 3px;
+    margin: 20px auto 50px;
+    padding-top: 10px;
+}
+.p322{
+	padding-bottom: 0;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* 购买项目确认页 */
+.buy-confirm{padding:10px 5px;padding-top: 35px; }
+.buy-confirm ul>li{margin: 10px 0;font-size: 15px;color:#909090;}
+.buy-confirm .project-info{margin: 10px 15px;}
+.buy-confirm .project-info li{}
+.buy-confirm .project-info span{color:#000;}
+.buy-confirm .buy-info{margin: 10px 15px;margin-top: 30px;}
+.buy-confirm .buy-info li{}
+.buy-confirm .buy-info span{color: #48B4E2;}
+.buy-confirm h3{
+    margin-top: 10px;
+    margin-left: 24px;
+    height: 40px;
+    width: 85%;
+    background-color: #48B4E2;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 7px;
+    box-shadow: 0 5px 0 0 #2e9dd0;
+}
+
+.bank-recharge-limit section{
+	display: none;
+}

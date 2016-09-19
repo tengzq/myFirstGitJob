@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+html,body {background-color: #EEE;}
+/*-- Tab导航菜单 --*/
+.menu {border-radius: 3px;overflow: hidden;font-size: 18px;margin: 10px;line-height: 25px;border: 1px solid #dd5561;}
+.menu li {float: left;width: 50%;text-align: center;}
+.menu li.on {background-color: #dd5561;color: #FFF;}
+/*-- 优惠券 --*/
+section {margin: 15px 10px;}
+section>ul {padding: 10px;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;background: url("../images/ticketbg.png") center 40px /100% auto repeat;color: #FFF;}
+section>ul li {-webkit-box-ordinal-group: 1;-moz-box-ordinal-group: 1;-ms-flex-order: 1;-webkit-order: 1;order: 1;-webkit-box-flex: 1;-moz-box-flex: 1;width: 20%;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+section>ul li.amount {text-align: center;/* padding-top: 5px; */font-size: 36px;}
+section>ul li dt {font-size: 16px;}
+section>ul li dd {font-size: 14px;margin-top: 5px;}
+section>.info {padding: 10px;background-color: #FFF;}
+section>.info i.fa {float: right;width: 15px;height: 15px;border: 1px solid #CCCCCC;border-radius: 50%;text-align: center;line-height: 15px;}
+section>.info-detail {padding: 10px;background-color: #FFF;border-top: 1px solid #eee;display: none;}
+		

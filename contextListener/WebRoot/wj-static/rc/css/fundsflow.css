@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.tzjl{ padding:0 20px;}
+.tzjl nav{ height:46px;border-bottom:1px solid #ebebeb; }
+.tzjl nav ul { overflow:hidden}
+.tzjl nav ul li{ float:left; }
+.tzjl nav ul li a { display:block; padding:0 30px; font-size:18px; line-height:47px; color:#333;}
+.tzjl nav ul li.hover a { border:1px solid #eee; border-bottom:#fff; color:#c18f35; line-height:44px; border-top:3px solid #c18f35; background:#fff;}
+
+.table table{ width:100%; border:1px solid #e8e8e8; margin-top:30px;}
+.table table th{ background:#f2f2f2; font-size:14px; text-align:center; line-height:42px;}
+.table table td{ border-bottom:1px dashed #e8e8e8; font-size:12px; line-height:1.5; padding:5px; text-align:center; vertical-align:middle}
+.table table tr td:last-child{ width:200px; text-align:left}

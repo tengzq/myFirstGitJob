@@ -1,0 +1,366 @@
+#bd {
+	margin-top:20px;
+}
+.aside {
+	width:220px;
+}
+
+.main {
+	width:684px;
+	padding:30px;
+	background:#fff;
+	min-height:200px;
+	overflow:hidden;
+}
+.aside .about-nav {
+	margin-top:15px;
+	background:#fff;
+	overflow:hidden;
+	text-align:center;
+}
+.about-nav .about-nav-1stlevel h3 {
+	height:52px;
+	margin-top:-1px;
+	border-top:1px solid #eee;
+}
+.about-nav .about-nav-1stlevel h3 a {
+	display:block;
+	height:52px;
+	line-height:52px;
+	color:#f96;
+	font-size:18px;
+}
+.about-nav .on h3 a {
+	font-weight:bold;
+}
+.about-nav .about-nav-2ndlevel-list {
+	border-top:1px solid #fff;
+	overflow:hidden;
+}
+.about-nav .about-nav-2ndlevel-list a {
+	display:block;
+	height:40px;
+	line-height:40px;
+	border-top:1px solid #eee;
+	color:#666;
+	font-size:14px;
+}
+.about-nav .about-nav-2ndlevel-list a:hover {
+	text-decoration:underline;
+}
+.about-nav .about-nav-2ndlevel-list .on a {
+	background:#f96;
+	color:#fff;
+	text-decoration:none;
+}
+
+.my-mod {
+	overflow:hidden;
+}
+.my-mod .hd {
+	position:relative;
+	top:-15px;
+	border-bottom: 1px solid #ccc;
+	height:35px;
+	line-height:180%;
+}
+.my-mod .hd h2 {
+	font-size:20px;
+	background:#fff;
+	position:absolute;
+	top: 2px;
+	left:0;
+	color: #f63;
+	font-weight: bold;
+	margin:1em 0;
+	padding: 0 8px 0 0;
+}
+.my-mod .bd {
+	margin:20px 0 40px;
+}
+
+.my-about p {
+	font-size:14px;
+	line-height:24px;
+	text-align:left;
+	color:#666;
+}
+.mtclear {
+	margin-top:-15px;
+}
+.security_four {
+	width:544px;
+	height:168px;
+	padding:20px 100px;
+	margin-bottom:20px;
+}
+.security_four ul li {
+	width:180px;
+	height:64px;
+	padding-left:70px;
+	margin-bottom:20px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:64px;
+	color:#666;
+	background:url(https://s1.lantouzi.com/img/ltz/aboutus_sprite.png) no-repeat;
+    float:left;
+}
+.security_youxuan {
+	width:684px;
+	padding-bottom:60px;
+}
+.sub_text{
+	font-size:14px;
+	line-height:24px;
+	color:#666;
+	padding:10px 0 10px 0;
+}
+.security_youxuan_title {
+	width:400px;
+	height:40px;
+	background:url(https://s1.lantouzi.com/img/ltz/bg_line.jpg) no-repeat 145px 14px;
+	text-align:center;
+	padding:0 142px;
+	margin-bottom:20px;
+}
+.security_youxuan_title p {
+	line-height:40px;
+	font-size:20px;
+	font-weight:bold;
+	color:#666;
+}
+.security_youxuan_cont{
+	width:684px;
+}
+.security_youxuan_img{
+	display:block;
+	margin:0 auto;
+}
+.security_youxuan_text{
+	display:block;
+	width:600px;
+	margin:10px auto;
+}
+.security_huikuan_text{
+	width:220px;
+	height:180px;
+	padding-right:30px;
+	font-size:14px;
+	line-height:30px;
+	color:#333;
+	font-family:inherit;
+	float:right;
+}
+.privacy_text,
+.privacy_title{
+	width:644px;
+}
+.privacy_title{
+	font-size:14px;
+	font-family:inherit;
+	color:#333;
+	line-height:30px;
+	font-weight:bold;
+}
+.privacy_company{
+	width:120px;
+	height:90px;
+	padding-left:540px;
+	padding-top:20px;
+}
+.privacy_company p{
+	font-size:20px;
+	line-height:50px;
+	font-family:inherit;
+	font-weight:bold;
+	color:#333；
+}
+.help_title,
+.contact_title{
+	width:650px;
+	height:24px;
+	line-height:24px;
+	margin:20px 0 6px 0;
+	padding-left:28px;
+	background:url(https://s1.lantouzi.com/img/ltz/aboutus_sprite.png) 0 -307px no-repeat;
+}
+.help_title p,
+.help_title h3,
+.contact_title p{
+	font-size:16px;
+	font-weight:bold;
+	color:#f63;
+}
+.help_title_qus,
+.help_title_ans,
+.zizhi{
+    padding:0 10px;
+}
+.help_title_qus{
+	width:680px;
+	line-height:28px;
+	color:#666;
+    font-family:inherit;
+}
+.help_title_ans{
+	width:680px;
+	padding-bottom:20px;
+}
+.zizhi{
+	width:660px;
+	margin:0 auto;
+	text-indent: center;
+}
+.zizhi img{
+	display:block;
+	margin:10px 10px;
+	padding:6px;
+	border:solid 1px #ccc;
+	float:left;
+}
+.contact_text{
+	padding-left:30px;
+	margin-bottom:20px;
+}
+.contact_text p{
+	color:#666;
+	line-height:36px;
+	font-family:inherit;
+}
+.contact_text a{
+	color:#666;
+}
+.contact_text a:hover {
+	text-decoration:underline;
+}
+.long-text h4 {
+	margin-top:20px;
+	width: 644px;
+	font-size: 14px;
+	color: #333;
+	line-height: 30px;
+	font-weight: bold;
+}
+.long-text p {
+	padding: 0 20px;
+	color:#666;
+	padding:10px 0 10px 0;
+}
+.long-text p a{
+	color:#666;
+	text-decoration:underline;
+}
+
+.team{
+	width:660px;
+	padding:20px;
+}
+.team_img{
+	width:120px;
+	height:120px;
+	border-radius:120px;
+	background:#ccc;
+	float:left;
+}
+.team_intro{
+	width:400px;
+	padding-left:20px;
+	float:left;
+}
+.team_intro_name{
+	height:60px;
+	line-height:60px;
+	font-size:30px;
+	color:#f63;
+	font-weight:bold;
+}
+.team_intro_title{
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	color:#666;
+}
+.team_intro_text{
+	line-height:30px;
+	color:#666;
+}
+
+.joinus_mail{
+	width:680px;
+	height:40px;
+	text-align:center;
+}
+.joinus_mail p{
+	font-family:inherit;
+	color:#333;
+	font-weight:bold;
+}
+.joinus_text{
+	text-indent:0;
+	padding-left:10px;
+}
+.team-menber {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:1px solid #eee;
+}
+.team-menber p {
+	margin-top:10px;
+	line-height:1.8;
+	color:#666;
+	text-indent:0;
+}
+.team-menber .photo {
+	margin-right:20px;
+	width:182px;
+	height:254px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+.team-menber .photo img {
+	display:block;
+	width:182px;
+}
+.team-menber .photo strong {
+	display:block;
+	color:#696969;
+	font-size:16px;
+	height:48px;
+	line-height:48px;
+}
+.team-menber .text {
+	width:450px;
+	overflow:hidden;
+}
+.team-menber .text h2 {
+	font-size:24px;
+	color:#333;
+	height:40px;
+	background:url(https://s1.lantouzi.com/img/ltz/bg_team_tit.png) no-repeat right bottom;
+}
+.team-menber .ceo-resume {
+	margin-top:20px;
+	font-size:12px;
+	color:#666;
+	line-height:1.8;
+}
+
+.about-vc p {
+	line-height:2;
+	margin-top:10px;
+	font-size:14px;
+	color:#666;
+}
+
+.about-law h3 {
+	margin:60px 0 20px;
+	font-size:16px;
+	color:#f96;
+	clear:both;
+}
+.about-law .q {
+	margin-top:40px;
+	color:#333;
+	font-weight:bold;
+}

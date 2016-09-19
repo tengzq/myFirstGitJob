@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.txcg{ border:1px solid #e8e8e8;}
+.txcg .title { height:66px; background:#efefef; padding:0 20px; font-size:16px; line-height:66px;}
+.txcg .title b{ font-size:30px; color:#c99839}
+.txcg .box{ text-align:center; padding:20px;}
+.txcg .box table{ width:100%; line-height:30px; border-top:1px solid #e8e8e8; font-size:14px;}
+.txcg .box table th{ padding-top:20px;}
+.txcg .box h3{ font-size:30px; text-align:center; line-height:2; padding-bottom:20px;}
+.txcg .box .btn { padding:20px;}
+.txcg .box .btn button{ cursor: pointer;margin:10px; padding:0 40px; border:1px solid #bf8d33; color:#bf8d33; height:40px; border-radius:20px; background:#fff;}

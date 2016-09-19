@@ -1,0 +1,93 @@
+@charset "utf-8";
+.layout { width: 990px; margin: 0px auto; }
+a { text-decoration: none; outline: none; }
+#mask { background-color: #000; opacity: 0.3; filter: alpha(opacity=30); }
+/*头部*/
+.header { height: 68px; background: url(../images/top_bg.png) repeat-x; color: #999; }
+.header .miniNav a { color: #999; margin: 0px 5px; }
+/*头部结束*/
+
+/*业务信息主要内容*/
+.infoWrap { width: 890px; padding: 20px 50px; margin-top: 30px; border: #DADADA solid 1px; border-top: #E13939 solid 2px; background-color: #FFFCE7; color: #666; }
+.hd, .infoWrap .innerInfo, .setBank { border-bottom: #CACACA dotted 1px; }
+.infoWrap .row { line-height: 22px; font-size: 14px; }
+.infoWrap .row .tit { display: inline-block; min-width: 70px; }
+.red { color: #E13939; }
+.arial { font-family: Arial, Helvetica; }
+.setBank { width: 890px; padding-bottom: 20px; }
+.cardNum { width: 322px; border: #CDCECF solid 1px; }
+.cardNum .tit { display: inline-block; width: 95px; height: 23px; border-right: #CDCECF solid 1px; background-color: #E8E8E8; text-align: center; line-height: 23px; }
+/*业务信息主要内容结束*/
+
+/*弹出层*/
+.popup { position: absolute; z-index: 500; display: none; background-color: #FFF; border: #ABABAB solid 1px; border-radius: 5px; behavior: url(PIE.htc); }
+/*弹出层结束*/
+
+.setResult { margin: 80px 70px; }
+/*提示*/
+.hint { min-height: 15px; padding-left: 22px; line-height: 18px; background: url(../images/icon_01.gif) no-repeat; }
+/*提示结束*/
+
+/*密码表单*/
+.pas, .setBank { color: #666; }
+.pas input, .reg input, .setBankForm input { width: 240px; height: 23px; line-height: 23px; padding-left: 3px; vertical-align: middle; color: #666; }
+.pas input[disabled], .reg input[disabled], .setBankForm input[disabled], .setBankForm select[disabled] { background-color: #EEE; border: #AFAFAF solid 1px; color: #666; }
+.pas input.phoneCode, .reg input.phoneCode { width: 150px; }
+.pas .sign, .reg .sign, .setBankForm .sign { display: inline-block; width: 98px; text-align: right; font-size: 14px; }
+.pas .error, .reg .error { margin-left: 105px; margin-top: 5px; padding-left: 18px; background: url(../images/icon_03.gif) no-repeat; color: #E13939; }
+.forget, .clause, .scl, .addBank a, .setBankForm .chooseBank { color: #20AAD7; }
+.prm, .hg { color: #A5A5A5; }
+.btnGroup, .btnGroup2 { margin-left: 105px; margin-top: 18px; }
+.btnGroup2 { margin-left: 155px; }
+/*密码表单结束*/
+
+/*设置银行卡*/
+.showBank { margin-top: 30px; color: #666; }
+.showBank h2 { font-size: 18px; color: #666; font-family: "微软雅黑", "黑体"; }
+.bankWrap, .addBank { float: left; display: inline; margin-right: 10px; margin-top: 10px; width: 166px; height: 90px; padding: 15px 20px; background-color: #FFFCE7; border: #FF8A66 solid 2px; border-radius: 3px; overflow: hidden; behavior: url(PIE.htc); }
+.bankWrap .bankType { margin-top: 5px; padding: 1px; background-color: #6697C1; border: #4E7FAF solid 1px; border-radius: 3px; font-size: 12px; color: #FFF; behavior: url(PIE.htc); }
+.bankWrap .bankNum { margin-top: 18px; border-bottom: #E13939 dotted 1px; padding-bottom: 10px; white-space: nowrap; font-size: 14px; }
+.addBank { height: 92px; background-color: #F5F5F5; border: #D9D9D9 dashed 1px; }
+.addBank a { display: block; height: 100%; text-align: center; line-height: 92px; font-size: 14px; }
+.addBank a em { margin-right: 5px; font-size: 16px; font-weight: bold; font-family: Verdana, Geneva, sans-serif; }
+.setBankForm input { border: #AFAFAF solid 1px; }
+.setBankForm select { width: 100px; height: 25px; color: #666; }
+.activeAddBank { height: 90px; background-color: #FFFCE7; border: #FF8A66 solid 2px; }
+.disa { height: 92px; background-color: #F5F5F5; border: #D9D9D9 solid 1px; }
+/*设置银行卡结束*/
+
+/*会员激活*/
+.activateHd { margin-top: 25px; margin-bottom: -20px; height: 18px; background: url(../images/activateMember.gif) no-repeat; text-indent: -9999px; }
+/*会员注册*/
+.regHd { margin-top: 25px; margin-bottom: -20px; height: 18px; background: url(../images/reg_03.gif) no-repeat; text-indent: -9999px; }
+.regIn .row, .regIn .formWrap { margin-top: 12px; }
+.regIn .row .tit { width: 98px; text-align: right; }
+.agreWrap { height: 60px; padding: 10px; margin-top: -1px; overflow-y: scroll; border: #E3E9EF solid 1px; line-height: 22px; }
+.agreWrap p { text-indent: 2em; }
+/*会员注册结束*/
+
+/*按钮*/
+.redBtn, .grayBtn, .redBtn em, .grayBtn em, .getBtn, .getBtn em { display: inline-block; vertical-align: top; *vertical-align:middle;
+height: 33px; line-height: 33px; background: url(../images/btn_bg.jpg) no-repeat; }
+.redBtn, .grayBtn { padding-right: 26px; font-size: 14px; font-weight: bold; }
+.redBtn { background-position: right -34px; color: #FFF; }
+.grayBtn { background-position: right -107px; color: #666; }
+.redBtn em, .grayBtn em { width: 2px; margin-right: 26px; }
+.grayBtn em { background-position: 0px -70px; }
+.redBtn:hover { background-position: right -151px; }
+.grayBtn:hover { background-position: right -194px; }
+.getBtn { height: 25px; line-height: 25px; background-position: right -275px; color: #303030; text-shadow: #FFF 1px 1px; }
+.getBtn em { width: 2px; height: 25px; margin-right: 15px; background-position: 0px -237px; }
+.getBtn:hover { background-position: right -351px; }
+.getBtn:hover em { background-position: 0px -315px; }
+/*按钮结束*/
+
+/*底部*/
+.footer { margin-top: 50px; padding-bottom: 80px; background-color: #EAEAEA; border-top: #DDDDDD; font-size: 12px; text-align: center; }
+.footer .inStation { padding-top: 20px; color: #A6A6A6; }
+.footer .inStation a { margin: 0px 10px; color: #333; }
+.footer .copyright { margin-top: 22px; line-height: 20px; color: #999; }
+.footerNew { margin-top: 20px; }
+.footerNew a { margin-left: 12px; }
+.footerNew img { vertical-align: middle; }
+/*底部结束*/

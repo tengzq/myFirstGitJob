@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.callback-title{
+    text-align: center;
+	padding-top: 20px;
+}
+
+.callback-title h3{
+    margin: 10px 0 20px 0;
+	font-size: 20px;
+}
+
+.callback-title .countdown{
+    font-size: 33px;
+	color: #2e9dd0;
+}
+
+
+.resultbody{margin:20px;}
+.resultbody .bodyicon {
+     text-align: center;
+     margin: auto;
+     width: 100%;
+}
+.resultbody .bodyicon img{
+   width: 80px;
+   margin: 0 auto;
+   /* margin-left: 37%; */
+}
+
+.resultbody .content{text-align: center;}
+.resultbody .content p{margin:20px 0;font-size: 17px;}
+.resultbody .content p input[type=button]{
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.resultbody .content p input.personal{color: #fff;background: #FDD228;border:0;}
+.resultbody .content p input.projects{background: #48B4E2;border:0;color: #fff;}

@@ -1,0 +1,70 @@
+/******* modify at your own risk *********/
+.diapol_bankcombobox
+{
+    display: inline;
+    padding:0;
+    font-size :13px;  
+}
+
+.diapol_bankcombobox input
+{
+	height: 24px;
+	padding: 1px 0 0 5px;
+	width: 120px;
+	border-width:1px 0 1px 1px;
+	border-color:#7F9DB9;
+	border-style:solid none solid solid;
+
+}
+
+.diapol_bankcombobox .button
+{
+	border-style: none;
+	border-right-style:solid;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	vertical-align: bottom;
+	border-left-color:buttonface;
+	background-repeat:no-repeat;
+	
+}
+
+#diapol_bankcomboboxDropdown
+{
+	margin: 0;
+	padding: 0;
+	border: solid 1px #ccc;
+	border-width: 1px 1px 1px;
+	position: absolute;
+	display: none;
+	z-index: 1001;
+	overflow-y:auto;
+	overflow-x:hidden;
+	max-height:300px;
+
+}
+
+#diapol_bankcomboboxDropdown li
+{
+	
+
+    padding: 0 3px 0 2px;
+    white-space:nowrap;
+    width:100%;
+    font-size:12px;
+    cursor: pointer;
+}
+
+/******* modify this to custom the appearance of the suggestions *******/
+#diapol_bankcomboboxDropdown li
+{
+    color: black;
+    background-color: white;
+}
+
+#diapol_bankcomboboxDropdown li.selected
+{
+    color: white;
+    background-color: #3399ff;
+}

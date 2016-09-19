@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+.reg{ width:80%; margin:auto}
+.reg .head{ text-align:center; padding:30px;}
+.reg .head img{ width:70%;}
+.reg ol li{ margin-bottom:10px;}
+.reg ol li p{ width:100%; background:#fff; overflow:hidden; height:36px; position:relative;  border-radius: 5px;}
+.reg ol li p input,select { width:88%; height:36px; border:0; margin-left: 30px;}
+.reg ol li p.fl { width:55%;}
+.reg ol li p.fr { width:40%;}
+.reg ol li p.fr{ background:#eca62b;}
+.reg ol li p.fr input{ background:none; color:#fff; padding:0}
+.reg ol li p i { position:absolute; left:0; top:5px; font-size:20px; color: #FDD228; width:30px; height:30px; line-height:30px; text-align:center; border-right: 1px dashed #FDD228;}
+.reg ol li p i.fa-eye{ left:auto; right:0; border:0; color:#999; font-size:16px;}
+.reg ol h6{ line-height:30px; color:#fff; padding-top:20px; font-size:12px;}
+.reg ol h6 a{ color: #ff7c8a;}
+.reg ol li p input[type="submit"]{ padding:0; background: #FDD228; color:#fff; }
+.reg ol li p input[type="button"]{ padding:0; background: #FDD228; color:#fff; font-size: 15px;}
+.reg ol h5{ line-height:30px;text-align:center }
+.reg ol h5 a { color:#fff; text-decoration:underline}
+.reg ol h5.noline a{ text-decoration:none}
+.reg ol h4 { text-align:center;}
+.reg ol h4 a { display:inline-block; padding:10px 30px; font-size:14px; border:1px solid #eee; border-radius:10px; color:#fff; opacity:.8}
+
+.reg ol li p i.fa-mobile{ font-size:30px}
+.reg .footer{ color:#fff; opacity:.5}
+.reg .footer a { color:#fff}

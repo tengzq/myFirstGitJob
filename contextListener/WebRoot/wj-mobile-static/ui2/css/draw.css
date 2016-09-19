@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/*共用的css*/
+.ddd{
+    width: 90%;
+    margin:20px auto 0;
+    background-color: #d3edfb;
+    border-radius: 3px;
+    padding-top: 5px;
+}
+
+.bangding{
+	color: #333;
+    padding-bottom: 15px;
+    margin-bottom: 50%;
+}
+.bangding p{
+	background-color: #FFFFFF;
+	padding: 5px auto;
+	margin-bottom: 5px;
+    width: 90%;
+    margin: 10px auto;
+    line-height: 46px;
+    border-radius: 3px;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.bangding p:first-child{
+	margin-bottom: 2px;
+}
+.bangding p:nth-child(3){
+	margin-top: 2px;
+}
+.bangding p:nth-child(3) span{
+	margin-left: 5%;
+}
+.bangding span.warning{
+	font-size: 12px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+    transform: scale(0.8);
+    text-align: left;
+    margin-left: -1%;
+    color:red;
+}
+.fab{
+	padding: 4px;
+	font-size: 16px;
+}
+.bangding span{
+	margin-left: 5px;
+}
+.fd{
+	float: right;
+}
+.bangding #tj{
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
+	line-height: 46px;
+	background-color: #00a1ea;
+}
+.bangding #tj a{
+	color: #ffffff;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.btt5{
+	margin-top: 356px;
+}
+.icon-span{
+    border-left: 1px dashed;
+    padding: 0 5px;
+   	font-family: "微软雅黑","Microsoft YaHei";
+}
+.icon-span.b{
+    padding: 0 6px;
+}
+.icon-span.c{
+    padding: 0 7px;
+}
+.bangding select{
+    margin-left: 5px;
+    border:0;
+    width: 80%;
+}
+.bangding input{
+    margin-left: 15px;
+    border: 0;
+    width: 78%;
+    height: 25px;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.bangding p:first-child span{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.bangding p:nth-child(2) span{
+    margin-left: 15px;
+    font-size: 14px;
+}
+.bangding>span{
+	text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.p322{
+	padding-bottom: 0;
+}
+div.upper{
+	display: none;
+    position: fixed;
+    border-radius: 5%;
+    top: 15%;
+    left: 50%;
+    width: 90%;
+    /* height: 50%; */
+    border: 2px solid #909090;
+    /* background: #fff; */
+    margin: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+}
+div.upper p{
+	background: #fff;
+	margin-bottom: 5px;
+    width: 85%;
+    margin: 10px auto;
+    line-height: 46px;
+    border-radius: 3px;
+    font-family: "微软雅黑","Microsoft YaHei";
+    padding-left: 10px;
+}
+div.upper p input{
+	width:20%;
+	border:0;
+}
+div.upper p.subm{
+    /* background: #00a0e9; */
+    text-align: center;
+    text-align: center;
+    line-height: 30px;
+    background: initial;
+}
+div.upper p.subm a{
+    color: #fff;
+    display: inline-block;
+    background: #00a0e9;
+    width: 20%;
+    margin: 0 10px;
+    border-radius: 5px;	
+}
+div.upper p.subm a:first-child{
+	background: #909090;
+}
+div.upper #btnSmsNum{
+	display:inline;
+	float: right;
+    margin-right: 5px;
+    margin-top: 4%;
+	color: #fff;
+    background: #00a0e9;
+    border: 0;
+    width: 32%;
+    height: 28px;
+    border-radius: 5px;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+div.upper .disabled{
+	background: #909090 !important;
+}
+div.upper .errorArea{
+	display:none;
+	color:red;
+}

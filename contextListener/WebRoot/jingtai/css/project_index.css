@@ -1,0 +1,166 @@
+#bd {
+	width:100%;
+}
+#bd .advantage,
+#bd .content{
+	width:980px;
+	margin:0 auto;
+}
+#bd .advantage {
+	margin-top:20px;
+	height:82px;
+}
+#bd .advantage li{
+	float: left;
+	width: 200px;
+}
+#bd .advantage strong{
+	display: block;
+	font-size: 24px;
+	color: #ff6666;
+	line-height: 25px;
+	padding: 5px 0px 5px 45px;
+	background: url(../imgs/lanren_sprite.png) no-repeat;
+}
+#bd .advantage p{
+	font-size: 14px;
+	color: #666666;
+}
+.advantage_return{
+	margin-left: 20px;
+}
+.advantage_property, .advantage_risk{
+	margin-left: 160px;
+}
+.advantage_property strong{
+	background-position: 0 -35px !important;
+}
+.advantage_risk strong{
+	background-position: 0 -70px !important;
+}
+#bd .content {
+}
+.content .main{
+	width:640px;
+}
+.content .aside {
+	width:320px;
+}
+
+.main .projects {
+	margin-top:26px;
+}
+.projects .bd{
+	margin-top:18px;
+}
+
+.side-mod {
+	margin-top:26px;
+}
+.side-mod .hd {
+	position:relative;
+}
+.side-mod .hd .more {
+	position:absolute;
+	color:#666;
+	right:0;
+	top:3px;
+}
+.side-mod .hd .more:hover {
+	color:#f90;
+}
+
+.side-mod .bd{
+	margin-top:18px;
+	border-top:2px solid #999;
+	background:#fff;
+}
+.side-mod marquee {
+	margin:28px 16px;
+}
+.rank-list {
+	
+}
+.rank-list .rank-num,
+.rank-list .rank-user,
+.rank-list .rank-money,
+.rank-list .rank-time {
+	float:left;
+	display:block;
+	height:32px;
+	line-height:32px;
+	overflow:hidden;
+}
+.rank-list .rank-num {
+	width:28px;
+}
+.rank-list .rank-num em {
+	display:block;
+	width:16px;
+	line-height:16px;
+	height:18px;
+	text-align:center;
+	background:#f60;
+	color:#fff;
+	font-style:normal;
+	margin-top:8px;
+}
+.rank-list .rank-user {
+	width:150px;
+	color:#333;
+}
+.rank-list .rank-money {
+	text-align:right;
+	width:108px;
+	color:#f60;
+}
+.rank-list .rank-time {
+	width:44px;
+	color:#999;
+}
+
+.mod-lrbb .bd {
+	border-top:none;
+	overflow:hidden;
+}
+.mod-lrbb .top{
+	display:block;
+	height:40px;
+	background:url(../imgs/rpt_arrow.png) repeat-x 0 bottom #f96;
+}
+.mod-lrbb .lr-total {
+	margin:34px 0 30px;
+	text-align:center;
+	font-size:28px;
+}
+.mod-lrbb .lr-total h4 {
+	border-top:1px solid #ccc;
+	font-size:20px;
+	color:#fc3;
+	line-height:1;
+	width:198px;
+	margin:0 auto 15px;
+	position:relative;
+}
+.mod-lrbb .lr-total h4 span {
+	position:absolute;
+	top:-10px;
+	left:50%;
+	margin-left:-66px;
+	padding:0 6px;
+	display:block;
+	text-align:center;
+	background:#fff;
+}
+.mod-lrbb .lr-total p em {
+	padding-left:4px;
+	font-size:18px;
+	color:#f96;
+}
+
+.side-mod .news-list a {
+	width:230px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}

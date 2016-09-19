@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.suretd{
+    margin-top: 30px;
+}
+.pat2{
+    height: 85px;
+}
+.doc p,.jine p{
+    line-height: 24px;
+    margin-left: 45px;
+    font-size:13px;
+    font-family: "微软雅黑","Microsoft YaHei";
+    font-weight:bold;
+    color:#909090;
+}
+.jine{ margin-top: 30px; margin-bottom: 16px;}
+#ssp1,#ssp2{color: #00a1ea;font-weight: bold;}
+.sure{
+	text-align: center;	
+}
+.pat2 a{
+    padding: 6px 75px;
+    width: 90%;
+}
+#psure{ margin-top: 55px;}
+#psure a{background-color: #00a1e9; color: #ffffff;  font-size: 18px; padding: 10px 100px; border-radius: 3px;}
+.btt3{
+    text-align: center;
+    margin-top: -99px;
+    width: 100%;
+    line-height: 22px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+.p322{
+	padding-bottom: 0;
+}

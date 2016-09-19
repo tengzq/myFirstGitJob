@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.grxx .box .title{ line-height:36px; font-size:20px;}
+.grxx .box .title img { padding-right:10px; float:left}
+.qrtz.grxx .box{ padding:0;}
+.qrtz.grxx .box ol{ padding:20px 50px; border-bottom:0}
+button.shi{ height:42px; color:#fff; padding:0 60px; line-height:42px; border-radius:21px; border:0; background:url(../images/btn_03.jpg); font-size:16px;}
+.qrtz .btn{ text-align:center; border-top:1px solid #eee; padding-top:30px;}
+
+.qrtz .box{ background:url(../images/qdtz_03.jpg) repeat-x; height:590px; margin:0 20px; margin-top:-10px; margin-bottom:30px; padding:0 50px;}
+.qrtz .box ol{ border-bottom:1px solid #e8e8e8; padding:50px 0}
+.qrtz .box ol:last-child{ border-bottom:0;}
+.qrtz .box ol li { padding:5px 0; position:relative; padding-left:100px; overflow:hidden; line-height:36px;}
+.qrtz .box ol li span { position:absolute ; color:#999; left:0; width:150px; text-align:right}
+.qrtz .box ol li p{ float:left; margin-left:62px;}
+.qrtz .box ol li input { width:166px; height:34px; border:1px solid #e8e8e8; margin-right:10px;}
+.qrtz .box ol li button { cursor:pointer;width:160px; height:34px;border-radius:17px; border:1px solid #cd9b3c; color:#fff; background:#cd9b3c; font-family: "微软雅黑"}
+.qrtz .box ol li button.kong{ color:#cd9b3c; background:#fff; }

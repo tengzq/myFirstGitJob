@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="GroupMapper">
+	
+	
+	<!-- 新增-->
+	<insert id="save" parameterType="Group">
+		insert into RC_GROUP(
+			GROUP_NAME,	
+			GROUP_REMARK,	
+			GROUP_INSERT_BY
+		) values (
+			#{groupName},	
+			#{groupRemark},	
+			#{groupInsertBy}
+		)
+	</insert>
+	
+	
+	<!-- 删除-->
+	<delete id="delete" parameterType="pd">
+		delete from RC_GROUP
+		where 
+			GROUP_ID = #{GROUP_ID}
+	</delete>
+	
+	
+	<!-- 修改 -->
+	<update id="edit" parameterType="Group">
+		update  RC_GROUP
+			set 
+				<if test="groupName != null">
+					GROUP_NAME = #{groupName},
+				</if>
+				<if test="groupRemark != null">
+					GROUP_REMARK = #{groupRemark},
+				</if>
+				GROUP_ID = GROUP_ID
+			where 
+				GROUP_ID = #{groupId}
+	</update>
+	
+	
+	<!-- 通过ID获取数据 -->
+	<select id="findById" parameterType="pd" resultType="pd">
+		select 
+			GROUP_NAME,	
+			GROUP_REMARK,	
+			GROUP_INSERT_BY,	
+			GROUP_ID
+		from 
+			RC_GROUP
+		where 
+			GROUP_ID = #{GROUP_ID}
+	</select>
+	
+	
+	<!-- 列表 -->
+	<select id="datalistPage" parameterType="page" resultType="pd">
+		select
+				a.GROUP_NAME,	
+				a.GROUP_REMARK,	
+				a.GROUP_INSERT_BY,	
+				a.GROUP_ID
+		from 
+				RC_GROUP a
+	</select>
+	
+	<!-- 列表(全部) -->
+	<select id="listAll" parameterType="pd" resultType="pd">
+		select
+				a.GROUP_NAME,	
+				a.GROUP_REMARK,	
+				a.GROUP_INSERT_BY,	
+				a.GROUP_ID
+		from 
+				RC_GROUP a
+	</select>
+	
+	<!-- 批量删除 -->
+	<delete id="deleteAll" parameterType="String">
+		delete from RC_GROUP
+		where 
+			GROUP_ID in
+		<foreach item="item" index="index" collection="array" open="(" separator="," close=")">
+                 #{item}
+		</foreach>
+	</delete>
+	
+</mapper>

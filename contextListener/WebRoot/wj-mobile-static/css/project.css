@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*---- 项目列表 ----*/
+section.item{ margin: 10px; padding: 0 10px; border-radius: 5px; background-color: #fff; }
+section.item .item-title{line-height: 30px;font-size: 16px;border-bottom: 1px dashed #CCC;color: #666666;}
+section.item .item-title a{color: #666;}
+section.item .item-lilv{padding: 10px 0 5px 0;line-height: 25px;}
+section.item .item-lilv dt{float: left;color: #2e9dd0;font-size: 1.6rem;line-height: 29px;}
+section.item .item-lilv dt sub{font-size: 16px;}
+section.item .item-lilv dd{float: left;margin: 2px 0 0 5px;height: 25px;color: #FFF;background-color: #ff6264;line-height: 25px;border-radius: 5px;}
+section.item .item-lilv a{float: right; padding: 2px 10px; background-color: #2e9dd0;color: #FFF;  font-size: 1.15rem;border-radius: 5px;}
+section.item .item-lilv{border-bottom: 1px dashed #ccc;}
+section.item .item-sengyu li{float:left;padding: 10px 0;width: 50%;font-size: 0.9rem;color: #666666;}
+section.item .item-sengyu li.deadline{width:45%;}
+section.item .item-sengyu li.money{width: 55%;text-align: right;}
+
+/* 项目介绍通用  */
+.page-title {height: 25px;background-color: #f0f0f0;font-size: 14px;line-height: 25px;padding-left:5px;}
+
+/*  项目描述页面  */
+.article-content{padding:0 !important;font-size: 12px !important;}
+article.article-content ul.infomation{padding:10px 20px !important;}
+article.article-content .infomation li{ font-size: 12px !important;}
+article.article-content .infomation li span{width:initial !important;}
+article.article-content .infomation li strong{width:initial !important;}
+
+article.article-content .detailTeble .tLeft{padding-left:5px !important;}
+
+/*  风险控制   */
+.detail-info>p { /* border-top:1px solid #909090 !important;border-bottom:1px solid #909090 !important; */margin:0 !important;line-height: initial !important;padding:5px !important;}
+
+
+/*  还款计划  */
+.repay-table{width: 90%;padding:10px;margin: 15px 15px;color:#909090}
+.repay-table thead{border-bottom: 1px solid #909090}
+.repay-table th,td{width:33.33%;text-align: center;height:25px;padding-top: 10px;}
+
+/* 项目购买  */
+.invest form>div { background: #F7F7F7; /* border-top:1px solid #ddd; */ margin-top:10px; /* border-bottom:1px solid #ddd; */ padding:10px; }
+.invest1{  font-size:14px; color:#999}
+.invest1 form>span { color:#333;}
+.invest2{  margin-top:10px;}
+.invest2 .box1 h3{background: #fff;  position:relative;   font-size:14px; overflow:hidden; height: 45px; border-radius: 5px; box-shadow: 0 5px 0 0 #eaeaea; margin-bottom: 6px;}
+.invest2 .box1 h3 label{line-height: 45px;position: absolute;left: 11px;z-index: 2;}
+.invest2 .box1 h3 b { position:absolute; right: 14px; top: 0; bottom: 0; line-height: 45px; z-index: 2;}
+.invest2 .box1 h3 input {  font-size: 14px;  /* box-shadow: 0 2px 0 0 #909090; */   /* float: right; */   width: 100%; border: 1px solid #fff;   border-radius: 5px;   height: 100%;  position: absolute;  z-index: 1;  padding: 0 40px 0 75px;  box-sizing: border-box;}
+.invest2 .box1 p { line-height:1.5; color: #ff6264;}
+.invest2 .box2{ border-top:1px solid #ddd;border-bottom:1px solid #ddd; margin-top:10px; overflow:hidden; color:#666}
+.invest2 .box2>div{ float:left; width:49.5%; padding:10px 0; text-align:center}
+.invest2 .box2>div:first-child{ border-right:1px solid #ddd}
+.invest2 .box2>div h4{ font-size:14px; line-height:1.7}
+.invest2 .box2>div p.red{ color: #ff6264;}
+
+.invite-code span{color: #fff;font-size: 15px;text-align: center;line-height: 44px;position: absolute;right: 2px;display: inline-block;margin: -3px;width: 37%;height: 45px;background-color: #ff6264;border-radius: 5px;}
+.invest3.invite-code{display: -webkit-box;display: -moz-box;display: -o-box;display: box;background: #fff;padding:3px;position: relative;overflow: hidden;height: 39px;border-radius: 5px;border: 0;margin-left: 10px;margin-right: 11px;/* padding: 10px; */box-shadow: 0 5px 0 0 #eaeaea;}
+.invest3.ticket{position: relative;height: 25px;margin: 20px 10px 10px 10px;/* display: -webkit-box;display: -moz-box;display: -o-box;display: box; */background: #fff;border-radius: 5px;box-shadow: 0 5px 0 0 #eaeaea;}
+.invest3 select{ position: absolute; top: 5px; height: 35px; width: 94%; border:0; background:none;color:#666; font-size: 14px;}
+.invest3 input[type=text]{ font-size: 14px; /* display: -webkit-box; */ height: 36px; width: 90%; border: 1px solid #fff; border-radius: 5px; background:none;color:#666;}
+.invest4{ color:#666;}
+.invest4 span { color: #ff6264;}
+
+
+.exchange span{color: #fff;font-size: 15px;text-align: center;line-height: 36px;position: absolute;display: inline-block;margin: -3px;width: 37%;height: 40px;background-color: #48B4E2;}
+.invest3.exchange{padding:3px;position: relative;overflow: hidden;}
+
+
+.invest form>div.invest5{ background: #48B4E2; position:fixed; left:0; right:0; bottom:0}
+.invest5 input[type=button] { background:none; border:0; color:#fff; width:100%; height:30px; line-height:30px; font-size: 16px; background: #48B4E2;}
+
+/* 购买项目确认页 */
+.buy-confirm{padding:10px 5px; }
+.buy-confirm ul>li{margin: 10px 0;font-size: 15px;color:#909090;}
+.buy-confirm .project-info{margin: 10px 15px;}
+.buy-confirm .project-info li{}
+.buy-confirm .project-info span{color:#000;}
+.buy-confirm .buy-info{margin: 10px 15px;margin-top: 30px;}
+.buy-confirm .buy-info li{}
+.buy-confirm .buy-info span{color: #48B4E2;}
+.buy-confirm h3{
+    margin-top: 30px;
+    margin-left: 24px;
+    height: 40px;
+    width: 85%;
+    background-color: #48B4E2;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 7px;
+    box-shadow: 0 5px 0 0 #2e9dd0;
+}
+
+
+.waiting{margin: 0 auto;text-align: center;overflow: hidden;}
+
+.sec_zhu {height: 60px;padding: 0 32px !important;background: initial !important;border-top:initial !important;border-bottom:initial !important;/* padding:initial !important; */}
+.sec_zhu a {background: #48B4E2;height: 54px;display: -webkit-box;display: -moz-box;display: -o-box;display: box;-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;box-pack: center;line-height: 54px;color: #fff;font-size: 26px;border-radius: 5px;box-shadow: 0 5px 0 0 #2e9dd0;}
+

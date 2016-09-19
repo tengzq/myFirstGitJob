@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+	font-family: "微软雅黑","Microsoft YaHei";
+}
+.bd{width: 100%; height: 215px;}
+.bd1{
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-weight: 600;
+    text-align: left;
+    width: 90%;
+    height: 154px;
+    background-color: #d3edfb;
+    border-radius: 3px;
+}
+.bd1 p{    
+	position: relative;
+    left: 5%;
+    margin-top: 20px;
+    line-height: 44px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+#pt1{margin-left:10px; font-family: "微软雅黑","Microsoft YaHei"; font-size: 16px; font-weight: bold;}
+#pt2{font-family: "微软雅黑","Microsoft YaHei"; font-size: 14px; font-weight: 100;}
+#pt3{position: relative; top: 5px;margin-left:10px; font-size: 12px; font-family: "微软雅黑","Microsoft YaHei"; font-weight: 600;}
+.bd1 #zi_1{position: relative; top: 5px;font-family: "Helvetica"; font-size: 24px; color: #00a1e9;}
+.bd1 #zi_2{position: relative; top: 5px;font-family: "Helvetica"; font-size: 15px; color: #00a1e9;}
+.bd1 #hui1{font-family:"ltyh","微软雅黑","Microsoft YaHei"; font-weight: 600; font-size: 12px; background-color: #f8b62c; padding: 2px 4px; border-radius: 8px; color:#ffffff;}
+.bd1 #hui2{font-family:"ltyh","微软雅黑","Microsoft YaHei"; font-weight: 600; font-size: 12px; background-color: #8ec31f; padding: 2px 4px; border-radius: 8px; color:#ffffff;}
+.ulli li{ 
+    padding-left: 10%;  
+	border-bottom: 1px solid #ddd;
+    line-height: 38px;
+    color: #656464;
+    font-family:"ltyh","微软雅黑","Microsoft YaHei";
+}
+.ulli li:nth-child(1){border-top: 1px solid #ddd;}
+.ulli li i{
+	position: relative;
+    left: 75%;
+    font-size: 20px;
+    color: #7d7d7d;
+}
+.pdi #pat{width: 100%;height: 48px;}
+.pdi #pat a{
+    position: relative;
+    width: 70%;
+    top: 54px;
+    padding: 14px 75px;
+    color: #fff;
+    font-family: "ltyh","微软雅黑","Microsoft YaHei";
+    font-size: 22px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #00aaeb;
+}
+.pdi{text-align: center;}
+.pdi button {position: relative;top: 72px; width: 98px; line-height: 22px; border-radius:20px; text-align:center; margin:10px; border:0; font-size:16px; font-family: "微软雅黑";}
+.pdi button:nth-child(2){ color:#fff; border:2px solid #00a1e9; background:#00a1e9}
+.pdi button:last-child{ background:#fff; border:2px solid #00a1e9; color:#00a1e9}

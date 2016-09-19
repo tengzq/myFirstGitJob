@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.callback-section{
+	width: 860px;
+	padding: 60px;
+	background: #fff;
+	margin: 25px 0;
+}
+.callback-main{
+	text-align:center;
+	width: 775px;
+	padding: 60px 40px;
+	border: 2px solid #2e9dd0;
+	background: #f8feeb;
+	overflow: hidden;
+}
+.callback-main .main-left{
+	width: 430px;
+	float: left;
+	padding: 15px 0;
+	border-right: 1px solid #99cc33;
+}
+.callback-main .main-right{
+	width: 260px;
+	float: left;
+	padding: 60px 0 0 50px;
+}
+.callback-main .main-right p{
+	color: #333333;
+	font-size: 14px;
+	line-height: 30px;
+}
+.callback-main .main-right a{
+	color: #0066cc;
+	font-size: 14px;
+}
+.callback-title{
+	/* width: 77%; */
+	padding-top: 10px;
+	/* padding-left: 23%; */
+	padding-bottom: 10px;
+	/* background: url(https://s1.lantouzi.com/img/201502/success_icon_new.png) no-repeat; */
+}
+.callback-title h3{
+	color: #2e9dd0;
+	font-size: 18px;
+	line-height: 45px;
+	/* text-align: left; */
+}
+.callback-title p{
+	font-size: 51px;
+	color: #ff6264;}
+.callback-action{
+	/* width: 100%; */
+	padding-top: 10px;
+	padding-left: 31%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.callback-btn{
+	text-align: center;
+	display: block;
+	float: left;
+	margin-right: 15px;
+	font-size: 16px;
+	color: #fff;
+	background: #999999;
+	padding: 8px 10px;
+}
+.c-btn-dark{
+	background: #ea943f;
+	width: 116px;
+}
+.callback-banner a{
+	display: block;
+	margin: 0px auto;
+	margin-top: 40px;
+	border: 1px solid #ccc; 
+}
+.callback-banner img{
+	display: block;
+	margin: 0 auto;
+}
+.callback-error .callback-main{
+	border: 2px solid #dd5561;
+	background: #fff5f5;
+}
+.callback-error .callback-main .main-left{
+	border-right: 1px solid #dd5561;
+}
+.callback-error .callback-title{
+	background-position: left bottom;
+}
+.callback-error .callback-title h3{
+	color: #cc3333;
+}
+.callback-error .callback-main .main-right p strong{
+	font-size: 18px;
+	color: #333333;
+}

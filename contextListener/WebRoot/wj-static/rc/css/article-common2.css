@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.mainbody{ background:#fff; margin-top:36px; margin-bottom:30px; font-size:12px; position:relative;}
+.mainbody>.left{ width:177px; float:left; border-right:1px solid #e6e6e6; margin:30px 0; position:absolute; top:0; left:0; bottom:0}
+.mainbody>.left .nav { padding-left:30px;}
+.mainbody>.left .nav li { border-bottom: 1px solid #e6e6e6}
+.mainbody>.left .nav li a { width:177px; margin-left:-30px; text-align:center; display:block; font-size:18px; color:#333; line-height:50px;}
+.mainbody .left .nav li.hover a { background:#cb9b3a; color:#fff;}
+
+.mainbody>.right{ width:778px; margin-left:20%;padding-bottom:30px;} 
+.maintit { text-align:center; font-size:20px; line-height:50px; height:50px; padding-top:30px}
+.maintit span { display:block; height:25px; border-bottom:1px solid #ebebeb}
+.maintit span b { display:inline-block; padding:0 20px; background:#fff; color:#333;}
+
+.gsjs .con{  line-height:1.7;}
+.gsjs .con>img { width:100%; padding:10px 0}
+.gsjs .con h3{ padding-top:30px; font-size:20px;}
+.gsjs .con p { font-size:16px;}
+
+.fkgl .con { padding:20px; color:#434343; line-height:1.5}
+.fkgl .con .box h3 { font-size:16px; padding:20px 0 ;color:#575757;}
+.fkgl .con .box>img { width:100%; padding:30px 0} 
+.fkgl .con .box{ padding:30px 0; border-bottom:1px dashed #f1f1f1}
+.fkgl .con .box ol li { font-size:14px; position:relative; padding-left:90px;}
+.fkgl .con .box ol li span { position:absolute; font-weight:bold; width:90px; left:0;}
+.fkgl .con .box p { font-size:14px; padding-left:20px;color:#575757;}

@@ -1,0 +1,12 @@
+.touziquan .con .box{ overflow:hidden; margin-top:40px;}
+.touziquan .con .box .fl{ width:223px; height:127px; border:3px solid #d6d8d7; position:relative; margin-right:10px;}
+.touziquan .con .box .fl h3 { font-size: 14px;line-height:24px;text-align: center; margin-top: 5px;   margin-left: 5px; width: 23%;   background-color: #fa8358; border-radius: 5px;color: #fff;}
+.touziquan .con .box .fl p { font-size:16px; text-align:center; padding-top:10px;}
+.touziquan .con .box .fl p b { font-size:52px; font-weight:bold; color:#fa8358}
+.touziquan .con .box .fl h6{ background:url(../images/keyong.png); width:86px; height:86px; position:absolute; right:0; bottom:0}
+.touziquan .con .box .txt h3{ overflow:hidden; padding:5px 0; border-bottom:1px dashed #ddd; margin-bottom:10px; font-size:20px;}
+.touziquan .con .box .txt h3 a { color:#fff; padding:5px 20px; background:#fa8358; font-size:16px;}
+.touziquan .con .box .txt p { font-size:16px; line-height:1.5}
+.touziquan .con .box .txt h4{ padding-top:10px; font-size:16px;}
+
+.touziquan .box{ margin-top:30px;}

@@ -1,0 +1,210 @@
+body { background:#f7f7f7}
+
+header { padding:0 10px; overflow:hidden; background:#fff; border-bottom:1px solid #ddd}
+header .logo { width:50%; float:left}
+header .logo img { width:100%; padding:5px 0}
+header nav { width:50%; float:right}
+header nav ul li { width:35%; line-height:60px; float:right; text-align:center;}
+header nav ul li a { font-size:16px; font-weight:bold}
+header nav ul li:hover a{ color:#eb6437; border-top:2px solid #eb6437; display:block; line-height:56px}
+
+.mainbody .banner{ border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+.mainbody .banner img{ width:100%;}
+.mainbody .index1{ text-align:center; padding:10px; border-bottom:1px dashed #ededed; padding-bottom:10px; background:#fff;}
+.mainbody .index1 a { display:inline-block; width:32%; text-align:center; color:#727171}
+.mainbody .index1 a img{ width:70%;}
+
+.index2{ padding:10px; background:#fff}
+.index2>h3{ font-size:14px; font-weight:bold; color:#e74e17}
+.index2 .con{ text-align:center; padding:10px 0}
+.index2 .con .box { width:32%; display:inline-block; font-size:12px; color:#666; line-height:1.5}
+.index2 .con .box img { width:70%;}
+.index2 .con .box h4{ font-size:17px; color:#e9943f; font-weight:bold}
+
+.barbox{ padding:10px; padding-top:0; overflow:hidden; background:#fff}
+.barbox .fl { font-size:14px; font-weight:bold; width:50%; overflow:hidden}
+.barbox .fl b { color:#e74e17; font-size:20px;}
+.barbox .fr{ width:50%; overflow:hidden}
+.barbox .fr .bar{ padding-right:30px; position:relative; height:12px; padding-top:5px; margin-top:5px}
+.barbox .fr .bar em { position:absolute; right:0; top:0}
+.barbox .fr .bar p { height:3px; background:#ddd; }
+.barbox .fr .bar p i { display:block; height:3px; width:28%; background:#ea5453}
+
+
+.index3>h3{ height:40px; text-align:center; line-height:40px; background:#e74e17; color:#fff; font-size:18px}
+.index3 .con{ background:#e9e8e8; padding:10px;}
+.index3 .con .box { background:#fff; margin-bottom:10px; text-align:center}
+.index3 .con .box img { width:50%; padding:10px;}
+.index3 .con .box h4{ position:relative; height:34px; background:#eca62b;}
+.index3 .con .box h4 .p1{ position:absolute; left:10px; top:-20px; font-weight:bold;}
+.index3 .con .box h4 .p1 b{ color:#eca62b}
+.index3 .con .box h4 .p2{ width:48px; height:48px; text-align:center; line-height:48px; position:absolute; top:-35px; background:#eca62b; right:10px; color:#fff; border-radius:5px; border:1px solid #fff;}
+.index3 .con .box h4 .p2 b { font-size:20px;}
+.index3 .con .box h4 .p3{ color:#fff; line-height:34px; font-size:16px;}
+
+.data1 { margin:10px 0; background:#fff; line-height:36px;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.data1 h3{ border-bottom:1px dashed #ddd; padding:0 10px; font-size:14px}
+.data1 p { padding:0 10px; color:#999}
+.data1 p em { color:#e74e17; padding:5px;}
+.data1 p em b { font-size:18px; font-weight:bold}
+.data1 p i { display:inline-block; line-height:1.5; background:#eca62b; color:#fff; padding:0 10px;}
+.data1 p span { background:#fbbfc1; color:#e44e53; height:20px; padding:0 10px; margin-top:10px; line-height:20px}
+
+.data2 ul{ margin-top:10px; border-top:1px solid #ddd; overflow:hidden}
+.data2 ul li { padding:0 10px; line-height:40px; font-size:14px; background:#fff; border-bottom:1px solid #ddd}
+.data2 ul li i { margin-top:10px}
+
+.data3{ margin-top:10px; background:#f66835; color:#fff; text-align:center; padding:10px; line-height:1.5; position:fixed; bottom:0; left:0; right:0;}
+.data3 h3{ font-size:16px;}
+
+.data1_2{ font-size:14px; line-height:1.5; padding:10px;}
+.data1_2 .title { color:#e74e17; font-size:18px; margin-bottom:20px}
+.data1_2 .title p { border-bottom:1px solid #ddd; height:5px; text-align:center}
+.data1_2 .title p span{ background:#f7f7f7; padding:0 10px;}
+.data1_2 h3{ color:#e74e17; font-size:16px; padding:10px 0}
+.data1_2 p { padding-bottom:10px}
+
+.invest>div { background:#fff;border-top:1px solid #ddd; margin-top:10px; border-bottom:1px solid #ddd;padding:10px; }
+.invest1{  font-size:14px; color:#999}
+.invest1 span { color:#333;}
+.invest2{  margin-top:10px;}
+.invest2 .box1 h3{ position:relative; padding-right:30px; font-size:14px; overflow:hidden}
+.invest2 .box1 h3 b { position:absolute; right:0; top:0; line-height:30px;}
+.invest2 .box1 h3 input { width:100%; border:1px solid #ddd; height:30px;}
+.invest2 .box1 p { line-height:1.5; color:#999}
+.invest2 .box2{ border-top:1px solid #ddd;border-bottom:1px solid #ddd; margin-top:10px; overflow:hidden; color:#666}
+.invest2 .box2>div{ float:left; width:49.5%; padding:10px 0; text-align:center}
+.invest2 .box2>div:first-child{ border-right:1px solid #ddd}
+.invest2 .box2>div h4{ font-size:14px; line-height:1.7}
+.invest2 .box2>div p.red{ color:red}
+
+.invest3 select{ width:100%; border:0; background:none;color:#666;}
+.invest4{ color:#666;}
+.invest4 span { color:red}
+
+
+.footer{ padding:50px 0; text-align:center; line-height:1.5; color:#666}
+.footer p { padding-bottom:10px}
+.footer a,.footer span{ padding:10px;}
+.footer a{ text-decoration:underline}
+
+.invest>div.invest5{ background:#e74e17; position:fixed; left:0; right:0; bottom:0}
+.invest5 button { background:none; border:0; color:#fff; width:100%; height:30px; line-height:30px; font-size:14px;background:#e74e17;}
+
+
+.recharge{ padding:10px;}
+.invest2 h2{ font-size:14px; line-height:1.7; padding-bottom:5px;}
+.invest2 ul{ margin-bottom:20px; border:1px solid #ddd; border-bottom:0}
+.invest2 ul li { background:#fff; border-bottom:1px solid #ddd; overflow:hidden; padding:10px 0; font-size:14px;}
+.invest2 ul li img { float:left; padding-right:5px;}
+.invest2 ul li input { float:right}
+.invest2 ul li p { font-size:12px; color:#999}
+.recharge1{ text-align:center; padding:10px 0}
+.recharge1 img { padding-right:5px;}
+
+.btn1 button{ height:44px; color:#fff; background:#dd5561; font-size: 16px; width:100%; border:0 ; border-radius:5px; font-family: "微软雅黑";}
+
+.recharge2{ text-align:center; padding:10px; }
+.recharge2 a { color:#369acd; text-decoration:underline}
+
+.withdraw{ padding:10px;}
+.card { background:#fff;}
+.card h3{ border-bottom:1px solid #eee; line-height:30px; padding-left:10px; color:#eec259}
+.card p { padding:20px 10px; font-size:18px; text-align:right}
+
+.record{}
+.record ul>li { background:#fff; font-size:14px; line-height:30px;  color:#666; margin-bottom:3px;}
+.record ul>li h3{padding:0 10px;}
+.record ul>li dl dd { background:#f7f7f7; padding:3px; font-size:12px; display:none}
+.record ul>li dl dd ol { margin-bottom:5px;}
+.record ul>li dl dd ol li { background:#fff; padding:0 10px; margin-bottom:2px}
+.record ul>li dl dd ol li b { float:right}
+.record ul>li dl dd ol li:first-child{ color:#333; font-weight:bold}
+.record ul>li dl dd ol li:first-child b{ color:red}
+.record ul>li dl dd .title { padding:20px;}
+.record ul>li dl dd .title p b { background:#ffdf5d; margin-left:10px; color:#a5480c; display:inline-block; padding:0px 15px; border-radius:10px; height:20px; line-height:20px;}
+.record ul>li dl dt{ padding:0 10px;}
+.record ul>li dl dt i { margin-top:10px; margin-left:10px; }
+.record ul>li.hover dl dt i {transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);-webkit-transform:rotate(180deg);}
+.record ul>li.hover dl dd{ display:block}
+
+.member1{ padding:10px; font-size:14px; font-weight:bold}
+.member1 i { color:#dd5561}
+.member1 span { color:#dd5561}
+.member1 .fa-meh-o{ padding-right:10px}
+
+.member2{ background:#fff; padding:10px; border-bottom:1px solid #ddd}
+.member2 p i { padding-right:10px; color:#db4d5a}
+.member2 h3{ font-size:20px; color:#db4d5a; font-weight:bold; padding-top:10px; padding-left:20px;}
+.member3{ background:#fff; padding:10px; overflow:hidden}
+.member3 ul li { float:left; width:50%; padding:5px 0; line-height:1.7;  text-indent:2em}
+.member3 ul li h3{ color:#999}
+.member3 ul li p { color:#333; font-size:16px; font-weight:bold}
+
+
+.member4{ margin-top:10px; background:#fff; padding:10px; overflow:hidden}
+.member4 ul li { width:25%; float:left; text-align:center; padding:10px 0; text-align:center; line-height:1.7}
+
+.member5{ position:fixed; left:0; right:0; bottom:0}
+.member5 button { width:50%; float:left; height:40px; color:#fff; line-height:40px; text-align:center; border:0; background:#ffcc66}
+.member5 button:last-child{ background:#dd5561}
+
+
+.taste1{ background:#dd5561; padding:20px; color:#fff; line-height:1.7}
+.taste1 h3{ font-size:22px;font-weight:bold}
+.taste1 h4{ padding-top:10px; }
+.taste1 h4 b { font-size:16px;}
+.taste2{ padding:10px; line-height:1.5}
+.taste2 h3{ font-size:16px; line-height:2;}
+.taste2 p { font-size:12px; color:#666; padding-bottom:10px;}
+
+.reg{ width:80%; margin:auto}
+.reg .head{ text-align:center; padding:30px;}
+.reg .head img{ width:70%;}
+.reg ol li{ margin-bottom:10px;}
+.reg ol li p{ width:100%; background:#fff; overflow:hidden; height:36px; position:relative}
+.reg ol li p input { width:100%; height:36px; border:0; padding-left:25px;}
+.reg ol li p.fl { width:55%;}
+.reg ol li p.fr { width:40%;}
+.reg ol li p.fr{ background:#eca62b;}
+.reg ol li p.fr input{ background:none; color:#fff; padding:0}
+.reg ol li p i { position:absolute; left:0; top:5px; font-size:20px; color:#e74e17; width:30px; height:30px; line-height:30px; text-align:center; border-right:1px dashed #e74e17}
+.reg ol li p i.fa-eye{ left:auto; right:0; border:0; color:#999; font-size:16px;}
+.reg ol h6{ line-height:30px; color:#fff; padding-top:20px; font-size:12px;}
+.reg ol h6 a{ color:#eca62b}
+.reg ol li p input[type="submit"]{ padding:0; background:#eca62b; color:#fff; }
+.reg ol h5{ line-height:30px;text-align:center }
+.reg ol h5 a { color:#fff; text-decoration:underline}
+.reg ol h5.noline a{ text-decoration:none}
+.reg ol h4 { text-align:center;}
+.reg ol h4 a { display:inline-block; padding:10px 30px; font-size:14px; border:1px solid #eee; border-radius:10px; color:#fff; opacity:.8}
+
+.reg ol li p i.fa-mobile{ font-size:30px}
+.reg .footer{ color:#fff; opacity:.5}
+.reg .footer a { color:#fff}
+
+/*---- 项目列表 ----*/
+section.item{ margin: 10px; padding: 0 10px; border-radius: 5px; background-color: #fff; }
+section.item .item-title{line-height: 30px;font-size: 16px;border-bottom: 1px dashed #CCC;color: #666666;}
+section.item .item-title a{color: #666;}
+section.item .item-lilv{padding: 10px 0 5px 0;line-height: 25px;}
+section.item .item-lilv dt{float: left;color: #dd5561;font-size: 1.6rem;line-height: 29px;}
+section.item .item-lilv dt sub{font-size: 16px;}
+section.item .item-lilv dd{float: left;margin: 2px 0 0 5px;height: 25px;color: #FFF;background-color: #fec75c;line-height: 25px;}
+section.item .item-lilv a{float: right; padding: 2px 10px; background-color: #dd5561;color: #FFF;  font-size: 1.15rem;}
+section.item .item-lilv{border-bottom: 1px dashed #ccc;}
+section.item .item-sengyu li{float:left;padding: 10px 0;width: 50%;font-size: 0.9rem;color: #666666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

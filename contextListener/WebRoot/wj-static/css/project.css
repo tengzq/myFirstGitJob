@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.listleft .box{ background:#fff; padding:10px; width:640px; font-family:"微软雅黑" ;color:#666; border:1px solid #ddd; margin-bottom:20px;}
+.listleft h2 {  font-size:22px; line-height:50px; border-bottom:1px dashed #ededed; padding:0 20px; padding-bottom:0px;}
+.listleft h2 button { background:#f89876; color:#fff; height:40px; padding:0 20px; border:0; line-height:40px}
+.listleft h2 .buyPro { background:#eb9641; color:#fff; height:40px; padding:0 20px; border:0; line-height:40px}
+.listleft .box .txt { padding:20px 10px; overflow:hidden;}
+.listleft .box .txt span { display:block; float:left; width:33.33%; font-size:14px; text-align:center}
+.listleft .box .txt span b { font-size:24px; padding:5px}
+.listleft .box .txt span i { color:#eb9641}
+.listleft .box .txt span i b { font-size:30px}
+
+
+.listright{ width:300px;}
+.listright .con{ background:#fff; border:1px solid #ddd; padding:20px;}
+.listright .con ol li { height:30px; line-height:30px; font-size:14px;}
+.listright .con ol li a{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 252px; display: inline-block;}
+.listright .con ol li b { color:#999}
+
+.pro_process-bar{
+	color: #f6f4f5;
+}
+.process-bar {
+	display:block;
+	height:14px;
+	width:170px;
+	background:#eee;
+}
+.process-bar b {
+	display:block;
+	height:14px;
+	width:50%;
+	background:#f96;
+}
+.process-full b {
+	width:100%;
+}

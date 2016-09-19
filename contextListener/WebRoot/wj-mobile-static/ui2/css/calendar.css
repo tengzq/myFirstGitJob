@@ -1,0 +1,307 @@
+/* 回款计划版块 */
+.my-calendar{
+	width: 80%;
+	margin : auto;
+}
+.top{width:100%; height: 100px !important; background-color: #00a1ea;}
+.top a{
+	display: inline-block;
+	float: right;
+}
+.top span{
+	color: #fff;
+    font-size: 22px;
+    float: right;
+    margin: 10px;
+}
+.lanzi{
+	color:#00a0e9;
+	font-family: "Helvetica" !important;
+}
+
+.yuan{
+	position: relative;
+    top: -75px;
+    margin-bottom: -55px;
+    text-align: center;
+}
+.yuan img{
+	width: 150px;
+}
+.face{
+	width: 165px;
+	height:165px;
+	margin:auto;
+	display: block;
+	background: url(../images/circle_bg.png) center center /100%;
+	position: relative;
+}
+.face .user{
+	padding-top: 21%;
+    font-family: "Helvetica";
+    font-size: 13px;
+}
+.user p:nth-child(1){
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.user p:nth-child(2){
+	margin-top: 5%;
+	font-size: 12px;
+	color: #000;
+}
+.user p:nth-child(3){
+	margin-top:13%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.user p:last-child{
+    font-size: 12px;
+    color: initial;
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    transform:scale(0.9);
+    font-weight: normal;
+}
+/* 回款部分 */
+.payBackCal{
+	height: 150px;
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.back-cal-header{
+	height: 39px;
+	border-bottom: 1px solid #eeeeee;
+}
+.back-cal-header a{
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 30px;
+	height: 30px;
+	color: #EB9641;
+	/* margin: 10px 0 0 285px; */
+	background: url(../images/member_09.png) left center no-repeat;
+	background-size : 20px;
+}
+.back-cal-header a:hover{
+	color: #f98850;
+}
+.back-cal-body{
+	text-align: center;
+	width: 100%;
+}
+.pay-cal{
+	display: inline-block;
+	margin: 18px auto;
+	/* width: 100%; */
+	height: 80px;
+	/* margin-left: 22%; */
+}
+.pay-day{
+	float: left;
+	/* width: 80px; */
+	height: 80px;
+	margin-right: 20px;
+	text-align: center;
+}
+.pay-cal span{
+	display: block;
+}
+.pay-day .dayName{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666666;
+	background: #eeeeee;
+}
+.pay-day .day{
+	width: 80px;
+	height: 50px;
+	color: #ffffff;
+	line-height: 50px;
+	font-size: 30px;
+	background: #48B4E2;
+}
+.need-pay{
+	float: left;
+	/* width: 160px; */
+	height: 80px;
+	overflow: hidden;
+}
+.need-pay .tips{
+	font-size: 14px;
+	color: #666666;
+	height: 40px;
+	padding-left: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.ahead.need-pay .tips{
+	line-height: 30px;
+	height: 30px;
+}
+.need-pay .tips i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/calendar_sprite_v2.png) 0px -50px no-repeat;
+}
+.ahead.need-pay .tips i{
+	height: 30px;
+	background: url(../images/calendar_sprite_v2.png) 0px -55px no-repeat;
+}
+.need-pay .money{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 5px;
+	padding-left: 10px;
+	color: #333333;
+}
+.need-pay .money strong{
+	font-size: 24px;
+	padding-right: 5px;
+	color: #48B4E2;
+}
+.need-pay .ahead-part{
+	display: none;
+	position: relative;
+	padding-left: 25px;
+	color: #333333;
+}
+.ahead.need-pay .ahead-part{
+	display: block;
+}
+.need-pay .ahead-part:before{
+	content: ' ';
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	left: 10px;
+	top: 5px;
+	background: #00dd32;
+}
+.need-pay .ahead-part strong{
+	color: #ff6633;
+}
+.back-cal-footer{
+	width: 100%;
+	height: 31px;
+	color: #666666;
+	font-size: 14px;
+	line-height: 31px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.back-cal-footer strong{
+	/* padding-left: 15px; */
+	color: #00a0e9;
+}
+/* 日历组件 */
+.calendar{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	background: #fff;
+	color: #999999;
+}
+.cal-header{
+	line-height: 35px;
+	background: #00a1e9;
+	overflow: hidden;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cal-header a{
+	width: 10%;
+	height: 35px;
+	/* text-indent: -9967em; */
+	color: #fff;
+	display: block;
+	cursor: pointer;
+	/* background: url(../images/calendar_sprite_v2.png) no-repeat; */
+}
+.cal-header a.disabled{
+	cursor: default;
+}
+.cal-header .prev{
+	float: left;
+	/* background-position: left top; */
+}
+.cal-header .next{
+	float: right;
+	/* background-position: right top; */
+}
+.cal-header div{
+	cursor: pointer;
+	width: 79%;
+	text-align: center;
+	display: block;
+	float: left;
+}
+.day-name {
+	cursor: default;
+	width: 100%;
+}
+.cal-days{
+	cursor: default;
+	width: 99.2%;
+	text-align: center;
+	border:1px solid #eeeeee;
+}
+.cal-days .day-name li{
+	width: 13.85%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	margin: -1px -1px 0 0;
+	border: 1px solid #eeeeee;
+	overflow: hidden;
+	background-color: #d5eefb;
+}
+.cal-days .days li{
+	width: 13.85%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	margin: -1px -1px 0 0;
+	border: 1px solid #eeeeee;
+	overflow: hidden;
+    background: #f5fbfe;
+}
+.cur-day{
+	background: #d5eefb !important;
+}
+.cur-month{
+	color: #595757 !important;
+}
+.ck-day{
+	cursor: pointer;
+}
+.select-day{
+	background: #FDD228 !important;
+	color: #fff !important;
+}
+.back-day{
+	background: url(../images/calendar_sprite_v2.png) right -50px no-repeat;
+}
+.ahead-day{
+	background: url(../images/calendar_sprite_v2.png) right -135px no-repeat;
+}
+.cur-day.ahead-day{
+	background: url(../images/calendar_sprite_v2.png) right -135px no-repeat #eee;
+}
+.p322{
+	padding-bottom: 0;
+}

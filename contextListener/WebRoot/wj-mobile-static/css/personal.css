@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.member1{ padding:10px; font-size:14px; font-weight:bold}
+.member1 i { color: #48B4E2;}
+.member1 span { color: #48B4E2;}
+.member1 .fa-meh-o{ padding-right:10px}
+
+.member2{ background:#fff; padding:10px; border-bottom:1px solid #ddd}
+.member2 p i { padding-right:10px; color: #48B4E2;}
+.member2 h3{ font-size:20px; color: #48B4E2; font-weight:bold; padding-top:10px; padding-left:20px;}
+.member3{ background:#fff; padding:10px; overflow:hidden}
+.member3 ul li { float:left; width:50%; padding:5px 0; line-height:1.7;  text-indent:2em}
+.member3 ul li h3{ color:#999}
+.member3 ul li p { color:#333; font-size:16px; font-weight:bold}
+
+
+.member4{ margin-top:10px; background:#fff; padding:10px; overflow:hidden}
+.member4 ul li { width:25%; float:left; text-align:center; padding:10px 0; text-align:center; line-height:1.7}
+.member4 ul li i{width: 38px;height: 38px;line-height: 38px; background: #ff6264;border-radius: 50%;color: #fff; font-size: 15px;}
+.member5{ position:fixed; left:0; right:0; bottom:0}
+.member5 a button { font-family: "微软雅黑"; font-size: 15px; width:50%; float:left; height:40px; color:#fff; line-height:40px; text-align:center; border:0; background:#ffcc66}
+.member5 a:last-child button{ background: #48B4E2;}
+
+.bluebgc{background: #2e9dd0 !important}

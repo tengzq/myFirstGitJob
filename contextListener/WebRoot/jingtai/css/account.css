@@ -1,0 +1,284 @@
+/*个人信息*/
+#ltz-user-account{
+}
+.ltz-user-profile h3{
+	font-size: 15px;
+	text-indent: 2em;
+	margin-bottom: 10px;
+	position: relative;
+	color: #FF9966;
+}
+.ltz-user-profile h3 i{
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 25px;
+	background: url(https://s1.lantouzi.com/img/201504/account_sprite.png) no-repeat;
+	left: 0;
+	top:0;
+}
+.ltz-user-profile .safe h3 i{
+	background-position: left bottom;
+}
+/*个人资料*/
+.ltz-user-profile .profile{
+	width: 100%;
+	margin-left: -1%;
+	margin-bottom: 50px;
+}
+.ltz-user-profile dl{
+	width: 100%;
+	font-size:14px;
+}
+.ltz-user-profile dt{
+	float:left;
+	margin:5px 0;
+	width:16%;
+	color: #999999;
+	text-align:right;
+}
+.ltz-user-profile dd{
+	float:left;
+	margin:5px 0;
+	width: 84%;
+	color:#666;
+	text-indent:10px;
+}
+.ltz-user-profile .link{
+	color: #32BDF3;
+}
+.ltz-user-profile .finish{
+	display: block;
+	min-height: 100px;
+}
+.ltz-user-profile .finish .addr{
+	margin-bottom: 10px;
+	display: none;
+}
+.ltz-user-profile .finish .addr span{
+	margin: 0 4px;
+}
+.ltz-user-profile .finish .addr span.province{
+	margin-left: 0;
+}
+.ltz-user-profile .finish .go-edit a{
+	display: none;
+	position: absolute;
+  width: 110px;
+  height: 25px;
+  line-height: 25px;
+  background: #ff9933;
+  text-indent: 0;
+  cursor: pointer;
+  margin-left:11px;
+}
+.ltz-user-profile .finish .go-edit .dalu{
+	display: none;
+}
+.ltz-user-profile .edit{
+	display: none;
+}
+.ltz-user-profile .edit .name{
+	width: 160px;
+	margin:5px 0 10px 0;
+}
+.ltz-user-profile .edit .mobile{
+	width: 200px;
+	margin-bottom:10px;
+}
+.ltz-user-profile .edit .address{
+	width: 455px;
+	margin:10px 0;
+}
+.ltz-user-profile .edit .dalu{
+	font-size: 12px;
+}
+.ltz-user-profile .edit a{
+	background: #ff9933;
+	display: inline;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.ltz-user-profile .edit a.disable{
+	background: #ccc;
+}
+.ltz-user-profile .edit input{
+	height: 26px;
+	line-height: 26px;
+	border:1px solid #ccc;
+	outline: none;
+	text-indent: 5px;
+}
+.ltz-user-profile .edit input:focus{
+	border:1px solid #5ABCE6;
+}
+.ltz-user-profile .edit .tip{
+	padding-left: 0px;
+	display: none;
+	font-size: 12px;
+}
+.ltz-user-profile .edit .ok .tip{
+	color: transparent;
+}
+.ltz-user-profile .edit .err .tip{
+	display: inline;
+}
+.ltz-user-profile .edit i{
+	display: none;
+	margin-left: 10px;
+	padding:6px 12px;
+	background: url(https://s1.lantouzi.com/img/ltz/spr.png) no-repeat;
+	background-position: -380px -296px;
+}
+.ltz-user-profile .edit .err i{
+	display: inline;
+}
+.ltz-user-profile .edit .ok i{
+	display: inline;
+	background-position: -378px -359px;
+}
+/*安全设置*/
+.ltz-user-profile .safe{
+	width: 100%;
+	margin-left: 0%;
+}
+.ltz-user-profile .safe dd{
+	position: relative;
+	margin: 10px 0;
+}
+.ltz-user-profile .safe a{
+	position: absolute;
+	left: 60px;
+	font-size: 13px;
+	top:-5px;
+	width: 110px;
+	height: 25px;
+	line-height: 25px;
+	background: #ff9933;
+	text-indent: 0;
+}
+/*IT福利社*/
+.ltz-user-it{
+	color: #666;
+}
+.ltz-user-it .info{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.ltz-user-it .info a{
+	color: #32BDF3;
+}
+.ltz-user-it dl{
+	width: 100%;
+}
+.ltz-user-it dl dt{
+	float: left;
+	width: 10%;
+	height: 50px;
+	line-height: 30px;
+}
+.ltz-user-it dl dd{
+	float: left;
+	width: 90%;
+	height: 50px;
+}
+.ltz-user-it .it-email{
+	outline:none;
+	width:200px;
+	color:#333;
+	line-height:30px;
+	margin-right:10px;
+}
+.ltz-user-it .check-it-list{
+	line-height:30px;
+	color:#fff;
+	padding:10px 20px;
+	background:#f90;
+}
+.ltz-user-it .it-submit{
+	cursor: pointer;
+	line-height:30px;
+	color:#fff;
+	padding:10px 20px;
+	background:#ff7575;
+	margin-right:10px;
+}
+.ltz-user-it .it-done{
+	line-height:30px;
+	color:#fff;
+	padding:10px 20px;
+	background:#ccc;
+	margin-right:10px;
+}
+.ltz-user-it .it-err-msg{
+	color: #ff7575;
+}
+.ltz-user-it .more{
+	border:1px solid #ccc;
+	padding:10px;
+	margin-top:10px;
+}
+.ltz-user-it .more span{
+	 line-height: 40px;
+}
+.ltz-user-it .more a{
+	color: #32BDF3;
+}
+/*邮箱验证*/
+.ltz-verify-mail{
+	padding-bottom: 330px;
+}
+.ltz-verify-mail ul{
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 20%;
+}
+.ltz-verify-mail ul .mail{
+	font-size: 16px;
+}
+.ltz-verify-mail ul .mail input{
+	margin-left: 5px;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+	text-indent: 5px;
+	border:1px solid #ccc;
+}
+.ltz-verify-mail ul .mail input:focus{
+	border:1px solid #5ABCE6;
+}
+.ltz-verify-mail ul .send{
+	cursor: pointer;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0px 10px 110px;
+	background: #ff9933;
+}
+.ltz-verify-mail ul .send.disable{
+	background: #ccc;
+}
+.ltz-verify-mail ul .tip{
+	font-size: 12px;
+}
+.ltz-verify-mail ul .ok .tip{
+	color: transparent;
+}
+.ltz-verify-mail ul .err .tip{
+	display: inline;
+}
+.ltz-verify-mail ul i{
+	display: none;
+	margin-left: 10px;
+	padding:6px 12px;
+	background: url(https://s1.lantouzi.com/img/ltz/spr.png) no-repeat;
+	background-position: -380px -296px;
+}
+.ltz-verify-mail ul .err i{
+	display: inline;
+}
+.ltz-verify-mail ul .ok i{
+	display: inline;
+	background-position: -378px -359px;
+}

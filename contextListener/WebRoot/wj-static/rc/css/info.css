@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.zy1{ overflow:hidden; border-bottom:1px solid #eee; padding-bottom:30px;}
+.zy1 .fl dl { float:left; width:265px; text-align:center; border-right:1px solid #eeeeee}
+.infojsp123{ width:240px !important; text-align:center !important; border-right:1px solid #eeeeee !important; float: right !important;}
+.zy1 .fl dl:last-child{ border-right:0;}
+.zy1 .fl dl dt{ color:#666; font-size:30px;}
+.infojsp12345{ color:#666; font-size:30px;}
+
+.zy1 .fl dl dt b { font-size:18px;}
+.zy1 .fl dl dd{ color:#999999; font-size:14px; line-height:2}
+.infojsp1234{ color:#999999; font-size:14px; line-height:2}
+.zy1 .fr button { cursor:pointer;width:75px; height:30px; border:0; border-radius:15px; background:#ebbe6b; color:#fff; text-align:center; margin-left:20px;}
+.zy1 .fr button:last-child{ background:#c29035;}
+
+.zy2{ overflow:hidden; text-align:center; border-bottom:1px solid #eee; padding-bottom:20px;}
+.zy2 .box{ width:340px;  margin:20px; display:inline-block;text-align:left}
+.zy2 .box h3{ line-height:2.2; font-size:16px; }
+.zy2 .box h3 b { color:#c79438}
+.zy2 .box .wrap { border:1px solid #eeeeee; }
+.zy2 .box .wrap h4{ height:50px; line-height:50px; text-align:center; font-size:16px; background:#f2f2f2; border-bottom:1px solid #eee;}
+.zy2 .box .wrap ol { padding:20px; line-height:2; font-size:12px;}
+.zy2 .box .wrap button { cursor: pointer;height:36px; line-height:36px; padding:0 20px; border-radius:18px; border:1px solid #cd9b3c; color:#cd9b3c; background:#fff; margin:0 10px;}
+.zy2 .box .wrap .btn { padding:20px; text-align:center; padding-top:0}
+
+

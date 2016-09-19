@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+.PagerView{
+	margin-top:10px;
+	font-size: 12px;
+	font-family: tahoma, arial;
+	color: #333;
+	text-align: center;
+	padding: 8px;
+	line-height: 100%;
+}
+.PagerView span{
+	color: #999;
+	margin: 0 1px;
+	padding: 3px 6px;
+	border: 1px solid #ccc;
+}
+.PagerView span.on{
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #eb9641;
+	background: #eb9641;
+}
+.PagerView a{
+	color: #f89876;
+	text-decoration: none;
+}
+.PagerView a span{
+	color: #f89876;
+	border: 1px solid #f89876;
+}
+.PagerView p{
+	margin-top: 10px;
+}

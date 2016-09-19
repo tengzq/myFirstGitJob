@@ -1,0 +1,168 @@
+/* @module dialog */
+
+.ecope_overlay{
+	background:#333;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.ecope_dialog {	
+	background:rgba(0, 0, 0, 0.2);
+	overflow:hidden;
+}
+.ecope_dialog .dg_wrapper{
+	position:relative;
+	margin:8px;
+	padding:10px;
+	border:1px solid #7a7a7a;	
+	font-size:14px;
+	height:220px;
+	width:522px;
+	background:url(../imgs/bg_dialog_tx.png) #fff 414px 110px no-repeat;
+}
+.ecope_dialog .hd{
+	height:40px;	
+	border-bottom:1px solid #ccc;
+}
+.ecope_dialog .hd h3 {
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	color:#333;
+	text-indent:10px;
+}
+.ecope_dialog .close{
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	top:18px;
+	right:18px;
+	background:url(../imgs/spr.png) no-repeat 0 -100px;
+	text-indent:-999em;
+}
+.ecope_dialog .close:hover{
+	background-position:0 -143px;
+}
+.ecope_dialog .bd{
+	margin:10px;	
+}
+.ecope_dialog .ret {
+	margin-top:20px;
+	font-size:16px;
+}
+.ecope_dialog .ret p {
+	color:#666;
+	margin:20px 0;
+}
+.ecope_dialog .ret .btn {
+	height:36px;
+	line-height:36px;
+	width:120px;
+	font-size:14px;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.ecope_dialog .ret .help {
+	color:#999;
+	font-size:12px;
+}
+.ecope_dialog .ret a:hover {
+	text-decoration:underline;
+}
+
+.ecope_dialog .bd .btns{
+	margin:40px 0 20px;
+}
+
+
+.ecope_dialog .dialog-tixian {
+	background-image:url(../imgs/bg_dialog_tx.png)
+}
+.ecope_dialog .dialog-touzi {
+	background-image:url(../imgs/bg_dialog_tz.png)
+}
+.ecope_dialog .dialog-chongzhi {
+	background-image:url(../imgs/bg_dialog_cz.png)
+}
+
+.ecope_dialog .dialog-2 {
+	width:630px;
+	height:260px;
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+.dialog-2 .dg_header {
+	font-size:24px;
+	color:#fff;
+	height:52px;
+	line-height:52px;
+	background:#fc762b;
+	text-indent:30px;
+}
+.dialog-2 .dg_content {
+	font-size:18px;
+	color:#4c4b4b;
+}
+.dialog-2 .dg_content p {
+	margin:40px 0 0 160px;
+}
+.dialog-2 .dg_footer {
+	margin:20px 0 0 160px;
+}
+.dialog-2 .dg_footer a {
+	display:block;
+	float:left;
+	width:144px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+	border-radius:5px;
+}
+.dialog-2 .dg_footer .dg_btn_no {
+	margin-right:40px;
+	background:#f96;
+}
+.dialog-2 .dg_footer .dg_btn_yes {
+	margin-right:40px;
+	background:#f66;
+}
+
+/*手机wap版提示层*/
+.ecope_dialog .mobile-tip {
+	border:none;
+	background: #fff;
+	margin:0;
+	border-radius: 5px;
+	padding:15px;
+}
+.ecope_dialog .mobile-tip .dg_header {
+	text-align: center;
+	font-size:16px;
+	margin:0 auto 15px;
+
+}
+.ecope_dialog .mobile-tip .dg_content {
+	line-height: 18px;
+	padding-bottom: 10px;
+	border-bottom:solid 1px #000;
+}
+.ecope_dialog .mobile-tip .dg_footer {
+	margin:3px auto;
+}
+.ecope_dialog .mobile-tip .dg_btn_no, .ecope_dialog .mobile-tip .dg_btn_yes {
+	color:#000;
+	display: inline-block;
+	width:114px;
+	font-size:16px;
+	text-align: center;
+	line-height: 30px;
+	outline:none;
+}
+.ecope_dialog .mobile-tip .dg_btn_no {
+	border-right: solid 1px #000;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* register page css  */
+.wj-logo { overflow:hidden; margin:20px 0; font-size:24px; line-height:80px; font-family:"微软雅黑"; color:#999}
+.wj-logo h1 { padding-right:20px; margin-right:20px; border-right:2px solid #a4a4a4}
+
+
+.register{ overflow:hidden; border:9px solid #ededed}
+.register>div { width:50%;}
+.register>div>img { width:100%}
+.register .reg-form{ width:100%;background:#fff; height:320px;font-family: "微软雅黑" !important;}
+.register .reg-form form{ width:334px; margin:auto; padding-top:50px;}
+.register .reg-form form ul li { padding:5px; position:relative; padding-left:90px; font-size:14px;}
+.register .reg-form form ul li input { height:38px; border:1px solid #ddd; width:100%; text-indent:10px}
+.register .reg-form form ul li span:first-child { width:80px; position:absolute; left:0; top:5px; text-align:right; line-height:38px;}
+.register .reg-form form ul li a{ color:#e74e17; font-size:12px;}
+.register .reg-form form ul li button { background:#327DC3; font-size:16px; color:#fff; border:0; width:100%; line-height:40px;}
+.register .reg-form form>p{ padding:20px 90px; line-height:1.7; font-size:14px; padding-right:0; color:#666; background:url(../images/logo_10.png) no-repeat 50px 20px ;}
+.register .reg-form form ul li label input { width:12px; height:12px;}
+.register .reg-form form ul li label{ font-size:12px;}
+
+.send-sms{
+	display: block;
+	width:135px ;
+	height:44px;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	background-color: #48aaee;
+	font-size: 16px;
+	line-height: 44px;
+	margin-right: 10px;
+	color: #FFF !important;
+}
+.send-text {position: static !important;font-family:"微软雅黑";font-size: 16px}
+
+.send-sms:hover{
+	opacity: 0.85;
+}
+.send-sms.send-waitting,.btn-reg.loading{
+	background: #ccc;
+	cursor: not-allowed;
+}
+.countdown-text{
+	font-size: 16px;
+	display: none;
+}
+.countdown{position: static !important;font-family:"微软雅黑";font-size: 16px;}
+
+.reg-form-list{
+	display: flex;
+	margin: 0;
+	position: relative;
+}
+
+.reg-form-list .send-sms.send-waitting,.btn-reg.loading{
+	background: #ccc;
+	cursor: not-allowed;
+}
+
+.btn-reg{font-family: "微软雅黑" !important}
+
+.clearfix:after{
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	content:''
+}
+.clearfix{
+	zoom:1
+}

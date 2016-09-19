@@ -1,0 +1,8 @@
+/* fundsflow page css  */
+.zijinliushui table { width:100%;  margin-top:20px; }
+.zijinliushui table th,.zijinliushui table td { padding:10px; text-align:center}
+.zijinliushui table th { font-size:14px; font-weight:bold;}
+/* 
+.zijinliushui table tr:nth-child(odd){ background:#f7f7f7}
+ */
+.zijinliushui .con table tbody tr:nth-child(odd){background-color:#f7f7f7;}

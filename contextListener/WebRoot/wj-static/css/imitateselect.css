@@ -1,0 +1,118 @@
+.decoratSelect {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 237px;
+    position: relative;
+    height: 32px;
+    z-index: 333;
+}
+
+    .decoratSelect span {
+        display: block;
+        height: 32px;
+        width: 237px;
+        background: url(http://www.ppdaicdn.com/2014/img/slticon.png) right top no-repeat;
+        cursor: pointer;
+        position: relative;
+        z-index: 333;
+    }
+
+        .decoratSelect span input {
+            width: 200px;
+            height: 28px;
+            line-height: 28px;
+            border: solid 1px #ccc;
+            border-radius: 5px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            padding-left: 4px;
+            margin-left: 0;
+            float: none;
+            color: #999;
+            background-color: #fff;
+            cursor: pointer;
+            *margin-top: -1px;
+            box-sizing : content-box;
+        }
+
+            .decoratSelect span input.disabled {
+                background: #f0f0f0;
+            }
+
+        .decoratSelect span div {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 206px;
+            height: 32px;
+            z-index: 333;
+            display: block;
+        }
+
+    .decoratSelect ul {
+        margin-top: 1px;
+        width: 235px;
+        border-radius: 5px;
+        border: solid 1px #ccc;
+        max-height: 156px;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: absolute;
+        z-index: 999;
+        background: #fff;
+    }
+
+        .decoratSelect ul li {
+            height: 26px;
+            width: 231px;
+            padding: 0 0 0 4px;
+            font: 14px/26px "Microsoft Yahei";
+            color: #999;
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+            .decoratSelect ul li:hover {
+                background-color: #ededed;
+            }
+
+.bank-id-tips {
+    width: 235px;
+    height: 37px;
+    line-height: 37px;
+    background: #FFF9EB;
+    border: 1px solid #FED19A;
+    color: #fe8e01;
+    font-size: 18px;
+    position: absolute;
+    left: 150px;
+    top: -40px;
+    text-indent: 5px;
+}
+
+.add-bank-card-form li .btn {
+    margin: 30px 0 0 150px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    width: 237px;
+    background: #39a1ea;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+    border-radius: 4px;
+}
+
+    .add-bank-card-form li .btn:hover {
+        background: #3696d9;
+    }
+
+    .add-bank-card-form li .btn:disabled {
+        background: #c0c0c0;
+    
+        cursor: not-allowed;
+}

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop 
+						http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/tx 
+						http://www.springframework.org/schema/tx/spring-tx.xsd
+	">
+	
+	<!-- 启用注解 -->
+	<context:annotation-config />
+	
+	<!-- 启动组件扫描，排除@Controller组件，该组件由SpringMVC配置文件扫描 -->
+	<context:component-scan base-package="com.pc">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+	
+	<bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">   
+    	<property name="dataSource" ref="dataSource"></property>
+ 	</bean>
+	<!-- <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> -->
+	<bean id="propertyConfigurer" class="com.pc.util.MiceConfig">  
+		<property name="ignoreResourceNotFound" value="true"/>
+		<property name="fileEncoding" value="UTF-8" />
+		<property name="locations">  
+			<list>  
+                 <value>/WEB-INF/classes/dbconfig.properties</value>  
+                 <value>/WEB-INF/classes/program.properties</value>
+                 <value>/WEB-INF/classes/ad_program.properties</value>
+                 <value>/WEB-INF/classes/sms.properties</value>
+                 <value>/WEB-INF/classes/guopay.properties</value>
+                 <value>/WEB-INF/classes/baofoowap.properties</value>
+                 <value>/WEB-INF/classes/email.properties</value>
+                 <value>/WEB-INF/classes/rate.properties</value>
+                 <value>/WEB-INF/classes/ticket.properties</value>
+                 <value>/WEB-INF/classes/params.properties</value>
+                 <value>/WEB-INF/classes/weixin.properties</value>
+                 <value>/WEB-INF/classes/bank.properties</value>
+                 <value>/WEB-INF/classes/message.properties</value>
+                 <value>/WEB-INF/classes/bankcode299bill.properties</value>
+                 <value>/WEB-INF/classes/99bill.properties</value>
+            </list>  
+        </property>  
+	</bean> 
+	
+	<!-- 阿里 druid数据库连接池 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">  
+         <!-- 数据库基本信息配置 -->
+         <property name="url" value="${url}" />  
+         <property name="username" value="${username}" />  
+         <property name="password" value="${password}" />  
+         <property name="driverClassName" value="${driverClassName}" />  
+         <property name="filters" value="${filters}" />  
+   		 <!-- 最大并发连接数 -->
+         <property name="maxActive" value="${maxActive}" />
+         <!-- 初始化连接数量 -->
+         <property name="initialSize" value="${initialSize}" />
+         <!-- 配置获取连接等待超时的时间 -->
+         <property name="maxWait" value="${maxWait}" />
+         <!-- 最小空闲连接数 -->
+         <property name="minIdle" value="${minIdle}" />  
+   		 <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+         <property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}" />
+         <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+         <property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}" />  
+         <property name="validationQuery" value="${validationQuery}" />  
+         <property name="testWhileIdle" value="${testWhileIdle}" />  
+         <property name="testOnBorrow" value="${testOnBorrow}" />  
+         <property name="testOnReturn" value="${testOnReturn}" />  
+         <property name="maxOpenPreparedStatements" value="${maxOpenPreparedStatements}" />
+         <!-- 打开removeAbandoned功能 -->
+         <property name="removeAbandoned" value="${removeAbandoned}" />
+         <!-- 1800秒，也就是30分钟 -->
+         <property name="removeAbandonedTimeout" value="${removeAbandonedTimeout}" />
+         <!-- 关闭abanded连接时输出错误日志    -->
+         <property name="logAbandoned" value="${logAbandoned}" />
+	</bean>  
+	<!-- <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://192.168.0.118:3306/rongchao?Unicode=true&amp;characterEncoding=utf8"/>
+		<property name="username" value="rongchao"/>
+		<property name="password" value="123456"/>
+	</bean> -->
+	
+	<!-- <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">  
+         数据库基本信息配置
+         <property name="url" value="jdbc:mysql://192.168.0.118:3306/rongchao?Unicode=true&amp;characterEncoding=utf8" />  
+         <property name="username" value="rongchao" />  
+         <property name="password" value="123456" />  
+         <property name="driverClassName" value="com.mysql.jdbc.Driver" />  
+         
+	</bean>   -->
+	
+	
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="delete*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception"/>
+			<tx:method name="insert*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="create*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="save*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="update*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="set*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="change*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="modify*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="edit*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="save*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="buy*" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />   
+			<tx:method name="execuRepayProjectToUser" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />
+			<tx:method name="autoTicketExpireRemind" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" no-rollback-for="java.lang.IllegalArgumentException"/>
+	<!-- 		<tx:method name="execuRepayProjectToUserBalance" propagation="REQUIRED" read-only="false" 
+			           rollback-for="java.lang.Exception" />    -->       
+			                   
+		</tx:attributes>
+	</tx:advice>
+	
+	
+	
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
+	<!-- 事物处理 -->
+	<aop:config>
+		<aop:pointcut id="pc" expression="execution(* com.pc.service..*(..))" />
+		<aop:advisor pointcut-ref="pc" advice-ref="txAdvice" />
+	</aop:config>
+	
+	<!-- 配置mybatis -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    	<property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"></property>
+        <!-- mapper扫描 -->
+        <property name="mapperLocations" value="classpath:mybatis/*/*.xml"></property>
+    </bean>
+    
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory" />
+	</bean>
+	
+	<!-- ================ Shiro start ================ -->
+		<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+			<property name="realm" ref="ShiroRealm" />
+		</bean>
+		
+		<!-- 項目自定义的Realm -->
+	    <bean id="ShiroRealm" class="com.pc.interceptor.shiro.ShiroRealm" ></bean>
+		
+		<!-- Shiro Filter -->
+		<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+			<property name="securityManager" ref="securityManager" />
+			
+			<property name="loginUrl" value="/" />
+			
+			<property name="successUrl" value="/main/index" />
+			
+			<property name="unauthorizedUrl" value="/login_toLogin" />
+			
+			<property name="filterChainDefinitions">
+				<value>
+				/wj-static/**				= anon
+				/pluginsyPayNotify/**		= anon
+				/pluginsyPay/**				= anon
+				/static/login/** 			= anon
+				/recharge/**			 	= anon
+				/jingtai/**		 			= anon
+				/uploadFiles/**				= anon
+				/static/js/** 				= anon
+				/plugins/**                 = anon
+				/static/**					= anon
+				/webstatic/**				= anon
+				/ueditor/**					= anon
+	           	/code.do 					= anon
+	           	/login_login	 			= anon
+	           	/login_toZfLogin			= anon
+        		/login_toLogin				= anon
+				/main	     		        = anon
+				/register/**				= anon
+				/_project/**				= anon 
+				/zfarticle/**				= anon
+				/investrecord/**			= anon
+				/fundsflow/**				= anon
+				/myAccount/**				= anon
+				/login_selectZfPwd  		= anon
+	           	/app**/** 					= anon
+	           	/checkUserNameByAJAX		= anon
+	           	/zfReport/singleReport		= anon
+	           	/rechargeData/**            = anon
+	           	/ad/mainAd	  			    = anon
+	           	/ad/publish*				= anon
+	           	/autobid/**					= anon
+	           	/vipcode/checkCode			= anon
+	           	/drawcash/**				= anon
+	           	/sms/**						= anon
+	           	/mobile/**					= anon
+	           	/weixin/**					= anon
+	           	/mainIndex/**				= anon
+	           	/wj-mobile-static/**		= anon
+	           	/enjoylife					= anon
+	           	/favicon**					= anon
+	           	/newspage/**      			= anon
+	           	/area/**					= anon
+	           	/jpmSearch/**				= anon
+	           	/outside/**					= anon
+	           	/baidu.php					= anon
+	           	/linkPost.html				= anon
+	           	/tools/**					= anon
+	           	/information/**				= anon
+	           	/sitemap.xml				= anon
+	           	/**							= authc
+				</value>
+			</property>
+		</bean>
+	<!-- ================ Shiro end ================ -->
+	
+   
+</beans>

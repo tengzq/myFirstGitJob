@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body{
+	background: #eeefef;
+}
+.bd{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.bd .ticket{
+	width: 100%;
+	/*padding-bottom: 10%;*/
+	margin:5px 0;
+}
+.bd .ticket .squ{
+	background: #fff;
+    box-shadow: 0 5px 0 0 #00a0e9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.bd .ticket .top{
+	display: block;
+	width: 100%;
+	height: 8px;
+	background: url(../images/tqbd.png) center center / 100% no-repeat;
+	border: 0;
+}
+.bd .ticket .hb{
+    width: 22%;
+    display: inline-block;
+    float: left;
+    background: url(../images/tzjhb.png) center center / 100% no-repeat;
+    color: #faee00;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-left: 4%;
+    padding-top: 10%;
+    padding-left: 3%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bd .ticket .desc{
+	float: right;
+	width: 68%;
+    margin-top: 5%;
+}
+.bd .ticket .desc p{
+	color:#595757;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: ltyh,"微软雅黑","Microsoft YaHei";
+}
+.bd .ticket .desc p:last-child{
+	font-size: 12px;
+	color:#00b4ed;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+    margin-left: -10%;
+}
+.bd .ticket .desc p i{
+	float:right;
+	margin-right: 5%;
+	color:#00b4ed;
+}
+.bd .ticket .desc img{
+    float: left;
+    width: 9px;
+}
+.bd .ticket .content{
+	display: none;
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #909090;
+    padding-top: 2%;
+    line-height: 15px;
+}
+.bd .ticket .content.open{
+	display: block !important;
+	padding-bottom: 3%;
+}
+.no-ticket-tag{
+	text-align: center;
+    margin: 50px 15px;
+    padding: 20px 0 10px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.no-ticket-tag img{
+	margin-bottom: 10px;
+}
+
+.no-ticket-tag>div{
+	margin-bottom: 20px;
+}
+.no-ticket-tag>div:first-child p{
+	color:#494747;
+	font-family: ltyh,"微软雅黑","Microsoft YaHei";
+}
+.no-ticket-tag>div:last-child{
+	margin-bottom: 5px;
+}
+.no-ticket-tag>div:last-child input{
+    border: 0;
+    background-color: #f8b62c;
+    color: #fff;
+    height: 35px;
+    width: 190px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.no-ticket-tag>div:last-child p:last-child{
+	margin-top: 10px;
+}
+.no-ticket-tag>div:last-child p:last-child input{
+	background-color: #00a0e9;
+}

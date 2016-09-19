@@ -1,0 +1,2003 @@
+#bd {
+	margin-top:20px;
+}
+.aside {
+	width:220px;
+}
+
+.main {
+	width:684px;
+	padding:30px;
+	background:#fff;
+	min-height:200px;
+	overflow:hidden;
+}
+
+.my-page .my-tabs {
+	border-bottom:2px solid #fc3;
+	height:30px;
+}
+.my-page .my-tabs a {
+	display:block;
+	float:left;
+	height:30px;
+	line-height:30px;
+	padding:0 8.5px;
+	color:#333;
+	font-size:14px;
+}
+.my-page .my-tabs a:hover{
+	background:#eed;
+}
+.my-page .my-tabs a.on {
+	color:#fff;
+	background:#fc3;
+}
+
+.aside .my-info {
+	background:#fff;
+}
+.my-info .bd {
+	height:80px;
+	padding-left:18px;
+	overflow:hidden;
+}
+.my-info .ft {
+	height:40px;
+	overflow:hidden;
+	border-top:1px solid #ccc;
+}
+.my-info .my-name {
+	margin:15px 0 0;
+	color:#333;
+	font-size:14px;
+}
+.my-info .my-name em {
+	color:#f63;
+}
+.my-info .my-info-process {
+	margin:10px 0;
+	font-size:12px;
+	color:#333;
+}
+.my-info .my-info-process .process-bar {
+	width:64px;
+	height:8px;
+	margin-right:8px;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+}
+.my-info .my-info-process .process-bar b {
+	height:8px;
+}
+.my-info .ft a {
+	display:block;
+	height:40px;
+	line-height:40px;
+	color:#333;
+	text-align:center;
+	text-indent:14px;
+	background:url(../imgs/spr.png) -380px -201px no-repeat;
+}
+.my-info .ft .done a {
+	background-position:-380px -158px;
+}
+.my-info .ft .my-phone {
+	width:72px;
+}
+.my-info .ft .my-email {
+	width:62px;
+	border-left:1px solid #ccc;
+}
+.my-info .ft .my-realname {
+	width:84px;
+	border-left:1px solid #ccc;
+}
+
+.aside .my-nav {
+	background:#fff;
+	overflow:hidden;
+}
+.my-nav .my-nav-1stlevel h3 {
+	border-top:1px solid #eee;
+}
+.my-nav .my-nav-1stlevel h3 i {
+	position: absolute;
+	top:-5px;
+	left:50%;
+	margin-left:35px;
+	color:#993333;
+	font-style: normal;
+	font-size:12px;
+}
+.my-nav .on h3 a i, .my-nav .my-nav-1stlevel h3 a:hover i {
+	color:#fff;
+}
+.my-nav .my-nav-1stlevel h3 a {
+	position: relative;
+	display:block;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	font-size:16px;
+	color:#f63;
+	cursor:pointer;
+	background:#fff;
+}
+.my-nav .show h3 a {
+	background:url(../imgs/spr.png) 148px 20px no-repeat #ffdab5;
+}
+.my-nav .on h3 a,
+.my-nav .my-nav-1stlevel h3 a:hover {
+	background-color:#f96;
+	color:#fff;
+}
+.my-nav .my-nav-2ndlevel-list {
+	border-top:1px solid #fff;
+	overflow:hidden;
+}
+.my-nav .show .my-nav-2ndlevel-list {
+	display:block;
+}
+.my-nav .my-nav-2ndlevel-list li {
+	margin:0 6px;
+}
+.my-nav .my-nav-2ndlevel-list a {
+	margin-top:-1px;
+	display:block;
+	height:34px;
+	line-height:34px;
+	border-top:1px dashed #ffb885;
+	text-indent:70px;
+	color:#f63;
+	font-size:14px;
+}
+.my-nav .my-nav-2ndlevel-list a:hover {
+	text-decoration:underline;
+}
+.my-nav .my-nav-2ndlevel-list .on a {
+	font-weight:bold;
+}
+
+.my-mod {
+	overflow:hidden;
+}
+.my-mod .hd {
+	position:relative;
+	top:-20px;
+	border-bottom:1px solid #ccc;
+	height:40px;
+}
+.my-mod .hd h2 {
+	color:#f63;
+	font-size:20px;
+	background:#fff;
+	position:absolute;
+	top:25px;
+	left:0;
+	padding-right:4px;
+	font-weight: bold;
+}
+.my-mod .bd {
+	margin:20px 0 40px;
+}
+.my-mod .bd .notice{
+	color: #666;
+	margin: 10px 0;
+}
+.my-mod .bd .notice a{
+	color: #666;
+}
+.project-info-box {
+	margin-top:26px;
+	padding:0 6px;
+	border:1px solid #ccc;
+	border-left:6px solid #f96;
+}
+.project-info-box .project-status {
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #ccc;
+	padding:0 10px;
+}
+.project-info-box .project-status .prj-num {
+	width:180px;
+}
+.project-info-box .project-status .prj-data {
+	width:340px;
+}
+.project-info-box .project-status .prj-st {
+	width:160px;
+	text-align:right;
+}
+.project-info-box .project-detail {
+	padding:16px 10px;
+}
+.project-info-box .project-detail h3 a{
+	font-size:18px;
+	color:#333;
+	vertical-align: middle;
+}
+.project-info-box .project-detail .hd-patch {
+	display: inline-block;
+	/*width:78px;*/
+	height:21px;
+	line-height: 21px;
+	text-align: center;
+	color:#993300;
+	font-size:12px;
+	background: #ffdf5d;
+	border-radius: 20px;
+	padding:0 10px;
+	font-weight: bold;
+	margin-left:10px;
+	cursor: pointer;
+}
+.project-info-box .project-detail h3 .status-icon{
+	margin-left:10px;
+	padding:3px 10px 3px 15px;
+	font-size:12px;
+	color:#fff;
+	vertical-align:3px;
+	background:url(../imgs/bg_statuc_icon.png) #f96 no-repeat;
+}
+.project-info-box .project-detail .payback-method {
+	font-size:12px;
+	color:#333;
+}
+.project-info-box .project-detail .project-data {
+	margin-top:20px;
+	font-size:14px;
+	color:#333;
+	overflow:hidden;
+}
+.project-info-box .project-ext {
+	height:26px;
+	padding:12px 10px 12px 20px;
+	border-top:1px dashed #ccc;
+}
+.project-info-box .project-ext .download {
+	text-decoration:underline;
+}
+.project-info-box .coupon-use-tips {
+	display:block;
+	height:26px;
+	line-height:26px;
+	background:#ffcc9a;
+	padding:0 20px;
+}
+.project-info-box .project-data .col1,
+.project-info-box .project-data .col2,
+.project-info-box .project-data .col3 {
+	margin-left:-1px;
+	border-left:1px dashed #ccc;
+	line-height:2;
+}
+.project-info-box .project-data .col1 {
+	width:174px;
+}
+.project-info-box .project-data .col2 {
+	width:218px;
+	padding-left:22px;
+}
+.project-info-box .project-data .col3 {
+	width:192px;
+	padding-left:22px;
+}
+.project-info-box .fail-reason {
+	margin-bottom:20px;
+	text-align:center;
+	font-size:24px;
+	color:#f63;
+}
+.project-info-box .project-data p{
+	padding-top: 10px;
+}
+
+.my-capital .bd {
+	background:url(../imgs/capital_bg.png) no-repeat center;
+	height:160px;
+	position:relative;
+}
+.my-capital .capital-mod {
+	position:absolute;
+	width:178px;
+	height:98px;
+	top:31px;
+	text-align:center;
+	overflow:hidden;
+}
+.my-capital .capital-total {
+	left:6px;
+}
+.my-capital .capital-available {
+	left:266px;
+}
+.my-capital .capital-locked {
+	left:501px;
+}
+.my-capital .capital-mod h4 {
+	margin-top:20px;
+	font-size:16px;
+}
+.my-capital .capital-mod p {
+	margin-top:10px;
+	font-size:18px;
+}
+.my-capital .capital-mod p span {
+	font-size:12px;
+}
+
+.bank-card,
+.bank-card-blank {
+	margin-top:20px;
+	display:block;
+	width:180px;
+	height:104px;
+	padding:8px 10px;
+}
+.bank-card {
+	position:relative;
+	background:#ffdab5;
+	color:#c63;
+	font-size:18px;
+}
+.bank-card .bank-name,
+.bank-card .bank-num {
+	display:block;
+	text-indent:6px;
+}
+.bank-card .bank-name {
+	padding:8px 0;
+	border-bottom:1px solid #f96;
+}
+.bank-card .bank-num {
+	margin-top:20px;
+}
+.bank-card-blank {
+	border:1px solid #ccc;
+	text-align:center;
+	background:url(../imgs/jia.png) center 26px #fff no-repeat;
+}
+.bank-card-blank span {
+	position:relative;
+	top:80px;
+	font-size:14px;
+}
+.bank-card .unbind-btn {
+	display:block;
+	position: absolute;
+	width:20px;
+	height:20px;
+	top:10px;
+	right:14px;
+	overflow:hidden;
+	text-indent:-999em;
+	background:url(../imgs/spr.png) 0 -40px no-repeat;
+}
+
+.my-summary .card{
+	float: left;
+	width: 215px;
+	text-align: center;
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.my-summary .total-desc {
+	font-size:16px;
+	color:#333;
+	padding-left:26px;
+	background:url(../imgs/spr.png) -380px -416px no-repeat;
+}
+.my-summary .total-income {
+	margin-top:30px;
+	background-position:-380px -462px;
+}
+.my-summary .income-detail {
+	margin-top:20px;
+	padding:30px 20px;
+	border:1px solid #ccc;
+}
+.my-summary .income-detail .income-detail-item {
+	width:32%;
+}
+.my-summary .income-detail-item h4{
+	font-size:16px;
+	padding-left:4px;
+	line-height:1;
+	border-left:2px solid #f96;
+	color:#666;
+}
+.my-summary .income-detail-item p {
+	margin-top:10px;
+	font-size:16px;
+	text-indent:6px;
+}
+.my-summary .income-detail-item p em{
+	font-size:20px;
+}
+.my-summary .buying-project {
+	margin-top:10px;
+	background-position:-380px -514px;
+}
+.my-summary .total-desc .highlight {
+	font-size:20px;
+}
+.my-summary .summary {
+	position:relative;
+	margin-top:20px;
+	padding:30px;
+	font-size:14px;
+	color:#333;
+	border:1px solid #ccc;
+}
+.summary .lock-tips {
+	position:absolute;
+	display:none;
+	top:130px;
+	left:220px;
+	font-size:12px;
+	border:1px solid #ccc;
+	background:#fff;
+	padding:15px;
+	color:#666;
+	box-shadow:0 0 4px #ccc;
+}
+.summary .lock-tips a {
+	color:#3089e2;
+	text-decoration:underline;
+}
+.summary .lock-tips b {
+	position:absolute;
+	display:block;
+	width:0;
+	height:0;
+	line-height:0;
+	top:16px;
+	left:-16px;
+	border:8px solid transparent;
+	border-right:8px solid #ccc;
+	z-index:1;
+}
+.summary .lock-tips i {
+	position:absolute;
+	display:block;
+	width:0;
+	height:0;
+	line-height:0;
+	top:18px;
+	left:-12px;
+	border:6px solid transparent;
+	border-right:6px solid #fff;
+	z-index:2;
+}
+.summary .balance {
+	width:330px;
+}
+.summary .balance h3 {
+	font-size:16px;
+}
+.summary .balance .balance-num em {
+	font-size:20px;
+}
+.summary .balance .balance-detail {
+	color:#666;
+	padding-left:10px;
+	margin:20px 0;
+	border-left:2px solid #f96;
+}
+.summary .lock-tips-icon {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	vertical-align:middle;
+	cursor:pointer;
+	background:url(../imgs/icon_tips.png) no-repeat;
+}
+.ie6 .summary .balance .lock-tips-icon {
+	display:inline;
+	zoom:1;
+}
+.summary .balance .btns a {
+	display:block;
+	float:left;
+	width:80px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	font-size:14px;
+	background:#f66;
+	color:#fff;
+	margin-right:16px;
+}
+.summary .balance .btns a.btn-b{
+	float:left;
+	background:#f93;
+}
+.summary .capital {
+}
+.summary .capital p {
+	font-size:16px;
+	color:#666;
+	margin-bottom:20px;
+}
+
+
+
+.my-summary .card .title{
+	color: #333;
+}
+.my-summary .card .cont{
+	margin-top:20px;
+	color: #333;
+	font-size:14px;
+}
+.my-summary .card .cont em {
+	font-size:20px;
+	padding-right:10px;
+}
+.my-summary .summary-plain {
+	margin-top:10px;
+	padding-top:20px;
+	border-top:1px dashed #f96;
+}
+.my-summary .plain{
+	width: 33%;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	padding: 14px 0;
+	line-height: 22px;
+}
+.my-hosting .box{
+	float:left;
+	margin-right:10px;
+	width:216px;
+	height:140px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	text-align:center;
+}
+.my-hosting .box h3 {
+	margin-top:20px;
+	font-size:16px;
+	color:#333;
+}
+.my-hosting .box p {
+	margin-top:10px;
+	font-size:14px;
+}
+.my-hosting .box em {
+	font-size:20px;
+}
+.my-hosting .box .btns {
+	width:170px;
+	margin:10px auto 0;
+}
+.my-hosting .box .bind-card {
+	display:block;
+	width:216px;
+	height:140px;
+	background:url(../imgs/jia.png) center 30px no-repeat;
+}
+.my-hosting .box .bind-card span {
+	position:relative;
+	top:100px;
+	font-size:14px;
+}
+.my-hosting .box .binded-card {
+	display:block;
+	color:#333;
+	height:142px;
+}
+.my-hosting .box .binded-card strong {
+	display:block;
+	margin:0 20px;
+	padding:20px 0 10px;
+	font-size:18px;	
+	border-bottom:1px solid #ccc;
+}
+.my-hosting .box .binded-card em {
+	display:block;
+	margin-top:15px;
+	color:#666;
+}
+.my-hosting .box .binded-card span {
+	margin-top:5px;
+	color:#999;
+	display:block;
+}
+
+.my-flows .flows-table {
+	margin-top:26px;
+}
+.my-page-account{
+	position: relative;
+}
+.my-account dl {
+	margin-bottom:60px;
+	font-size:14px;
+}
+.my-account dt {
+	float:left;
+	margin:10px 0;
+	width:166px;
+	height:22px;
+	font-weight:bold;
+	text-align:right;
+	*display:inline;
+}
+.my-account dd {
+	float:left;
+	margin:10px 0;
+	width:506px;
+	height:22px;
+	overflow:hidden;
+	color:#666;
+	text-indent:10px;
+	*display:inline;
+}
+.my-account dd a {
+	color:#6bafff;
+	padding-left:20px;
+}
+.my-account .verify_email_btn{
+	background: #ff6666;
+	color: #ffffff;
+	padding: 3px 10px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.verify_email_container{
+	display: none;
+	position: absolute;
+	left:0px;
+	top: 0px;
+	height: 450px;
+	width: 685px;
+	background: #ffffff;
+}
+.verify_email_container #email-form{
+	margin: 50px 0 0 130px;
+}
+.verify_email_container #email-form input{
+	width: 250px;
+}
+.verify_email_container #email-form .f-k{
+	margin-right: 20px;
+}
+.verify_email_container #email-form .f-e{
+	margin-left: 10px;
+}
+.verify_email_container #email-form button{
+	margin: 20px 0 20px 65px; 
+}
+.verify_email_container #email-form .verify-feedback{
+	margin-left: 80px;
+}
+.dialog_email_sented{
+	background-image: none !important;
+	padding: 20px !important;
+	color: #666666;
+}
+.dialog_email_sented h3{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	position: relative;
+}
+.dialog_email_sented h3 span{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dialog_email_sented p{
+	margin: 5px 0;
+}
+.dialog_email_sented .btn{
+	cursor: pointer;
+	margin: 20px auto;
+}
+.dialog_email_sented p a{
+	color: #0066cc;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.dialog_email_sented p strong{
+	color: #ff3333;
+}
+.dialog_email_sented p.center{
+	margin-left: 30%;
+}
+.my-ticket .ticket-lists {
+	margin:30px 10px;
+}
+.my-ticket .ticket {
+	margin-bottom:50px;
+}
+.my-ticket .ticket .ticket-card{
+	position:relative;
+	width:220px;
+	height:120px;
+	border:1px solid #ccc;
+	padding:1px;
+	margin-right:20px;
+	background:url(../imgs/seal.png) right bottom no-repeat;
+}
+.my-ticket .ticket .ticket-card h4 {
+	margin:5px;
+	font-size:14px;
+	color:#666;
+}
+.my-ticket .ticket-card .ticket-amount {
+	width:200px;
+	display: block;
+	text-align:center;
+	font-size:14px;
+	margin: 0 auto;
+	margin-top: -10px;
+}
+.my-ticket .ticket-card .ticket-amount em {
+	font-size:54px;
+}
+.my-ticket .ticket .ticket-status{
+	position:absolute;
+	top:1px;
+	right:1px;
+	width:60px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+}
+.my-ticket .ticket .ticket-status-new {
+	background:#f66;
+}
+.my-ticket .ticket .ticket-status-used {
+	background:#fc9;
+}
+.my-ticket .ticket .ticket-status-expires {
+	background:#ccc;
+}
+.my-ticket .ticket .ticket-data {
+	position: relative;
+	font-size:14px;
+	width:418px;
+}
+.my-ticket .ticket .ticket-data p {
+	width: 400px;
+	margin:8px 0;
+	line-height: 24px;
+}
+.my-ticket .ticket .ticket-data a {
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+.ticket-title{
+	font-size: 16px;
+	line-height: 24px;
+	border-bottom: 1px dashed #d9d9d9;
+}
+.my-bindcard .bindcard-show{
+	width:300px;
+}
+.my-bindcard .bindcard-show .bank-card,
+.my-bindcard .bindcard-show .bank-card-blank,
+.my-bindcard .bindcard-show .bindcard-notok {
+	margin:0 auto;
+}
+.my-bindcard .bindcard-show .bindcard-notok {
+	margin-top:10px;
+	width:200px;
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	font-size:14px;
+	background:#f99;
+	text-align:center;
+}
+.my-bindcard .bindcard-help{
+	width:360px;
+	padding:10px 0 10px 20px;
+	border-left:1px solid #ccc;
+}
+
+.my-page .available-balance-tips {
+	font-size:16px;
+	color:#666;
+}
+.my-form {
+	margin-top:50px;
+}
+.my-form .form-field .f-k {
+	line-height:36px;
+}
+.my-form .f-v input {
+	padding:6px 4px;
+	text-align:right;
+	box-shadow:none;
+	margin-right:10px;
+	margin-bottom:6px;
+}
+.my-form .form-field .f-t {
+	margin:10px 0 0 126px;
+}
+.my-form .valid-amount-em {
+	margin-left:20px;
+}
+.my-form .btn {
+	margin:20px 126px;
+}
+
+.my-withdraw .bd {
+	position:relative;
+}
+.my-withdraw .withdraw-tips {
+	margin:0 auto 20px;
+	border:1px dashed #fcc;
+	padding:10px 20px;
+	font-size:14px;color:#f66;
+	width:404px;
+	color:#f66;
+}
+.my-withdraw .unbindcard-tips {
+	margin:0 auto;
+	width:360px;
+	text-align:center;
+	color:#c33;
+	background:#fcc;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+}
+.my-withdraw .unbindcard-tips a{
+	color:#f33;
+}
+.my-withdraw .withdraw-rules,.my-recharge .withdraw-rules{
+	margin-top:50px;
+	padding:20px 30px;
+	border:1px solid #ccc;
+	color:#333;
+}
+.invite-friends .withdraw-rules{
+	margin-top:10px;
+	padding:20px 10px;
+	border:1px solid #ccc;
+	color:#333;
+}
+.my-withdraw .withdraw-rules h4,.my-recharge .withdraw-rules h4,.invite-friends .withdraw-rules h4{
+	margin-bottom:10px;
+}
+.my-recharge .auto-bid-tip {
+	font-size:14px;
+	color:#333;
+	margin-top:10px;
+	margin-bottom: -20px;
+}
+.my-recharge .bd {
+	position: relative;
+}
+.my-recharge .auto-bid-setting {
+	position: absolute;
+	top:0;
+	right:0;
+	width:240px;
+	border:solid 4px #fdece4;
+	padding:10px 15px;
+}
+.my-recharge .auto-bid-setting h3 {
+	color:#ff6633;
+	font-size:16px;
+	text-align: center;
+}
+.my-recharge .auto-bid-setting ul {
+	font-size:14px;
+	color:#666666;
+	line-height: 30px;
+}
+.my-recharge .auto-bid-setting .v {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+}
+.my-recharge .auto-bid-setting .v .h {
+	color:#333333;
+	font-size:16px;
+	vertical-align: top;
+}
+.my-page-corp .corp-summary {
+	border:1px solid #ccc;
+}
+.my-page-corp .corp-summary .row1 {
+	border-bottom:1px solid #ccc;
+}
+.my-page-corp .corp-summary .item {
+	width:178px;
+	margin:18px 0 18px -1px;
+	height:84px;
+	padding-left:48px;
+	overflow:hidden;
+	border-left:1px solid #ccc;
+}
+.corp-summary .item h3 {
+	margin-top:10px;
+	font-size:16px;
+}
+.corp-summary .item p {
+	margin-top:10px;
+	font-size:18px;
+}
+.corp-summary .item em {
+	font-size:20px
+}
+.corp-summary .item em span {
+	font-size:12px
+}
+.my-page-corp .my-paybacks {
+}
+.my-page-corp .my-paybacks td {
+	vertical-align:middle;
+}
+.my-page-corp .my-paybacks .btn {
+	float:right;
+	margin-right:10px;
+}
+
+/*couponcard exchange*/
+.couponcard-verify{
+	height:60px;
+	margin-top: 30px;
+}
+
+.couponcard-verify span.f-k{
+	margin-right: 28px;
+}
+
+.couponcard-verify #verify_code{
+	width: 80px;
+}
+
+.couponcard-tmpl{
+	background: #fff !important;
+}
+#exchange_form{
+	margin-left: 100px;
+}
+.couponcard-btn button,.couponcard-btn a{
+	float: left;
+	width: 150px;
+	margin: 2px 20px!important;
+}
+.couponcard-btn a{
+	background: #ccc;
+}
+
+/*promotion*/
+.invite-link div{
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+.invite-link .withdraw-rules{
+	background: #eeeeee;
+	margin-top: 0;
+	color: #666666;
+}
+.invite-link .withdraw-rules a{
+	color: #666666;
+}
+.invite-friends .withdraw-rules h4{
+	font-size: 14px;
+}
+.invite-link-copy{
+	margin: 20px 0 0 30px;
+}
+.invite-link-copy p{
+	padding-bottom: 10px;
+}
+.invite-link-copy .btn-b{
+	margin-top: 20px;
+	color: #ffffff;
+	background:#f93;
+	padding: 5px 30px;
+	cursor: pointer;
+}
+.invite-link-copy .btn-b:hover {
+	opacity:.8;
+}
+.share-link{
+	margin: 10px 0 20px 0;
+	color: #999999;
+}
+.share-link a{
+	margin: 0 5px;
+	font-size: 0;
+	padding: 12px;
+	color: transparent;
+	cursor: pointer;
+	background: url(../img/share_sprite.png) no-repeat;
+}
+.wx-share{
+	background-position: -30px 0px !important;
+}
+.qq-share{
+	background-position: -60px 0px !important;
+}
+.rr-share{
+	background-position: -90px 0px !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+	.share-link a{
+		background: url(../imgs/share_sprite@2x.png) no-repeat;
+		background-size: 130px 24px;
+	}
+	.wx-share{
+		background-position: -24px 0px !important;
+	}
+	.qq-share{
+		background-position: -48px 0px !important;
+	}
+	.rr-share{
+		background-position: -72px 0px !important;
+	}
+}
+.cash-credtis{
+	font-size: 16px;
+}
+.cash-credtis em{
+	font-size: 20px;
+	color: #ff6600;
+	padding-left:5px;
+}
+.cash-credtis a{
+	margin-left: 50px;
+	padding:10px 30px;
+	color: #ffffff;
+	font-size: 14px;
+	background: #f93;
+}
+.cash-credtis a:hover {
+	opacity:.8;
+}
+.invites-detail table{
+	margin-top:40px;
+}
+
+/*sem promotion page*/
+.my-page-promotion-sem .sem-link {
+}
+.my-page-promotion-sem .sem-link input {
+	float:left;
+	width:370px;
+	height:40px;
+	background:#eee;
+	font-size:14px;
+	color:#666;
+	text-indent:20px;
+	border:1px solid #ccc;
+	cursor:text;
+	margin-right:20px;
+}
+.my-page-promotion-sem .sem-link input:focus {
+	background:#f3f3f3;
+	outline:none;
+}
+.my-page-promotion-sem .sem-link .btn-promotion{
+	float:left;
+	margin-top: 6px;
+	color: #fff;
+	background: #f93;
+	padding: 5px 30px;
+	cursor: pointer;
+}
+.my-page-promotion-sem .sem-link .btn-promotion:hover {
+	opacity:.8;
+}
+
+.my-page-promotion-sem .promotion-amount {
+	margin:30px 0;
+}
+.my-page-promotion-sem .promotion-amount .item {
+	width:50%;
+	float:left;
+	font-size:16px;
+	color:#666;
+}
+.my-page-promotion-sem .promotion-amount .item em {
+	font-size:20px;
+	color:#333;
+}
+
+.my-page-promotion-sem .promotion-box {
+	width:210px;
+	height:100px;
+	border:1px solid #ccc;
+	text-align:center;
+	margin-top:20px;
+	margin-right:16px;
+}
+.my-page-promotion-sem .promotion-box h3 {
+	margin-top:20px;
+	font-size:16px;
+	color:#333;
+}
+.my-page-promotion-sem .promotion-box p {
+	font-size:24px;
+}
+
+.my-page-promotion-sem .invites-detail {
+
+}
+.invites-detail .download {
+	margin:20px 0;
+}
+.invites-detail .download .down-btn {
+	display:block;
+	float:left;
+	height:32px;
+	line-height:32px;
+	padding:0 30px;
+	background:#fcebda;
+	color:#f60;
+	text-align:center;
+	margin-right:25px;
+}
+.invites-detail .download .down-btn:hover {
+	opacity:.8;
+}
+.datalist_tips{
+	position: relative;
+}
+.datalist_tips_content{
+	display: none;
+	position: absolute;
+	top: -1px;
+	z-index: 50;
+	background: white;
+	line-height: 17px;
+	right: 30px;
+	color: #f96;
+}
+.dialog_email_first{
+	background-image: none !important;
+	padding: 50px 20px !important;
+	width: 400px !important;
+	height: 100px !important;
+}
+.dialog_email_first h3{
+	text-align: center;
+	margin: 20px 0;
+	font-size: 16px;
+}
+.dialog_email_first span{
+	position: absolute;
+	display: block;
+	right: 20px;
+	top: 10px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dialog_email_first a{
+	cursor: pointer;
+	margin: 0 auto;
+}
+.ecope_dialog{
+	overflow: visible !important;
+}
+.link_disabled{
+	color: #ccc;
+	cursor: pointer;
+}
+
+.open_the_autobid{
+	padding: 10px 20px;
+	color: #999999;
+	line-height: 35px;
+	font-size: 18px;
+}
+.open_the_autobid h4{
+	height:100px;
+	padding-top:70px;
+	text-align: center;
+	color:#333;
+	font-size:16px;
+	background: url('https://s1.lantouzi.com/img/201503/autobid/bg_auth.png') center top no-repeat;
+}
+.open_the_autobid .notice_box {
+	color:#ff6633;
+	font-size:14px;
+	border:solid 4px #fdece4;
+	padding:15px 20px 10px;
+	line-height:26px;
+	margin-bottom:20px;
+}
+.open_the_autobid h3 {
+	color:#333;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.open_the_autobid p{
+	line-height: 26px;
+	font-size: 14px;
+	color: #666666;
+}
+.open_the_autobid p strong{
+	color: #ff6666;
+}
+.open_the_autobid .btn {
+	width:140px;
+	height:42px;
+	line-height:42px;
+	background: #f36f41;
+	color:#fff;
+	font-size:20px;
+	text-indent: 0;
+	letter-spacing: 0;
+	margin:30px auto;
+}
+/*自动投标首页*/
+.autobid-info {
+	border:solid 4px #fdece4;
+	padding:25px 30px 5px;
+	margin-bottom: 30px;
+}
+.autobid_panel .autobid-info {
+	font-size:14px;
+	color:#666;
+}
+.autobid_panel .autobid-info h4 {
+	color:#333;
+}
+.autobid-info .h {
+	color:#ff6633;
+	font-size:20px;
+	vertical-align: bottom;
+}
+.autobid_panel .alert {
+	margin:50px auto 62px;
+	font-size:24px;
+	color:#ff6633;
+	text-align: center;
+}
+.autobid_panel .alert span {
+	vertical-align: middle;
+	padding-left:30px;
+	background: url('https://s1.lantouzi.com/img/201503/autobid/bg_alert.png') left 2px no-repeat;
+}
+.autobid_panel .alert span.check {
+	background-position:left -28px;
+}
+.autobid_panel .block .r-b {
+	display:inline-block;width:450px;
+}
+
+.autobid-rules h3 {
+	color:#333;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.autobid-rules ul {
+	border: 1px solid #cccccc;
+	padding:20px 25px 15px;
+	color:#666;
+	line-height: 24px;
+}
+.autobid-rules li {
+	position: relative;
+	padding-left:25px;
+}
+.autobid-rules li b {
+	position: absolute;
+	display: block;
+	width:20px;
+	left:0;
+	top:0;
+	text-align: right;
+}
+.autobid_panel .block {
+	margin-bottom: 20px;
+	line-height:30px;
+}
+.autobid_panel .block .fill_msg {
+	color:#ff6633;
+	font-size:14px;
+	padding-left: 10px;
+}
+.autobid_panel .block.bid_time .fill_msg {
+	padding-left:130px;
+}
+.autobid_panel h4{
+	width: 85px;
+	float: left;
+	color: #999999;
+	font-size: 16px;
+	padding-left: 30px;
+	background: url(https://s1.lantouzi.com/img/201503/autobid/auto_bid_sprite2.png) no-repeat;
+}
+.autobid_panel .autobid_panel_main{
+	float: left;
+	width: 540px;
+}
+.autobid_detail {
+	display: none;
+}
+.autobid_panel .bid_status {
+	margin-bottom: 30px;
+}
+.autobid_panel .bid_invested .reinvest-tip {
+	display: inline-block;
+	font-size:14px;
+	width:500px;
+}
+.autobid_panel .bid_status h4 {
+	background-position: 0 6px;
+}
+.autobid_panel .bid_money h4{
+	background-position: 0 -146px;
+}
+.autobid_panel .bid_keep h4{
+	background-position: 0 -35px;
+}
+.autobid_panel .bid_time h4{
+	background-position: 0 -74px;
+}
+.autobid_panel .bid_invested h4{
+	background-position: 0 -107px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+	.autobid_panel h4{
+		background: url(https://s1.lantouzi.com/img/201503/autobid/auto_bid_sprite2_2x.png) no-repeat;
+		background-size: 25px 165px;
+	}
+	.autobid_panel .bid_status h4 {
+		background-position: 0 6px;
+	}
+	.autobid_panel .bid_money h4{
+		background-position: 0 -122px;
+	}
+	.autobid_panel .bid_keep h4{
+		background-position: 0 -29px;
+	}
+	.autobid_panel .bid_time h4{
+		background-position: 0 -65px;
+	}
+	.autobid_panel .bid_invested h4{
+		background-position: 0 -96px;
+	}
+}
+.autobid_panel .bid_invested .time_limits {
+	display: none;
+	position: relative;
+	width:308px;
+	height:38px;
+	border:solid 2px #fdece4;
+	padding-left:90px;
+	padding-top: 10px;
+	margin-left: 35px;
+	margin-top:10px;
+}
+.autobid_panel .bid_invested .time_limits h5 {
+	position: absolute;
+	width:75px;
+	height:35px;
+	line-height: 35px;
+	top:7px;
+	left:0px;
+	color:#ff9966;
+	font-size:14px;
+	text-align: center;
+	border-right:solid 2px #fdece4;
+}
+.autobid_panel .btn_on{
+	background: #ff9966 !important;
+}
+.autobid_panel .btn_off{
+	padding: 3px 8px;
+	background: #bbbbbb;
+	color: #ffffff;
+	cursor: pointer;
+}
+.autobid_panel .checked{
+	color: #ff9966;
+}
+.autobid_panel .uncheck{
+	color: #666666;
+}
+.autobid_panel .rad {
+	margin-right:5px;
+}
+.auto_bid_text{
+	width: 125px;
+	height: 20px;
+	line-height: 20px;
+	padding:2px 5px;
+	outline: none;
+}
+.autobid_panel p{
+	margin-bottom:10px;
+	color: #bbbbbb;
+}
+.autobid_panel label{
+	font-size: 14px;
+	margin-right: 25px;
+	color:#999;
+}
+.autobid_panel label.on {
+	color:#333;
+}
+/*.bid_time{
+	position: relative;
+}*/
+.my-autobid .month_select{
+	width: 350px;
+	margin-left:120px;
+	margin-bottom:10px;
+}
+.my-autobid .month_select li {
+	float:left;
+	position: relative;
+	width:56px;
+	height:24px;
+	line-height: 24px;
+	margin:3px 10px;
+	text-align: center;
+	font-size:14px;
+	color:#999;
+	cursor: pointer;
+	border:solid 2px #ccc;
+}
+.my-autobid .month_select li i {
+	display: none;
+}
+.my-autobid .month_select li.on {
+	border-color: #ff9966;
+	color:#ff6633;
+}
+.my-autobid .month_select li.on i {
+	width:12px;
+	height:12px;
+	display: block;
+	position: absolute;
+	top:-5px;
+	right:-5px;
+	background: url('https://s1.lantouzi.com/img/201503/autobid/month_ck.png') center top no-repeat;
+}
+.my-autobid .month_select a{
+	display: block;
+	width: 45px;
+	float: left;
+	text-align: center;
+	margin: 0 15px 10px 0;
+}
+.auto_bid_agree {
+	width: 565px;
+	text-align: center;
+}
+.auto_bid_agree #agree {
+	margin-right:5px;
+}
+.auto_bid_agree a {
+	color:#ff6633;
+}
+.my-autobid .save_box {
+	width: 560px;
+	text-align: center;
+	margin:20px 0;
+}
+.my-autobid .error_box {
+	width: 560px;
+	margin:20px 0;
+}
+.my-autobid .button {
+	display: block;
+	width:140px;
+	height:44px;
+	line-height:44px;
+	color:#fff;
+	font-size: 20px;
+	background: #f36f41;
+	text-align: center;
+	margin:10px auto;
+}
+.my-autobid .button:hover {
+	opacity: 0.8;
+}
+.mu_choice{
+	position: absolute;
+	top: 60px;
+	left:155px;
+}
+.error_tips{
+	text-align: center;
+	font-size: 14px;
+	color: #ff6666 !important;
+}
+.success_tips{
+	text-align: center;
+	font-size: 16px;
+	color: #05af10 !important;
+}
+.auto_bid_amount_lr_hide,.auto_bid_month_lr_hide{
+	display: none;
+}
+.dialog-auth{
+	background-image: none !important;
+	padding: 20px 30px !important;
+}
+.dialog-auth h3{
+	color: #828282;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	position: relative;
+}
+.dialog-auth h3 span{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dialog-auth p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 35px;
+	margin: 40px 0;
+	color: #828282;
+}
+.dialog-auth a{
+	margin: 0 auto;
+	cursor: pointer;
+}
+.btn_disabled{
+	background: #ccc;
+	cursor: auto;
+}
+.autobid_panel input[type="radio"]:checked + label {
+	color: #111111;
+}
+.autobid_note {
+	position: relative;
+	border:solid 1px #ffcc99;
+	background: #fef7f1;
+	padding:10px 20px 5px 70px;
+	color:#f45621;
+	font-size:14px;
+	line-height: 26px;
+	margin-bottom: 30px;
+}
+.autobid_note h5 {
+	position: absolute;
+	top:10px;
+	left:20px;
+}
+.invite-rule{
+	width: 260px;
+	float: left;
+	padding-right: 30px;
+	border-right: 1px dotted #cccccc;
+}
+.invite-rule h4{
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.invite-rule p{
+	font-size: 14px;
+	color:#666666;
+	margin-bottom: 10px;
+}
+.invite-link{
+	width: 350px;
+	height: 205px;
+	float: left;
+	padding-left: 30px;
+	position: relative;
+}
+.invite-link i{
+	font-style: normal;
+	font-size: 14px;
+	color: #ccc;
+	position: absolute;
+	background: #fff;
+	padding: 0 10px;
+	top: 50px;
+	left:160px;
+}
+.invite-link span{
+	width: 110px;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	padding-top: 15px;
+}
+.invite-link p{
+	border-top: 1px dotted #ccc;
+	display: block;
+	float: left;
+	font-size: 15px;
+	color: #666666;
+	padding-top: 20px;
+}
+#copy_link{
+	position: absolute;
+	left: 77px;
+	bottom: 0px;
+	letter-spacing: 0 !important;
+	background: #ff9933 !important;
+}
+/*修改用户名的弹窗*/
+.dialog_username_change{
+	background: #fff !important;
+	padding-bottom: 25px !important;
+}
+.dialog_username_change .close-btn{
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	cursor: pointer;
+}
+.dialog_username_change h3{
+	width: 97%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.dialog_username_change .tips1{
+	text-align: center;
+	color: #666666;
+	font-size: 14px;
+	margin: 15px 0;
+}
+.dialog_username_change .tips2{
+	text-align: center;
+	color: #666666;
+	font-size: 13px;
+}
+.dialog_username_change .username{
+	margin: 0 auto;
+	display: block;
+	width: 62%;
+	line-height: 40px;
+}
+.dialog_username_change input{
+	width: 210px;
+	height: 30px;
+	outline: none;
+}
+.dialog_username_change a{
+	margin: 5px auto;
+	cursor: pointer;
+}
+.dialog_username_change .err-area{
+	color: #a4a4a4;
+	line-height: 30px;
+	font-size: 12px;
+	padding-left: 5px;	
+}
+.dialog_username_change.err .err-area{
+	padding-left: 56px;
+}
+.dialog_username_change .err-tips{
+	padding: 4px 0 4px 30px;
+	background: url(https://s1.lantouzi.com/img/ltz/spr.png) no-repeat;
+}
+.dialog_username_change.err .err-tips{
+	background-position: -380px -298px;
+}
+.dialog_username_change.ok .err-tips{
+	color: transparent;
+	background-position: -378px -360px;
+}
+.dialog_username_change .disabled{
+	background: #ccc !important;
+}
+.nav-tabs,.nav-pills {
+	*zoom: 1
+}
+
+.nav-tabs:before,.nav-pills:before,.nav-tabs:after,.nav-pills:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+
+.nav-tabs:after,.nav-pills:after {
+	clear: both
+}
+
+.nav-tabs>li,.nav-pills>li {
+	float: left
+}
+
+.nav-tabs>li>a,.nav-pills>li>a {
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-right: 2px
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #ddd
+}
+
+.nav-tabs>li {
+	margin-bottom: -1px
+}
+
+.nav-tabs>li>a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid transparent;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0
+}
+
+.nav-tabs>li>a:hover,.nav-tabs>li>a:focus {
+	border-color: #eee #eee #ddd
+}
+
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover,.nav-tabs>.active>a:focus
+	{
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent
+}
+
+.nav-pills>li>a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
+
+.nav-pills>.active>a,.nav-pills>.active>a:hover,.nav-pills>.active>a:focus
+	{
+	color: #fff;
+	background-color: #08c
+}
+
+.nav-stacked>li {
+	float: none
+}
+
+.nav-stacked>li>a {
+	margin-right: 0
+}
+
+.nav-tabs.nav-stacked {
+	border-bottom: 0
+}
+
+.nav-tabs.nav-stacked>li>a {
+	border: 1px solid #ddd;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0
+}
+
+.nav-tabs.nav-stacked>li:first-child>a {
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px
+}
+
+.nav-tabs.nav-stacked>li:last-child>a {
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px
+}
+
+.nav-tabs.nav-stacked>li>a:hover,.nav-tabs.nav-stacked>li>a:focus {
+	z-index: 2;
+	border-color: #ddd
+}
+
+.nav-pills.nav-stacked>li>a {
+	margin-bottom: 3px
+}
+
+.nav-pills.nav-stacked>li:last-child>a {
+	margin-bottom: 1px
+}
+
+.nav-tabs .dropdown-menu {
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px
+}
+
+.nav-pills .dropdown-menu {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px
+}
+
+.nav .dropdown-toggle .caret {
+	margin-top: 6px;
+	border-top-color: #08c;
+	border-bottom-color: #08c
+}
+
+.nav .dropdown-toggle:hover .caret,.nav .dropdown-toggle:focus .caret {
+	border-top-color: #005580;
+	border-bottom-color: #005580
+}
+
+.nav-tabs .dropdown-toggle .caret {
+	margin-top: 8px
+}
+
+.nav .active .dropdown-toggle .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff
+}
+
+.nav-tabs .active .dropdown-toggle .caret {
+	border-top-color: #555;
+	border-bottom-color: #555
+}
+
+.nav>.dropdown.active>a:hover,.nav>.dropdown.active>a:focus {
+	cursor: pointer
+}
+
+.nav-tabs .open .dropdown-toggle,.nav-pills .open .dropdown-toggle,.nav>li.dropdown.open.active>a:hover,.nav>li.dropdown.open.active>a:focus
+	{
+	color: #fff;
+	background-color: #999;
+	border-color: #999
+}
+
+.nav li.dropdown.open .caret,.nav li.dropdown.open.active .caret,.nav li.dropdown.open a:hover .caret,.nav li.dropdown.open a:focus .caret
+	{
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	opacity: 1;
+	filter: alpha(opacity = 100)
+}
+
+.tabs-stacked .open>a:hover,.tabs-stacked .open>a:focus {
+	border-color: #999
+}
+
+.tabbable {
+	*zoom: 1
+}
+
+.tabbable:before,.tabbable:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+
+.tabbable:after {
+	clear: both
+}
+
+.tabs-below>.nav-tabs,.tabs-right>.nav-tabs,.tabs-left>.nav-tabs {
+	border-bottom: 0
+}
+
+.tab-content>.tab-pane,.pill-content>.pill-pane {
+	display: none
+}
+
+.tab-content>.active,.pill-content>.active {
+	display: block
+}
+
+.tabs-below>.nav-tabs {
+	border-top: 1px solid #ddd
+}
+
+.tabs-below>.nav-tabs>li {
+	margin-top: -1px;
+	margin-bottom: 0
+}
+
+.tabs-below>.nav-tabs>li>a {
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px
+}
+
+.tabs-below>.nav-tabs>li>a:hover,.tabs-below>.nav-tabs>li>a:focus {
+	border-top-color: #ddd;
+	border-bottom-color: transparent
+}
+
+.tabs-below>.nav-tabs>.active>a,.tabs-below>.nav-tabs>.active>a:hover,.tabs-below>.nav-tabs>.active>a:focus
+	{
+	border-color: transparent #ddd #ddd #ddd
+}
+
+.tabs-left>.nav-tabs>li,.tabs-right>.nav-tabs>li {
+	float: none
+}
+
+.tabs-left>.nav-tabs>li>a,.tabs-right>.nav-tabs>li>a {
+	min-width: 74px;
+	margin-right: 0;
+	margin-bottom: 3px
+}
+
+.tabs-left>.nav-tabs {
+	float: left;
+	margin-right: 19px;
+	border-right: 1px solid #ddd
+}
+
+.tabs-left>.nav-tabs>li>a {
+	margin-right: -1px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px
+}
+
+.tabs-left>.nav-tabs>li>a:hover,.tabs-left>.nav-tabs>li>a:focus {
+	border-color: #eee #ddd #eee #eee
+}
+
+.tabs-left>.nav-tabs .active>a,.tabs-left>.nav-tabs .active>a:hover,.tabs-left>.nav-tabs .active>a:focus
+	{
+	border-color: #ddd transparent #ddd #ddd;
+	*border-right-color: #fff
+}
+
+.tabs-right>.nav-tabs {
+	float: right;
+	margin-left: 19px;
+	border-left: 1px solid #ddd
+}
+
+.tabs-right>.nav-tabs>li>a {
+	margin-left: -1px;
+	-webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0
+}
+
+.tabs-right>.nav-tabs>li>a:hover,.tabs-right>.nav-tabs>li>a:focus {
+	border-color: #eee #eee #eee #ddd
+}
+
+.tabs-right>.nav-tabs .active>a,.tabs-right>.nav-tabs .active>a:hover,.tabs-right>.nav-tabs .active>a:focus
+	{
+	border-color: #ddd #ddd #ddd transparent;
+	*border-left-color: #fff
+}
+
+.nav>.disabled>a {
+	color: #999
+}
+
+.nav>.disabled>a:hover,.nav>.disabled>a:focus {
+	text-decoration: none;
+	cursor: default;
+	background-color: transparent
+}
+

@@ -1,0 +1,373 @@
+html,
+body {
+  width: 100%;
+}
+.orange-font {
+  color: #ffac00;
+}
+.blue-font {
+  color: #1d83cb;
+}
+.page {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  height: 1%;
+  display: block;
+  zoom: 1;
+  padding-top: 35px;
+}
+.page:after {
+  clear: both;
+  content: ".";
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}
+#body {
+  width: 100%;
+  font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", tahoma, arial, sans-serif;
+  font-size: 14px;
+}
+#body .banner {
+  /* width: 100%; */
+  position: relative;
+  background: #EB605F url("../images/invite_banner.png") no-repeat center center /auto 100%;
+  height: 383px;
+}
+#body .banner a {
+  position: absolute;
+  left: 50%;
+  margin-left: -144px;
+  bottom: 25px;
+  width: 270px;
+  height: 65px;
+  display: block;
+  cursor: pointer;
+  background: url("../images/invite_btn.png") no-repeat center center / 100% 100%;
+  font-size: 24px;
+  font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", tahoma, arial, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 66px;
+  border-radius: 5%;
+}
+#body .r1 {
+  background-color: #FFF8E6;
+  padding: 40px 0;
+}
+#body .r1 .flow {
+  width: 465px;
+  height: 196px;
+  background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/1.png");
+}
+#body .r1 .flow span {
+  position: absolute;
+  color: #333;
+  font-size: 16px;
+}
+#body .r1 .flow span:first-child {
+  top: 115px;
+  left: 42px;
+}
+#body .r1 .flow span:first-child + span {
+  top: 115px;
+  left: 254px;
+}
+#body .r1 .flow span:first-child + span + span {
+  top: 178px;
+  left: 148px;
+}
+#body .r1 .flow span:first-child + span + span + span {
+  top: 177px;
+  left: 321px;
+}
+#body .r1 .flow span:first-child + span + span + span + span{
+  top: 55px;
+  left: 116px;
+  font-size: 24px;
+  color: #ffac00;
+}
+#body .r1 .which {
+  box-sizing: border-box;
+  width: 465px;
+  height: 196px;
+  background: url(http://www.ppdaicdn.com/investactivity/img/inviteactity/2.png) no-repeat;
+}
+#body .r1 .which h3 {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  color: #ffac00;
+  font-size: 24px;
+  font-weight: normal;
+  text-indent: 85px;
+}
+#body .r1 .which p {
+  padding-left: 27px;
+  font-size: 18px;
+  color: #333;
+  line-height: 34px;
+}
+/*---- ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã‚Â§ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â¨TitleÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¼Ãƒâ€šÃ‚Â End ----*/
+#body .r2 {
+  padding-bottom: 70px;
+}
+#body .r2 .title {
+  position: relative;
+  width: 1000px;
+  margin: 5px auto;
+  /* border-bottom: 1px solid #E6E6E6; */
+  border-left: 5px solid #FEB00F;
+  height: 37px;
+}
+#body .r2 .title h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 7px;
+}
+#body .r2 .title .sbicon {
+  position: absolute;
+  right: 409px;
+  bottom: 10px;
+  width: 117px;
+  height: 69px;
+  /* background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/3.png") no-repeat; */
+}
+#body .r2 .title .sbicon span {
+  margin: 42px 0 0 31px;
+  display: block;
+  color: #fff;
+  font-size: 26px;
+}
+#body .r2 .title h3 {
+  text-indent: 15px;
+}
+#body .r2 .title .sbicon {
+  right: 225px;
+}
+#body .r2 .jiangli {
+  height: 1%;
+  display: block;
+  zoom: 1;
+}
+#body .r2 .jiangli h4 {
+  color: #666;
+  font-size: 20px;
+  /* width: 1000px; */
+  margin: 0 auto;
+  font-weight: normal;
+  padding: 56px 0 30px 0;
+}
+#body .r2 .jiangli h4 span {
+  color: #e34548;
+}
+#body .r2 .jiangli .quan {
+  position: relative;
+  /* width: 718px; */
+  height: 146px;
+}
+#body .r2 .jiangli .quan.fl {
+  margin-left: 55px;
+  background: url(../images/publish_invite_11.png) no-repeat;
+}
+#body .r2 .jiangli .quan.fl.quan2 {
+  background: url(../images/publish_invite_13.png) no-repeat;
+}
+#body .r2 .jiangli .quan.fl p {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  text-align: right;
+  line-height: 1.7;
+}
+#body .r2 .jiangli .quan.fl p:first-child {
+  width: 255px;
+  padding: 14px 34px;
+  box-sizing: border-box;
+}
+#body .r2 .jiangli .quan.fl p:first-child + p {
+  position: absolute;
+  right: 50px;
+  top: -5px;
+  color: #fff;
+  font-size: 40px;
+}
+#body .r2 .jiangli .quan.fl p:first-child + p sub {
+  font-size: 20px;
+}
+#body .r2 .jiangli .quan.fl p:first-child + p + p {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  bottom: 3px;
+  right: 44px;
+}
+#body .r2 .jiangli .quan.fr {
+  background: url(../images/publish_invite_12.png) no-repeat;
+}
+#body .r2 .jiangli .quan.fr.quan2 {
+  background: url(../images/publish_invite_14.png) no-repeat;
+}
+#body .r2 .jiangli .quan.fr p {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  text-align: right;
+  line-height: 1.7;
+}
+#body .r2 .jiangli .quan.fr p:first-child {
+  width: 255px;
+  padding: 14px 34px;
+  box-sizing: border-box;
+}
+#body .r2 .jiangli .quan.fr p:first-child + p {
+  position: absolute;
+  right: 50px;
+  top: -5px;
+  color: #fff;
+  font-size: 40px;
+}
+#body .r2 .jiangli .quan.fr p:first-child + p sub {
+  font-size: 20px;
+}
+#body .r2 .jiangli .quan.fr p:first-child + p + p {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  bottom: 3px;
+  right: 44px;
+}
+#body .r2 .jiangli:after {
+  clear: both;
+  content: ".";
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}
+#body .r3 {
+  background-color: #F8F8F8;
+}
+#body .r3 .title {
+  /* position: relative; */
+  width: 1000px;
+  margin: 0 auto;
+  /* margin-top: 35px; */
+  /* border-bottom: 1px solid #E6E6E6; */
+  height: 37px;
+  border-left: 5px solid #FEB00F;
+}
+#body .r3 .title h3 {
+  color: #333;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 7px;
+  margin-left: 15px;
+}
+#body .r3 .title .sbicon {
+  position: absolute;
+  right: 409px;
+  bottom: 10px;
+  width: 117px;
+  height: 69px;
+  /* background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/3.png") no-repeat; */
+}
+#body .r3 .title .sbicon span {
+  margin: 42px 0 0 31px;
+  display: none;
+  color: #fff;
+  font-size: 26px;
+}
+#body .r3-2 {
+  line-height: 1.7;
+  color: #666;
+  font-size: 19px;
+  padding: 48px 0 14px;
+  border-bottom: 1px dashed #EAEAEA;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#body .r3-3 {
+  height: 316px;
+  width: 100%;
+  background: url(../images/publish_invite_03.png) no-repeat center center / auto 100%;
+}
+#body .r4 .title {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  /* border-bottom: 1px solid #E6E6E6; */
+  height: 37px;
+  border-left: 5px solid #FEB00F;
+  margin-top: 35px;
+}
+#body .r4 .title h3 {
+  color: #333;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+#body .r4 .title .sbicon {
+  position: absolute;
+  right: 409px;
+  bottom: 10px;
+  width: 117px;
+  height: 69px;
+  /* background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/3.png") no-repeat; */
+}
+#body .r4 .title .sbicon span {
+  /* margin: 42px 0 0 31px; */
+  display: none;
+  /* color: #fff; */
+  /* font-size: 26px; */
+}
+#body .r4-2 {
+  position: relative;
+  background: url(../images/publish_invite_07.png) no-repeat 0 57px;
+  width: 999px;
+  height: 212px;
+  padding: 57px 0;
+}
+#body .r4-2 p {
+  position: absolute;
+  top: 225px;
+  color: #666;
+  font-size: 20px;
+  display: block;
+}
+#body .r4-2 p:first-child {
+  left: 38px;
+  bottom: 73px;
+}
+#body .r4-2 p:first-child + p {
+  left: 281px;
+}
+#body .r4-2 div {
+  position: absolute;
+  top: 100px;
+  left: 555px;
+  color: #666;
+  font-size: 20px;
+}
+#body .r4-2 div.equal-2 {
+  top: 150px;
+}
+#body .r4-2 div.equal-3 {
+  top: 200px;
+}
+#body .r4-2 div span {
+  color: #ffac00;
+}
+/*# sourceMappingURL=yaoqing.css.map */

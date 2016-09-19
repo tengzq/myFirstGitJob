@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+/* 个人中心-邀请有奖页面 */
+.my-account .invite-me{width: 280px;height:43px;margin:0 auto;float: left;/* margin-top:30px; */}
+.invite-me .do-invite{font-size:15px;color:#666666;font-weight:bold;line-height:42px;float:left;}
+.invite-me .entry-code{width: 80px;height: 25px;border:1px solid #ccc;float:left;/* color:#C5C5C5; */font-size:14px;margin-top: 6px;text-align: center;}
+.invite-me .bth{border:0px;width: 45px;height: 29px;background-color:#FAB058;float:left;margin-left: 1px;color:#fff;font-size: 16px;margin-top: 6px;/* font-weight:bold; */}{width:538px;height:43px;margin:0 auto;margin-top:30px;}
+
+.me-invite{width: 280px;height: 43px;margin:0px auto;/* margin-top: 30px; */float: right;line-height: 43px;}
+.me-invite .mine-invite{font-size:15px;color:#666666;font-weight:bold;float:left;}
+.me-invite .mine-code{color:#327dc3;font-weight:bold;font-size:15px;}
+
+.do-share{width:225px;height:25px;margin:0 auto;margin-top: 20px;}
+.do-share .share-title{font-size:15px;color:#414141;float:left;line-height:25px;}
+.do-share ul{float:left;}
+.do-share ul li{display:block;width:25px;height:25px;float:left;margin-left:10px;background-color:#FF6666;border-radius:3px;}
+.do-share ul li .fa-weibo{font-size:22px;margin-top:3px;margin-left:2px;;color:#fff;}
+
+
+.btn-share{width:266px;height:38px;margin:0 auto;margin-top:28px;}
+.btn-share .bthtow{width:266px;height:38px;background:#327dc3;margin:0 auto;border:0px;color:#fff;font-size:16px;font-weight:bold;}
+.spl{width:700px;height:270px;margin:0 auto;margin-top:45px;}
+.spl h1{font-size:16px;color:#333333;font-weight:bold;}
+.spl  ul{margin-top:12px;}
+.spl  ul li{padding: 5px 0;line-height:25px;font-size: 13px;}
+.spl  ul li a{line-height:1.5;padding:5px 0}
+
+.net-share{height:15px;margin:0 auto;margin-top:20px; text-align:center}
+.net-share p{font-size:12px;color:#666666;}
+.net-share p a{font-size:11px;color:#666;}
+.net-share p a:hover{text-decoration:underline;color:#00f;}
+
+
+.VIP{margin-top: 80px;height:150px;}
+.gerenxinxi>h2 { height:12px; background:#EB9641; text-align:center; margin:20px 0;margin-top:45px;}
+.gerenxinxi>h2 span { background:#fff; padding:0 20px; font-size:22px; color:#333; font-weight:bold; display:inline-block; margin-top:-5px;}
+.gerenxinxi>h4 {border:2px dashed #E1E1E1; height:5px;  text-align:center; margin-top:10px;}
+.gerenxinxi>h4 span { background:#fff; padding:0 20px; font-size:22px; color:#333; font-weight:bold; display:inline-block; margin-top:-5px;}
+.icon-tag{width:715px;height:370px;margin-top:20px;}
+.icon-tag .xian{margin-left:10px;float:left;width:75px;}
+.icon-tag .xian li{line-height:25px;}
+.icon-tag .xian li a{margin-left:2px;}
+.icon-tag .biaoTu{width:605px;height:346px;float:right;margin-top:22px;}
+
+
+.tips{/* background-color: rgba(230,230,230,0.5); */position: absolute;bottom: 55px;right: -4px;/* border: 1px solid #909090; */}
+.tips li{margin:9px 0;font-size: 14px;}
+.tips li:first-child{color:#87CEFA}
+.tips li:first-child+li{color:#DA70D6}
+.tips li:first-child+li+li{color:#32CD32}
+.tips span{margin-right: 5px;display: inline-block;height: 15px;width: 15px;border-radius:50%;}
+.tips span:first-child{background-color:#87CEFA }
+.tips li:first-child+li>span{background-color:#DA70D6 }
+.tips li:first-child+li+li>span{background-color:#32CD32 }
+
+
+.name-tag{width:715px;height:25px;border-left:4px solid #EB6437;margin-top:40px; margin-bottom:10px;}
+.name-tag h1{font-size:18px;float:left;margin-left:10px;line-height:25px;}
+.name-tag .riQi{float:right;line-height:25px;font-size:12px;color:#666666;}
+
+.earnings-tb{ width:715px; /* height:132px; */ border:1px solid #ccc; margin:0 auto;}
+.earnings-tb .color-e{background-color:#F7F7F7;font-size:16px;}
+.earnings-tb tr td{width:178px;height:40px;text-align:center;vertical-align:middle;color:#663333;}
+
+
+.gerenxinxi .banner{
+	position: relative;
+	background: #EB605F url("../images/personal_invite_banner.png") no-repeat center center /auto 100%;
+	height: 144px;
+}
+.gerenxinxi .r1 {
+  background-color: #fff;
+  padding: 40px 0 0 0;
+}
+.gerenxinxi .r1 .flow {
+  width: 348px;
+  height: 143px;
+  background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/1.png") no-repeat 0 0 / auto 100%;
+}
+.gerenxinxi .r1 .flow span {
+  position: relative;
+  color: #333;
+  font-size: 16px;
+}
+.gerenxinxi .r1 .flow span:first-child {
+  top: 56px;
+  left: 40px;
+}
+.gerenxinxi .r1 .flow span:first-child + span {
+  top: 56px;
+  left: 89px;
+}
+.gerenxinxi .r1 .flow span:first-child + span + span {
+  top: 102px;
+  left: -133px;
+}
+.gerenxinxi .r1 .flow span:first-child + span + span + span {
+  top: 82px;
+  left: 223px;
+  display: inline-block;
+}
+.gerenxinxi .r1 .flow span:first-child + span + span + span + span{
+  top: -2px;
+  left: -12px;
+  color: #ffac00;
+  font-size: 20px;
+  display: inline-block;
+}
+.gerenxinxi .r1 .which {
+  box-sizing: border-box;
+  width: 341px;
+  height: 143px;
+  background: url(http://www.ppdaicdn.com/investactivity/img/inviteactity/2.png) no-repeat 0 0 / auto 100%;
+}
+.gerenxinxi .r1 .which h3 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: #ffac00;
+  font-size: 20px;
+  font-weight: normal;
+  text-indent: 85px;
+}
+.gerenxinxi .r1 .which p {
+  padding-left: 18px;
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+}
+.gerenxinxi .r3 {
+  background-color: #fff;
+  padding: 30px 0 10px 0;
+}
+.gerenxinxi .r3 .title {
+  /* position: relative; */
+  /* width: 1000px; */
+  margin: 0 auto;
+  /* margin-top: 35px; */
+  /* border-bottom: 1px solid #E6E6E6; */
+  height: 37px;
+  border-left: 5px solid #FEB00F;
+}
+.gerenxinxi .r3 .title h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 7px;
+  margin-left: 15px;
+}
+.gerenxinxi .r3 .title .sbicon {
+  position: absolute;
+  right: 409px;
+  bottom: 10px;
+  width: 117px;
+  height: 69px;
+  /* background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/3.png") no-repeat; */
+}
+.gerenxinxi .r3 .title .sbicon span {
+  margin: 42px 0 0 31px;
+  display: none;
+  color: #fff;
+  font-size: 26px;
+}
+.gerenxinxi .r3-2 {
+  line-height: 1.7;
+  color: #666;
+  font-size: 15px;
+  padding: 48px 0 14px;
+  border-bottom: 1px dashed #EAEAEA;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.gerenxinxi .r3-3 {
+  height: 316px;
+  width: 100%;
+  background: url(../images/publish_invite_03.png) no-repeat center center / auto 85%;
+}
+.gerenxinxi .r4 {
+	margin-top: -45px;
+}
+.gerenxinxi .r4 .title {
+  position: relative;
+  /* width: 1000px; */
+  margin: 0 auto;
+  /* border-bottom: 1px solid #E6E6E6; */
+  height: 37px;
+  border-left: 5px solid #FEB00F;
+  margin-top: 35px;
+}
+.gerenxinxi .r4 .title h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+.gerenxinxi .r4 .title .sbicon {
+  position: absolute;
+  right: 409px;
+  bottom: 10px;
+  width: 117px;
+  height: 69px;
+  /* background: url("http://www.ppdaicdn.com/investactivity/img/inviteactity/3.png") no-repeat; */
+}
+.gerenxinxi .r4 .title .sbicon span {
+  /* margin: 42px 0 0 31px; */
+  display: none;
+  /* color: #fff; */
+  /* font-size: 26px; */
+}
+.gerenxinxi .r4-2 {
+  position: relative;
+  background: url(../images/publish_invite_07.png) no-repeat 22px 57px / auto 73%;
+  width: 100%;
+  height: 170px;
+  padding: 20px 0px 20px 0;
+}
+.gerenxinxi .r4-2 p {
+  position: absolute;
+  /* top: 225px; */
+  color: #666;
+  font-size: 20px;
+  display: block;
+  font-size: 16px;
+}
+.gerenxinxi .r4-2 p:first-child {
+  left: 56px;
+  bottom: 0px;
+}
+.gerenxinxi .r4-2 p:first-child + p {
+  left: 214px;
+  bottom: 0px;
+}
+.gerenxinxi .r4-2 div {
+  position: absolute;
+  top: 70px;
+  left: 380px;
+  color: #666;
+  font-size: 16px;
+  margin-top: 7px;
+}
+.gerenxinxi .r4-2 div.equal-2 {
+  top: 109px;
+}
+.gerenxinxi .r4-2 div.equal-3 {
+  top: 145px;
+}
+.gerenxinxi .r4-2 div span {
+  color: #ffac00;
+}
+
+.earnings-list {
+    margin: 50px 0 20px 0;
+	
+    /* padding: 10px 0 0 0; */
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 6px 0 0 #909090;
+}
+.earnings-list ul li{
+    
+}
+.earnings-list .e-level {
+    font-size: 24px;
+	
+    color: #909090;
+    padding: 10px 0 10px 10px;
+    border-top: 1px dashed #909090;
+    /* margin-left: 10px; */
+}
+.earnings-list .e-level i{
+	margin: 0 10px;
+}
+.earnings-list .e-level p{
+    font-size: 16px;
+	
+    line-height: 28px;
+}
+.earnings-list .e-content{
+    /* padding: 10px 0; */
+	
+    border-top: 1px solid #909090;
+}
+.earnings-list .e-content table{
+    width: 100%;
+	text-align: center;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.earnings-list .e-content table thead{
+    font-size: 20px;
+    
+    padding: 10px;
+}
+.earnings-list .e-content table tbody{
+    
+}
+.earnings-list .e-content table th{
+    width: 33.33%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+.earnings-list .e-content table td{
+    width: 33.33%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 16px;
+}

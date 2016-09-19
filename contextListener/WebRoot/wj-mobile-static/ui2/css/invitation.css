@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.p14{ padding:40px; background:url(../images/page1_02.png) no-repeat bottom; background-size:100%; text-align:center}
+.p14 button{ height:40px; width:150px; text-align:center; line-height:40px; border:0; background:#00a0e9; color:#fff; font-size:18px; padding:0; border-radius:20px;    font-family: "微软雅黑","Microsoft YaHei";}
+.p21 img{ width:100%}
+
+.p22tit{ text-align:center; padding:30px;}
+.p22tit img { width:200px;}
+.p22 .con { border:1px solid #00a0e9; border-radius:10px; width:280px; margin:auto; position:relative; padding:0 15px}
+.p22 .con>h3{ position:absolute;  text-align:center; font-size:14px; color:#595757; border:1px solid #00a0e9; line-height:20px; border-radius:15px; background:#eeefef; padding:0 30px; left:75px; top:-10px;font-family: "微软雅黑","Microsoft YaHei";}
+.p22 .con dl { width:33.33%; float:left; text-align:center}
+.p22 .con dl dt { width:80%; margin:auto; padding:30px 0; padding-bottom:10px;}
+.p22 .con dl dt img { width:100%}
+.p22 .con dl dd{ line-height:1.5; margin-bottom:-10px; background:#eeefef;    font-family: "微软雅黑","Microsoft YaHei";color:#595757;}
+.p23{ padding:30px 0; width:310px; margin:auto}
+.p23 h3{ background:#fff; border:1px solid #ddd; box-shadow:5px 5px 5px #ddd; line-height:30px; padding:10px; margin-bottom:10px;font-family: "微软雅黑","Microsoft YaHei";color:#595757;}
+.p23 h3 img { width:30px; line-height:30px; margin-right:10px; }
+.p23 .txt{ padding:10px; background:#fff; border:1px solid #ddd; box-shadow:5px 5px 5px #ddd; line-height:1.5;font-family: "微软雅黑","Microsoft YaHei";color: #595757}
+.p23 .txt p{
+	width: 110%;
+   	margin-left: -5%;
+	-webkit-transform:scale(0.8);
+	-moz-transform:scale(0.8);
+	transform:scale(0.8);
+}
+.p23 .txt img { width:70px; margin-left:0px;}
+
+.p24 .con .yuan{ width:80px; height:60px; background:url(../images/page2_31.png) no-repeat; background-size:100%; margin:auto; font-size:16px; line-height:1.5; color:#595757; text-align:center; padding:60px 50px;font-family: "微软雅黑","Microsoft YaHei";}
+.p24 .con .font { transform:rotate(90deg); -webkit-transform:rotate(90deg); font-size:30px; width:30px; height:30px; text-align:center; line-height:30px; margin:auto; color:#666}
+
+.p25{ width:310px; margin:auto;  overflow:hidden}
+.p25 dl { float:left; width:33.33%; text-align:center; line-height:1.5; font-size:14px; color:#595757;font-family: "微软雅黑","Microsoft YaHei";}
+.p25 dl dt{ width:80%; padding-bottom:10px; margin:auto}
+.p25 dl dt img { width:100%;}

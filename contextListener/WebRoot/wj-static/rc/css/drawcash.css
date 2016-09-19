@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.mainlayout{ display: none;position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); z-index:9}
+.mainlayout .wrap{ width:640px; margin:100px auto; background:#fff; padding:20px; padding-top:0; position:relative}
+.mainlayout .wrap .close{ position:absolute; width:30px; height:30px; border-radius:50%; text-align:center; line-height:27px; font-size:20px; background:#fff; top:-10px; right:-10px; color:#999; cursor:pointer}
+.mainlayout .wrap ol li{ font-size:14px; line-height:30px; padding:5px 10px; color:#666; }
+.mainlayout .wrap ol li input[type='text'] { width:120px; height:28px; border:1px solid #e8e8e8;}
+.mainlayout .wrap ol li button{ cursor:pointer;height:28px; border-radius:15px; border:1px solid #c3a36b;color:#c3a36b; background:#fff; margin-left:10px; padding:0 10px;}
+.mainlayout .wrap .btn { padding:20px; text-align:center}
+.mainlayout .wrap .btn button { cursor:pointer;height:40px; padding:0 40px; color:#fff; font-size:16px; background:url(../images/btn_03.jpg); border-radius:20px; border:0;}
+.mainlayout .wrap ol li button.notActive{
+	cursor:not-allowed;
+	border:1px solid #909090;
+	color: #fff;
+	background: #909090;
+}
+.txcg{ border:1px solid #e8e8e8;}
+.txcg .title { height:66px; background:#efefef; padding:0 20px; font-size:16px; line-height:66px;}
+.txcg .title b{ font-size:30px; color:#c99839}
+.txcg .box{ text-align:center; padding:20px;}
+.txcg .box table{ width:100%; line-height:30px; border-top:1px solid #e8e8e8; font-size:14px;}
+.txcg .box table th{ padding-top:20px;}
+.txcg .box h3{ font-size:30px; text-align:center; line-height:2; padding-bottom:20px;}
+.txcg .box .btn { padding:20px;}
+.txcg .box .btn button{ margin:10px; padding:0 40px; border:1px solid #bf8d33; color:#bf8d33; height:40px; border-radius:20px; background:#fff;}
+
+.table table{ width:100%; border:1px solid #e8e8e8; margin-top:30px;}
+.table table th{ background:#f2f2f2; font-size:14px; text-align:center; line-height:42px;}
+.table table td{ border-bottom:1px dashed #e8e8e8; font-size:12px; line-height:1.5; padding:5px; text-align:center; vertical-align:middle}
+.table table tr td:last-child{ width:200px; text-align:left}
+
+.wycz .btn { text-align:center; border-top:1px solid #f7f7f7; padding:30px 0}
+.wycz .btn button { margin:0 10px}
+.wycz .btn p{ color:#999; font-size:12px; text-align:center; line-height:30px; padding-bottom:20px;}
+.wycz .btn p img { padding-right:10px;}
+button.shi{ cursor:pointer;height:42px; color:#fff; padding:0 60px; line-height:42px; border-radius:21px; border:0; background:url(../images/btn_03.jpg); font-size:16px;}
+
+.list3{ padding:0;}
+.list3 ol li {padding:10px 30px 10px 135px; position:relative; padding-left:135px; font-size:14px; line-height:40px;}
+.list3 ol li:first-child{
+	background: #efefef;
+}
+.list3 ol li:first-child p{
+	font-size: 30px;
+	color: #c99839;
+}
+.list3 ol li span { position:absolute; left:35px;}
+.list3 ol li p b { color:#cd9b3c}
+.list3 ol li p i { font-size:30px;}
+.list3 ol li table { width:430px; line-height:40px; margin-top:20px;}
+.list3 ol li table td,.list3 ol li table th{ border:1px solid #e8e8e8; text-align:center}
+.list3 ol li table th{ font-weight:bold; background:#f6f6f6}
+.list3 ol li input[type="text"] { border:1px solid #ddd; height:36px; width:210px; margin-right:10px;}
+.list3 ol li >em{ font-size:12px;}
+
+
+
+.check-drawcash{ width:210px; height:40px; border:1px solid #ddd; text-align:center; font-size:14px;}
+.check-drawcash.hover{ border-color:#c99839; background:url(../images/wycz_06.jpg) no-repeat right bottom;}
+
+.tx1{
+	border: 1px solid #efefef;
+}
+
+.tx2{ border:1px solid #e8e8e8; margin:30px 0}
+.tx2 .title{ font-size:16px; line-height:48px; border-bottom:1px solid #e8e8e8; background:#efefef; padding:0 20px;}
+.tx2 table{line-height:48px; width:95%; margin:auto}
+.tx2 table tr{ border-bottom:1px solid #e8e8e8; text-align:center} 
+.tx2 table tr:last-child{ border-bottom:0;}
+
+
+.tx3{ border:1px solid #e8e8e8; padding:10px; font-size:14px; color:#666; line-height:2; margin-bottom:30px;}
+.tx3 h3{ font-size:16px;}
+.card{}
+.card .box{ border:2px solid #c99839; overflow:hidden; width:380px; line-height:53px; font-size:14px; background:url(../images/wycz_06.jpg) no-repeat right bottom}
+.card .box img{ float:left;padding-right: 25px;margin-top: 12px;margin-left: 10px;}
+.card .box em { display:inline-block}
+.card .box em b{ display:block; height:26px; line-height:26px; font-size:12px; color:#999; background:#e6e6e6; margin-left:20px; padding:0 10px;}
+.card a { padding-right:20px; color:#c99839}
+
+.no-card .box{ border:2px solid #bfcfe5;background:#f0f6f9; overflow:hidden; width:380px; line-height:53px; font-size:14px; /* background:url(../images/wycz_06.jpg) no-repeat right bottom */}
+.no-card .box span{ position:initial;float:left; padding: 0 30px;    color: #97BFF7;font-size: 20px;}
+.no-card .box em { display:inline-block}
+.no-card .box em b{ display:block; height:26px; line-height:26px; font-size:12px; color:#999; background:#e6e6e6; margin-left:20px; padding:0 10px;}
+.no-card a { cursor: pointer;}
+
+.my-btn{
+	background: #c99839;
+	color: #fff;
+	border:0;
+    border-radius: 5px;
+    cursor: pointer;
+}

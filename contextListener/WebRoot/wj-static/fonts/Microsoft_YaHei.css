@@ -1,0 +1,10 @@
+@font-face {
+font-family: 'Microsoft_YaHei337574';
+src: url('Microsoft_YaHei.eot');
+src: url('Microsoft_YaHei.eot?#iefix') format('embedded-opentype'),
+     url('Microsoft_YaHei.woff') format('woff'),
+     url('Microsoft_YaHei.ttf') format('truetype'),
+     url('Microsoft_YaHei.svg#Microsoft_YaHei') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }

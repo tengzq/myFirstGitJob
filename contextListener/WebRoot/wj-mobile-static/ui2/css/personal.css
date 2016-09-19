@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'Helvetica';
+	src:url('../fonts/helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.top{width:100%; height: 100px !important; background-color: #00a1ea;}
+.top a{
+	display: inline-block;
+	float: right;
+}
+.top span{
+	color: #fff;
+    font-size: 22px;
+    float: right;
+    margin: 10px;
+}
+.top span a{color:#fff}
+.bb_shadow{background:url(../images/page1_02.png) no-repeat bottom; background-size:100%;}
+.p31{ height: 210px;}
+.p311{ text-align:center; padding:30px 0;}
+.p311 img{ width:200px; height:200px;}
+.p312{ position: relative; top: -66px; left: auto; right: auto; overflow:hidden; line-height:1.5; text-align:center}
+.p312 .fl,.fr{width: 50%;}
+.p312 dt {  font-size:22px;}
+.p312 dd{ color:#666}
+.p313{ position: relative; top: -40px; left: auto; right: auto; text-align: center;
+	width: 95%;
+    margin: auto;
+}
+.p313 dl{ 
+	float:left; 
+  	width: 30%;
+    margin: 0 2px;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.p313 dl:nth-child(1){padding-left: 4.5%;}
+.p313 dl dt { float:left; padding-right:5px; line-height: 24px;}
+.p313 dl dt img { width:20px;}
+.p313 dl dd{color:#666;}
+/*.p313 dl dd p{ font-size:14px;}*/
+.p313 dl dd h3{ line-height:1.2}
+ 
+.p32{ height:352px;}
+.p32 .list { width:100%; overflow:hidden}
+.p32 .list ol{ height: 330px; padding-left: 5%;}
+.p32 .list ol li { float:left; width:30%;}
+.p32 .list ol li a{ padding:15px; text-align:center; display:block}
+.p32 .list ol li a img{ width:54%;}
+.p32 .list ol li a p { padding-top:5px; color:#666;}
+.p322{ padding:30px 0; position: relative; top: -90px; text-align: center;}
+.p322 button { width: 107px; line-height: 29px; border-radius:20px; text-align:center; margin:10px; border:0; font-size:16px;}
+
+
+.lanzi{
+	color:#00a0e9;
+	font-family: "Helvetica" !important;
+}
+
+.yuan{
+	position: relative;
+    top: -75px;
+    text-align: center;
+}
+.yuan img{
+	width: 150px;
+}
+.face{
+	width: 150px;
+	height:150px;
+	margin:auto;
+	display: block;
+	background: url(../images/yu.png) center center /100%;
+	position: relative;
+}
+.face .user{
+	padding-top: 90px;
+    font-family: "Helvetica";
+    font-size: 13px;
+}
+.unread-tag{
+    display: inline-block;
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}

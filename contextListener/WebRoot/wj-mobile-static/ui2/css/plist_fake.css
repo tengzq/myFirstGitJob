@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'Helvetica';
+	src:url('../fonts/helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'HelveticaBold';
+	src:url('../fonts/arialbd0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'ltyh';
+	src:url('../fonts/ltyh.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.row1{
+    margin-top: 30px;
+}
+.td{    
+	width: 95%;
+    margin:auto;
+    /*position: absolute;
+    left: 9%;*/
+    
+}
+.thumbnail{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    /*box-shadow: 0;
+    webkit-box-shadow: 0;*/
+}
+.tb{
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tb:nth-child(odd){
+	border-right: 1px solid #ddd;
+}
+.tb:nth-child(1),.tb:nth-child(2){
+    border-top: 1px solid #ddd;
+}
+
+.tb{
+    float: left;
+    padding-left: 6%;
+    /*text-align: center;*/
+    width: 50%;
+    height: 220px;
+    padding-top: 30px;
+}
+.caption{
+	padding-bottom: 10px;
+}
+.caption h4{
+	margin-top: 10px;
+	text-align: left;
+    padding-bottom: 5px;
+    font-family: "ltyh";
+    font-size: 13px;
+    color: #595757;
+}
+.caption p{
+	text-align: left;
+    /*position: relative;*/
+    /*top: -5px;*/
+    line-height: 19px;
+    font-size: 13px;
+    color: #595757;
+    font-family: "ltyh";
+}
+.bili{color: #00a1e9; font-family: "HelveticaBold"; font-weight: 600;display: inline-block;}
+.bili #zi_1{
+	font-size: 45px;
+	position: relative;
+}
+.bili #zi_2{
+	font-size: 25px;
+}
+.btn{
+    margin-top: 10px;
+    line-height: 0.8;
+}
+.p322{ padding:30px 0; /* position: relative; */ text-align: center;}
+.p322 button { width: 92px; line-height: 22px; border-radius:20px; text-align:center; margin:10px; border:0; font-size:16px;}
+
+
+.btn-buy{
+    background: #EA5414;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 14px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 14px;
+    width: 70px;
+    text-align: center;
+}
+.bossRate{
+    width: 36px;
+    height: 36px;
+    display: block;
+    float: right;
+    border-radius: 50%;
+    line-height: 38px;
+    background: #F8B62C;
+    color: #fff;
+    font-size: 8px;
+    font-family: "HelveticaBold";
+    position: absolute;
+    right: -34px;
+    top: -13px;
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+

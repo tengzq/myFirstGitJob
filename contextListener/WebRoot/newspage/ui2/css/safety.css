@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.bbd ul{
+    width: 80%;
+    margin: 30px auto;
+}
+.bbd ul li{
+    border-top: 1px solid #eee;
+    border-left: 1px solid #bbb;
+    border-bottom: 2px solid #bbb;
+    border-right: 2px solid #bbb;
+    padding: 14px 6px 6px 6px;
+    margin-bottom: 8px;
+    font-family: "ltyh","微软雅黑","Microsoft YaHei";
+}
+.bbd ul li .fai{
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: #299ad2;
+    color: #fff;
+}
+.bbd ul li>a>.fato{
+    float: right;
+    font-size: 16px;
+    color: #333;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+.bbd ul:nth-child(1){margin-top: 17px;}
+#bbdp1{
+    width: 70%;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+#bbdp2{
+    width: 75%;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}

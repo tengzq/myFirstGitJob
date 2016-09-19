@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.lrb_l,.lrb_r,.lrb_b{background:#fff; border:1px solid #ececec; border-radius:10px; overflow:hidden}
+.lrb_l{ width:660px; height:400px; background:#fff; border:1px solid #ececec; margin-top:30px; border-radius:10px; overflow:hidden; float:left}
+.lrb_l>div>h3{ font-size:24px; padding:20px 0; margin-bottom:20px;}
+.lrb_l .box { background:#f4f4f4; padding:20px 0; overflow:hidden}
+.lrb_l .box dl { width:49.9%; float:left;text-align:center}
+.lrb_l .box dl:first-child{ border-right:1px solid #e2e2e2; }
+.lrb_l .box dl dt { font-size:20px; color:#ba8731; font-weight:bold; padding-bottom:5px;}
+.lrb_l .box dl dd { font-size:14px; color:#a6a6a6}
+.lrb_l ul{ padding: 40px 0}
+.lrb_l ul li { padding:5px 0; color:#c6c6c6}
+.lrb_l ul li b { color:#333;}
+.lrb_l .btm{ border-top:1px solid #f7f7f7; line-height:60px; color:#9b9b9b;}
+
+
+.lrb_r{ width:320px; height:400px; margin-top:30px; float:right}
+.lrb_l .wrap,.lrb_r .wrap,.lrb_b .wrap{ padding:20px;}
+
+.bar{}
+.bar h3{ color:#d0a44a; font-size:14px; line-height:2}
+.bar .box { height:7px; background:#efefef; border-radius:4px; overflow:hidden}
+.bar .box p { height:7px; background:#d0a44a;}
+
+.lrb_r ol { padding:30px 0; color:#999}
+.lrb_r ol li{ padding:5px; line-height:1.5; border-bottom:1px solid #f7f7f7;}
+.lrb_r ol li i { color:#333; padding:5px;}
+.je{ padding:10px 0;}
+.je h3{ line-height:1.7}
+.je p { height:46px; border:1px solid #e8e8e8; background:#f7f7f7; color:#333; border-radius:10px; margin:10px 0}
+.je p.tips-area{
+    height: 20px;
+    border: 0;
+    background: #fff;
+    color: red;
+    text-align:right;
+    margin: 1px 0 10px;
+    font-size:13px;
+    display: none;
+}
+.je p input {font-size:24px; font-weight:bold; text-align: right; height:100%; width:100%; background:0; border:0;}
+.je h6 { font-size:14px; text-align:right}
+.je h6 em { color:#cd9a3c;}
+
+.lrb_r button { cursor:pointer;width:100%; height:46px; background:url(../images/btn_03.jpg); color:#fff; font-size:20px; border-radius:23px; border:0; margin-top:20px;}
+
+.lrb_b{ margin:30px 0;}
+.lrb_b nav { border-bottom:1px solid #e8e8e8; line-height:40px; height:40px;}
+.lrb_b nav li { font-size:18px; padding:0 30px; float:left}
+.lrb_b nav li a { color:#666; display:block;}
+.lrb_b nav li:hover a { color:#ba8731; border-bottom:2px solid #ba8731}
+.lrb_b nav li.on a { color:#ba8731; border-bottom:2px solid #ba8731}
+
+.buyRecordTable{
+    width: 100%;
+    margin: 15px 40px;
+    text-align: center;
+    color:#666;
+}
+.buyRecordTable th,td{
+	padding:10px 5px;
+}

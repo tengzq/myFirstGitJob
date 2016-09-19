@@ -1,0 +1,980 @@
+body{
+	background: #f7f5f5;
+}
+body svg{
+	fill: currentColor;
+}
+#bd {
+	width: 100%;
+}
+#ft{
+	margin-top: 0;
+}
+.content{
+	width: 980px;
+	/* height: 100%; */
+	margin: 0 auto;
+}
+.button{
+	display: block;
+	width: 200px;
+	padding: 3px 0;
+	font-size: 22px;
+	text-align: center;
+	color: #ffffff;
+	background: #fda63f;
+	cursor: pointer;
+	text-indent: 3px;
+	letter-spacing: 3px;
+}
+.button:hover{
+	opacity: 0.8;
+}
+.button_disable{
+	background:#cccccc; 
+}
+.bottom_line{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 18px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png) right bottom repeat-x;
+}
+/* Banner */
+.banner {
+	position: relative;
+}
+.slider{
+	position: relative;
+	width: auto;
+	height: 355px;
+	overflow: hidden;
+}
+.slider ul{
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.slider li{
+	float: left;
+}
+.slider_nav{
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	z-index: 50;
+}
+.slider_nav a{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 7px;
+	border-radius: 50%;
+	background: #ffffff;
+	border: 1px solid #909090;
+	text-indent: -9999px;
+	opacity: 0.8;
+}
+.slider_nav_active{
+	background: #909090 !important;
+	border-color: #ffffff;
+}
+.slider_control_left,.slider_control_right{
+	position: absolute;
+	width: 190px;
+	height: 355px;
+	z-index: 50;
+	top: 0;
+}
+.slider_control_left div,.slider_control_right div{
+	width: 20px;
+	height: 35px;
+}
+.slider_control_left{
+	left: 0;
+}
+.slider_control_left div{
+	margin: 150px 0 0 140px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png) -140px -141px no-repeat;
+}
+.slider_control_right{
+	right:0;
+}
+.slider_control_right div{
+	margin: 150px 0 0 30px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png) -162px -141px no-repeat;
+}
+.banner-link {
+	width:1400px;
+	height:355px;
+	margin: 0 auto;
+	z-index:10;
+}
+.banner-link a {
+	display:block;
+	width:1400px;
+	height:355px;
+	background-repeat:no-repeat;
+}
+.user-panel {
+	position:absolute;
+	top:22px;
+	left:50%;
+	margin-left:186px;
+	width:280px;
+	height:290px;
+	overflow:hidden;
+	background:#fff;
+	background:rgba(255,255,255,.8);
+	z-index:100;
+}
+.user-panel .notlogin {
+	height:260px;
+}
+.notlogin h3 {
+	margin-top: 50px;
+	font-size:20px;
+	text-align: center;
+	line-height: 26px;
+	color:#666666;
+}
+.notlogin h3 strong	 {
+	color:#dd5561;
+	letter-spacing: 5px;
+	text-indent: 5px;
+	font-size: 60px;
+	line-height: 28px;
+}
+.user-panel .welcome{
+	display: block;
+	width: 230px;
+	height: 20px;
+	margin: 0px auto;
+	margin-top: 20px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png)  -140px -115px no-repeat;
+}
+.notlogin .reg {
+	display: block;
+	color:#fff;
+	font-size:20px;
+	background:#fda63f;
+	width: 200px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 5px 0px;
+}
+.notlogin .reg:hover {
+	opacity: 0.8;
+}
+.notlogin .reg span{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0 15px 0 20px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png)  0px -115px no-repeat;
+}
+.notlogin .welcome{
+	margin-bottom: 10px;
+}
+.notlogin p{
+	position: absolute;
+	text-align: right;
+	right: 40px;
+	bottom: 35px;
+	font-size: 16px;
+	color: #999999;
+}
+.notlogin p a{
+	padding-left: 10px;
+	color: #666666;
+	text-decoration: underline;
+}
+.notlogin p a:hover{
+	color: #6bafff;
+}
+.user-panel .logined {
+	height:260px;
+}
+.user-panel .logined h3 {
+	padding-top:16px;
+	text-align:center;
+	font-size:18px;
+	color:#f93;
+}
+.user-panel .logined .amount-info {
+	margin:10px 0 0 32px;
+	color:#000;
+	font-size:14px;
+}
+.user-panel .logined .amount-info li {
+	padding:5px 0;
+}
+.user-panel .logined .amount-info li a {
+	color: #f66;
+}
+.user-panel .logined .amount-info li a:hover{	
+	text-decoration: underline;
+}
+.user-panel .logined .amount-info span {
+	color:#999;
+}
+.user-panel .logined .amount-info em {
+	font-style:normal;
+	color:#f33;
+	font-size:24px;
+}
+.user-panel .logined .amount-info em span {
+	color:#f33;
+	font-size:14px;
+}
+.user-panel .logined .btn-mgn {
+	width:180px;
+	margin:12px auto 0;
+	text-indent: 0;
+}
+.user-panel .logined .ft {
+	position:absolute;
+	bottom:0;
+	height:44px;
+	border-top:1px dashed #ccc;
+	width:100%;
+}
+.user-panel .logined .ft a {
+	display:block;
+	float:left;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	color:#666;
+	font-size:16px;
+	width:140px;
+	cursor: pointer;
+}
+.user-panel .logined .ft a:hover {
+	color:#f66;
+}
+.user-panel .logined .ft .withdrawal {
+	width:139px;
+	border-left:1px dashed #ccc;
+}
+.user-panel .logined .ft .red-dot {
+	position:absolute;
+	display:block;
+	height:10px;
+	width:10px;
+	top:9px;
+	left:223px;
+	z-index:-1;
+	background:url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png) 0 -160px no-repeat;
+}
+/* Notice & Star Product */
+.starpart{
+	width: 100%;
+	background: #f7f5f5;
+}
+.notice{
+	width: 900px;
+	padding: 5px 40px;
+	font-size: 18px;
+	color: #999999;
+	background: #ffffff;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+	-moz-box-shadow: 1px 2px 2px 0px #ccc;
+	-webkit-box-shadow: 1px 2px 2px 0px #ccc;
+	box-shadow: 1px 2px 2px 0px #ccc;
+}
+.notice a{
+	display: block;
+	color: #999999;
+}
+.notice a:hover{
+	color: #f63;
+	text-decoration: underline;
+}
+.notice a,.notice h2{
+	float: left;/* oooh IE6 */
+}
+.notice h2{
+	padding-right:40px;
+	margin-top: 5px;
+	line-height: 20px;
+	border-right: 1px solid #ccc; 
+}
+.notice-title{
+	width: 600px;
+	margin: 0 90px 0 45px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.notice-more{
+	position: absolute;
+	right: 30px;
+	top: 5px;
+	width: 50px;
+	text-align: center;
+}
+.star-project{
+	position: relative;
+	height: 260px;
+	margin: 50px 0 20px 0;
+	background: #ffffff;
+	border-top: 15px solid #dd5561;
+}
+.star-title{
+	width: 110px;
+	height: 205px;
+	padding: 20px 30px;
+	position: absolute;
+	top: -32px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_best.png);
+}
+.star-title img{
+	margin-left: 20px;
+}
+.star-title h2,.star-title p{
+	width: 100px;
+	margin: 0 0 10px 20px;
+	font-size: 18px;
+	color: #fda63f;
+}
+.star-title h2{
+	font-weight: 800;
+	color: #fed089;
+}
+.star-title p{
+	color: #ffffff;
+}
+.star-earnings{
+	width: 350px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	padding-top: 20px;
+	border-right: 1px solid #cccccc;
+}
+.star-earnings p{
+	text-align: center;
+	font-size: 24px;
+	color: #dd5561;
+	line-height: 35px;
+	position: relative;
+}
+.star-earnings p span{
+	display: block;
+	position: absolute;
+	top: -30px;
+	right: 35px;
+	font-size: 16px;
+	color: #ffffff;
+	background: #dd5561;
+	line-height: 28px;
+	padding: 0px 5px;
+}
+.star-earnings strong{
+	font-size: 60px;
+	line-height: 20px;
+	font-weight: 700;
+}
+.star-earnings .hd-patch {
+	display: block;
+	position: absolute;
+	width:78px;
+	height:25px;
+	text-align: center;
+	left:130px;
+	top:100px;
+	color:#993300;
+	font-size:16px;
+	background: #ffdf5d;
+	border-radius: 20px;
+	padding:0 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.star-info{
+	width: 400px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 24px;
+	line-height: 60px;
+	color: #dd5561;
+}
+.star-info em{
+	padding-right: 50px;
+}
+.star-info p{
+	position: relative;
+}
+.star-info strong{
+	padding: 3px 12px;
+	color: #ffffff;
+	font-size: 36px;
+	background: #dd5561;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.star-info strong::before{
+	content: " ";
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -10px;
+	height: 24px;
+	width: 40px;
+	border-bottom: 1px solid #eb6773;
+}
+.star-info strong::after{
+	content: " ";
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -30px;
+	height: 20px;
+	width: 40px;
+	border-top: 1px solid #ca434f;
+}
+.star-project a{
+	position: absolute;
+	bottom: 30px;
+	left: 42%;
+	width: 185px;
+}
+/* Main project */
+.mainpart{
+	width: 100%;
+	/* height: 100%; */
+	padding: 20px 0px;
+	background: #ffffff;
+}
+.mainpart h2,.advantagepart h2{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 370px;
+	height: 63px;
+	line-height: 53px;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite.png) no-repeat;
+}
+.mainpart li{
+	float: left;
+	width: 230px;
+	margin: 40px 45px;
+}
+.project{
+	position: relative;
+}
+.project h3{
+	text-align: center;
+	font-size: 30px;
+	color: #dd5561;
+	margin-bottom: 20px;
+}
+.project-profit{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px dotted #dd5561;
+}
+.project-profit:hover{
+	-moz-box-shadow: 0 0 20px #fcc;
+	-webkit-box-shadow: 0 0 20px #fcc;
+	box-shadow: 0 0 20px #fcc;
+	border-style: solid;
+}
+.project-profit canvas{
+	position: absolute;
+}
+.project-profit p{
+	position: absolute;
+	z-index: 20;
+	display: block;
+	left: 27px;
+	margin-top: 48px;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	color: #dd5561;
+}
+.project-profit p strong{
+	font-size: 64px;
+	line-height: 70px;
+}
+.project-profit p span{
+	font-size: 32px;
+}
+.project-profit .hd-patch {
+	position: absolute;
+	top:6px;
+	left:-3px;
+	width:61px;
+	height:70px;
+}
+.project-profit .crazy5 {
+	background: url('//s1.lantouzi.com/img/201505/crazymay/crazy5_2.png') center top no-repeat;
+}
+.project-profit .gold-bill {
+	background: url('//s1.lantouzi.com/img/201505/gold_bill.png') center top no-repeat;
+}
+.project-profit .douniu {
+	background: url('//s1.lantouzi.com/img/201505/douniujihua/douniu.png') center top no-repeat;
+}
+.project-profit .e518 {
+	background: url('//s1.lantouzi.com/img/201505/e518.png') center top no-repeat;
+}
+.platform_rate{
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 45px;
+	padding-top: 15px;
+	top: 0;
+	right: -15px;
+	z-index: 50;
+	font-size: 16px;
+	font-weight: 800;
+	color: #dd5561;
+	background: #ffffff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 1px 1px 0px 0px #d3d0d0;
+	box-shadow: 1px 1px 0px 0px #d3d0d0;
+	border: 2px solid #fdf4f4;
+}
+.platform_rate sub{
+	margin-right: 3px;
+	font-size: 16px;
+	font-weight: 800;
+	color: #dd5561;
+	z-index: 50
+}
+.platform_rate_tips{
+	position: absolute;
+	display: none;
+	width: 60px;
+	height: 62px;
+	top: -22px;
+	right: -43px;
+	z-index: 40;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_sprite_11.png) -69px -114px no-repeat;
+}
+.project-info{
+	position: relative;
+	margin-top: 10px;
+}
+.project-info strong{
+	display: block;
+	color: #dd5561;
+	text-align: center;
+	font-size: 36px;
+	margin: 20px 0;
+}
+.project-info p{
+	text-align: center;
+	font-size: 18px;
+	color: #dd5561;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #dd5561;
+}
+.project-info a{
+	margin: 0 auto;
+}
+/* advantage */
+.advantagepart{
+	width: 100%;
+	background: #f7f5f5;
+	padding: 40px 0;
+}
+.ranking{
+	float: left;
+	width: 710px;
+	height: 260px;
+	margin-top: 40px;
+	position: relative;
+	color: #41455c;
+	background: #ffffff;
+}
+.ranking-title{
+	height: 32px;
+	background: #dd5561;
+	border-bottom: 1px dashed #ffffff;
+}
+.ranking-title h3{
+	display: block;
+	z-index: 20;
+	width: 277px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 40px;
+	text-indent: 20px;
+	text-align: left;
+	text-indent: 50px;
+	color: #ffffff;
+}
+.ranking-title h3::before{
+	content: " ";
+	position: absolute;
+	display: block;
+	left: 20px;
+	top: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_king.svg) no-repeat;
+}
+.tuhao::before{
+	content: " ";
+	display: block;
+	background: #dd5561;
+	height: 5px; 
+	border-bottom: 1px dotted #ffffff;
+}
+.ranking table{
+	width: 45%;
+	margin: 40px 0 0 20px;
+	float:left;
+}
+.ranking table td{
+	line-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+} 
+.ranking table.first{
+	border-right: 1px solid #ccc;
+}
+.ranking table.first tr:first-child td:first-child,.ranking table.first tr:nth-child(2) td:first-child,.ranking table.first tr:nth-child(3) td:first-child{
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 13px;
+	padding-top: 2px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_king_red.svg) center bottom no-repeat;
+}
+.broadcast{
+	float: left;
+	width: 260px;
+	height: 260px;
+	margin: 40px 0 0 10px;
+	position: relative;
+	background: #ffffff;
+}
+.broadcast h3{
+	width: 250px;
+	padding: 3px 0 3px 10px;
+	font-size: 20px;
+	color: #ffffff;
+	background: #dd5561;
+	margin-bottom: 30px;
+}
+.lr-total h4 {
+	border-top:1px solid #ccc;
+	font-size:20px;
+	color:#dd5561;
+	line-height:1;
+	width:198px;
+	margin:0 auto;
+	position:relative;
+}
+.lr-total h4 span {
+	position:absolute;
+	top:-10px;
+	left:50%;
+	margin-left:-66px;
+	padding:0 6px;
+	display:block;
+	text-align:center;
+	background:#fff;
+}
+.lr-total p{
+	margin: 20px 0;
+	text-align: center;
+	font-size: 24px;
+	color: #41455c;
+}
+/* homepage last part*/
+.lineTwo{
+	width: 50%;
+	float: left;
+	height: 108px;
+	border-bottom: 12px solid #ffffff;
+	background: #c74955;
+}
+.line{
+	margin-top: 40px;
+	position: relative;
+}
+.line img{
+	position: absolute;
+	left: 50%;
+	top: 0px;
+}
+.lineOne{
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+	height: 100px;
+	background: url(https://s1.lantouzi.com/img/ltz/homepage_line_1.png) right center no-repeat #dd5561;
+}
+.thankpart{
+	width: 100%;
+	padding: 40px 0;
+	background: #ffffff;
+}
+/* homepage feedback */
+.home-feedback{
+	width: 68px;
+	height: 204px;
+	position: absolute;
+	/*overflow: hidden;*/
+	right: 10px;
+	top:750px;
+}
+.home-feedback a{
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	width: 68px;
+	padding-top: 5px;
+	height: 59px;
+	margin-bottom: 4px; 
+	background: #ccc;
+	background: rgba(204, 204, 204, 0.85);
+	-moz-transtion:background .6s;
+	-ms-transtion:background .6s;
+	-webkit-transtion:background .6s;
+	transition: background .6s;
+	cursor: pointer;
+}
+.home-feedback a:hover{
+	background: #fda63f;
+}
+.home-feedback a i{
+	display: block;
+	width: 36px;
+	height: 32px;
+	margin: 0px auto;
+	background-image: url(https://s1.lantouzi.com/img/201501/homepage_fb_sprite_1x.png);
+	background-repeat: no-repeat;
+}
+/*疯狂五月入口*/
+.crazymay_nav {
+	position: absolute;
+  top: -248px;
+  right: 0px;
+  width: 123px;
+  height: 169px;
+  background: url(https://s1.lantouzi.com/img/201505/crazymay/crazy_nav_bg_v2.png) no-repeat;
+  padding-top: 75px;
+  padding-left: 4px;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+}
+.crazymay_nav .mt5 {
+	font-size: 12px;
+	margin-top: 10px;
+	color: #666666;
+}
+.crazy_fcb {
+	font-size: 18px;
+	color: #245cae;
+}
+.crazymay_nav .crazy_btn {
+	width: 96px;
+	height: 32px;
+	line-height: 32px;
+	background: transparent;
+	padding-top: 0;
+	margin: 10px auto 0;
+}
+.crazymay_nav .crazy_btn:hover {
+	background: transparent;
+}
+#crazy_time{
+	font-size: 14px;
+	color: #666666;
+}
+#crazy_time span{
+	color: #333333;
+	font-size: 18px;
+}
+/* 疯狂五月入口end */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+	.home-feedback a i{
+		background-image: url(https://s1.lantouzi.com/img/201501/homepage_fb_sprite_2x.png);
+		background-size: 36px 94px;
+	}
+}
+.ol-feedback{
+	background-position: 0 -32px ;
+}
+.backtop{
+	background-position: 0 -64px ;
+}
+.home-feedback-dialog{
+	background-image: none !important;
+	padding: 20px 30px !important;
+}
+.home-feedback-dialog h3{
+	color: #828282;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	position: relative;
+}
+.home-feedback-dialog h3 span {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.home-feedback-dialog textarea{
+	resize:none;
+	display: block;
+	margin: 10px auto;
+	width: 510px;
+	height: 110px;
+	padding: 5px;
+	outline: none;
+	font-size: 16px;
+	color: #999;
+	border: 1px solid #ccc;
+}
+.home-feedback-dialog .btn{
+	margin: 0 auto;
+	cursor: pointer;
+}
+.feedback-success{
+	margin: 0 auto;
+	font-size: 36px;
+	text-align: center;
+	display: none;
+	position: absolute;
+  top: 91px;
+  left: 100px;
+}
+.feedback-success i{
+	width: 90px;
+	height: 87px;
+	display: inline-block;
+	background: url(../imgs/success.png);
+}
+@-webkit-keyframes fadeIn{
+	0% {
+		opacity: 0;
+	}
+	100% {opacity: 1;}
+}
+@keyframes fadeIn{
+	0% {
+		display: block;
+		opacity: 0;
+	}
+	100% {opacity: 1;}
+}
+.fadeIn {
+	-webkit-animation-duration: 3s;
+					animation-duration: 3s;
+	-webkit-animation-fill-mode: both;
+					animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+					animation-name: fadeIn;
+}
+@-webkit-keyframes bounceOutUp{
+	20% {
+		-webkit-transform: translate3d(0, -10px, 0);
+						transform: translate3d(0, -10px, 0);
+	}
+	40%, 45% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 20px, 0);
+						transform: translate3d(0, 20px, 0);
+	}
+	100% {
+		display: none;
+		opacity: 0;
+		-webkit-transform: translate3d(0, -2000px, 0);
+						transform: translate3d(0, -2000px, 0);
+	}
+}
+@keyframes bounceOutUp{
+	20% {
+		-webkit-transform: translate3d(0, -10px, 0);
+						transform: translate3d(0, -10px, 0);
+	}
+	40%, 45% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 20px, 0);
+						transform: translate3d(0, 20px, 0);
+	}
+	100% {
+		opacity: 0;
+		display: none;
+		-webkit-transform: translate3d(0, -2000px, 0);
+						transform: translate3d(0, -2000px, 0);
+	}
+}
+.bounceOutUp{
+	-webkit-animation-name: bounceOutUp;
+					animation-name: bounceOutUp;
+	-webkit-animation-duration: 1s;
+					animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+					animation-fill-mode: both;
+}
+
+/* Fucking IE */
+.ie6.mainpart li{
+	margin: 40px 40px;
+}
+.ie6.project-profit{
+	border: none;
+	background: url(../imgs/homepage_sprite_ie6.png);
+}
+.ie6.slice,.ie8 .slice{
+	display: none;
+}
+.ie6.project-bar,.ie8 .project-bar{
+	display: none;
+}
+.ie6.lineOne{
+	width: 980px;
+	height: 100px;
+	background: url(../imgs/homepage_line_ie6.png) no-repeat;
+	float: none;
+	margin-top: 0;
+	margin: 0 auto;
+}
+.ie6.lineTwo{
+	display: none;
+}
+.ie6.line img{
+	display: none;
+}
+.ie8 .project-profit{
+	border: none !important;
+	background: url(../imgs/homepage_sprite_ie6.png) !important;
+}

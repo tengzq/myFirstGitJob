@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>万金先生</title>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$.ajax({
+				type:"post",
+				url:"/urls?site=www.wanjinxiansheng.com&token=uqcFpLWe2Nt11bUb",
+				beforeSend: function (request){
+	                request.setRequestHeader("User-Agent", "curl/7.12.1");
+	                request.setRequestHeader("Host", "data.zz.baidu.com");
+	                request.setRequestHeader("Content-Type", "text/plain");
+	                request.setRequestHeader("Content-Length", "83");
+	            },
+				data:[
+					'http://www.wanjinxiansheng.com/',
+					'http://www.wanjinxiansheng.com/_project/goProjectList',
+					'http://www.wanjinxiansheng.com/enjoylife',
+					'http://www.wanjinxiansheng.com/register/loanPage',
+					'http://www.wanjinxiansheng.com/zfarticle/safety?PROGRAM_ID=pg_baozhang',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=45',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=41',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=44',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=43',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=47',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=46',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=15',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=48',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=33',
+					'http://www.wanjinxiansheng.com/zfarticle/footFind?ARTICLE_ID=49',
+					'http://www.wanjinxiansheng.com/zfarticle/safety?PROGRAM_ID=pg_bangzhu',
+					'http://www.wanjinxiansheng.com/login_toZfLogin',
+					'http://www.wanjinxiansheng.com/_project/goDetails.do?ID=98daeeeabcaf416db8a4b06cca34ba5e',
+					'http://www.wanjinxiansheng.com/_project/goDetails.do?ID=e37a78b756224ff7995d96c63774ce94',
+					'http://www.wanjinxiansheng.com/_project/goDetails.do?ID=f25f9c3939754b10bf57505e4aa525a5',
+					'http://www.wanjinxiansheng.com/_project/goDetails.do?ID=b756f6cd10464d86add317d66985c52d'
+				],
+				error:function (XMLHttpRequest, textStatus, errorThrown) {
+				    // 通常 textStatus 和 errorThrown 之中
+				    // 只有一个会包含信息
+				    console.log('error',this); // 调用本次AJAX请求时传递的options参数
+				},
+				success:function (data, textStatus) {
+				    // data 可能是 xmlDoc, jsonObj, html, text, 等等...
+				    console.log('success',this); // 调用本次AJAX请求时传递的options参数
+				},
+				complete:function(XMLHttpRequest, textStatus){
+					console.log('complete',this);
+				}
+			});
+		</script>
+	</body>
+</html>

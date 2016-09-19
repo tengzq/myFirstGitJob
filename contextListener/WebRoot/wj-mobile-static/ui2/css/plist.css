@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.cpx{
+	height: 64px;
+	border-bottom: 1px solid #d1d1d1;
+}
+.cpx #xmxm{
+    width: 86%;
+    margin: auto;
+	font-size: 16px;
+}
+.cpxm{
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 15px;
+}
+.xmllow{
+    position: absolute;
+    top: -5px;
+    right: -22px;
+	width: 24px;
+	height: 24px;
+    line-height: 24px;
+	background-color: #f8b62c;
+	border-radius: 50%;
+}
+.xmllow #llow{
+	color: #FFFFFF;
+	font-size: 12px;
+    display: block;
+    margin-right: 20px;
+	-webkit-transform:scale(0.7);
+	-moz-transform:scale(0.7);
+	transform:scale(0.7);
+}
+#ppxm{
+    float: right;
+    padding-top: 12px;
+    width: 80px;
+    height: 22px;
+    line-height: 24px;
+}
+#ppxm .btnx{
+	background:#fff; 
+	border:2px solid #00a0e9; 
+	color:#00a1e9;	
+	border-radius: 12px;
+}
+.xm0{
+    float: left;
+    width: 32%;
+}
+.xm1{
+    width: 40%;
+    float: left;
+}
+.xm2{
+    float: right;
+    width: 28%;
+    height: 44px;
+    text-align: center;
+}
+.btt8{
+    margin-top: 40px;	
+}
+.btt8 button{
+	position: relative;
+    top: -5px;
+}
+.btt7 button, .btt6 button, .btt5 button, .btt4 button, .btt3 button, .btt2 button, .btt1 button{
+	position: relative;
+	top: 72px;
+}
+.bili{color: #00a0e9; font-family: "Helvetica"; font-weight: 600; text-align: left;}
+.bili #zi_1{
+	font-size: 43px;
+	position: relative;
+}
+.bili #zi_2{
+	font-size: 25px;
+}
+.caption p{
+	text-align: left;
+    /* position: relative; */
+    top: -5px;
+    line-height: 22px;
+    color:#595757;
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+.caption:nth-last-child{ margin-top: 9px;}
+.caption p a{
+    background-color: #ea5415;
+    color: #fff;
+    padding: 2px 12px;
+    border-radius: 3px;
+}
+.caption{
+    padding: 25px 0 30px;
+    color:#595757;
+    font-family: "微软雅黑","Microsoft YaHei";
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* login page css */
+
+.login-logo { overflow:hidden; margin:20px 0; font-size:24px; line-height:80px; font-family:"微软雅黑"; color:#999}
+.login-logo h1 { padding-right:20px; margin-right:20px; border-right:2px solid #a4a4a4}
+.login{ overflow:hidden; border:9px solid #ededed}
+.login>div { width:100%;}
+.login .form{ background:#fff; height:480px;}
+.login .form h2{text-align: center;font-size: 36px;color: #f66;padding-top: 70px}
+.login .form .my-form{ width:400px; margin-left: auto;padding-top:40px;}
+.login .form .resetpwd{padding-top:120px;}
+.login .form .my-form ul li { margin: 20px 0;font-size:20px;}
+.login .form .my-form ul li .send-sms { height: 42px; width: 49%; line-height: 42px; display: block;position: static;float: right;background:#48aaee; font-size:16px; color:#fff;text-align: center;}
+.login .form .my-form ul li .send-sms:HOVER{cursor: pointer; }
+.login .form .my-form ul li .send-sms .send-text,.login .form form ul li .send-sms .countdown{position: static;}
+.login .form .my-form ul li .send-sms .countdown-text{display: none;position: static;}
+.login .form .my-form ul li .to-recover{background: #ea943f;font-size: 16px;color: #fff;border: 0;width: 40%;line-height: 36px;}
+.login .form .my-form ul li .to_reset{background: #ccc;font-size: 16px;color: #fff;border: 0;width: 40%;line-height: 36px;}
+.login .form .my-form ul li #to-recover {background: #EA943F;height: 45px;font-size: 20px;color: #fff;border: 0;width: 60%;line-height: 45px;font-family: "微软雅黑","Microsoft YaHei";letter-spacing: 20px;text-indent: 20px;text-align: center;margin-left: 10%;}

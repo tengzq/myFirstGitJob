@@ -1,0 +1,71 @@
+.one_page{}
+.one_page .ban img { width: 100%;}
+.one_page .box{ padding: 10px 0 0 0;}
+.one_page .box .title{ font-size:16px; text-align:center; padding:20px 0}
+.one_page .box .title b { color:#ff8711; position:relative; display:inline-block}
+.one_page .box .title b i { background:url(../images/one1.png); width:10px; height:11px; overflow:hidden; display:block; position:absolute; right:-10px; top:-5px; background-size:100%}
+.one_page .txt { padding:10px; font-size:12px; line-height:1.5; color:#383838}
+.one_page .txt p { padding:5px}
+.one_page .dengyu{ background:#eef8ff url(../images/one_page_bg.png) no-repeat right; padding:10px; background-size:130px}
+.one_page .dengyu p { font-size:16px; line-height:2.4}
+.one_page .dengyu p b { color:#ffb924}
+
+ /* 新版邀请码机制解释区 */
+section.iexplain{
+    width: 87%;
+ 	
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+section.iexplain .ititle{
+
+}
+section.iexplain .ititle img{
+    width: 35%;
+
+    float: left;
+    margin-right: 20px;
+}
+section.iexplain .ititle .tright{
+    width: 100%;
+	
+    padding-left: 20px;
+    padding-top: 49px;
+    font-size: 14px;
+    color: #2e9dd0;
+    text-align: left;
+}
+section.iexplain .ititle .tright p{
+    margin-top: 5px;
+	
+    font-size: 15px;
+}
+section.iexplain .ibody{
+    margin: 25px 0;
+	
+    text-align: center;
+    font-size: 14px;
+}
+section.iexplain .ibody ul{
+    
+}
+section.iexplain .ibody ul li{
+    margin: 7px 0;
+    
+    letter-spacing: 0px;
+    line-height: 15px;
+}
+section.iexplain .ibody ul li span{
+    color: #2e9dd0;
+    font-weight: bold;
+}
+
+.apply{ margin-top:10px; background: #FFAD00; color:#fff; text-align:center; padding:10px; line-height:1.5; position:fixed; bottom:0; left:0; right:0; border-radius: 5px 5px 0 0;}
+.apply h3{ font-size:16px;}
+
+.h65{ display: bolck;height: 65px;}
+
+
+
+
+

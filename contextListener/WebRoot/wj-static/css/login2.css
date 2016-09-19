@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/*---- 注册登录 ----*/
+/* .mainbody .logo {height: 80px;max-width: 980px;margin:10px auto;} */
+
+.mainbody .logo {height: 80px ; max-width: 980px ; margin:10px auto;}
+.mainbody .logo img{height: 100%;}
+.mainbody .content-bg-banner{background: url(../images/login-bg.jpg) no-repeat center top / 120%;}
+.mainbody .content-main{position:relative;height: 450px;width: 990px;margin: 0 auto;font-family:"微软雅黑";}
+
+.mainbody .content-desc{width: 980px;margin: 40px auto;}
+.mainbody .content-desc li{float: left;height: 70px;width: 33.33%;box-sizing: border-box;padding-left: 80px;background: url(../images/index-li.png) no-repeat left top ;}
+.mainbody .content-desc li:first-child {background: url(../images/login-icon001.png) no-repeat left top;}
+.mainbody .content-desc li:first-child + li{background: url(../images/login-icon002.png) no-repeat left top;/* background-position-y: -120px; */}
+.mainbody .content-desc li:first-child + li + li{background: url(../images/login-icon003.png) no-repeat left top;/* background-position-y: -240px; */}
+.mainbody .content-desc li dt{margin: 6px 0;font-weight: bolder;font-size: 20px;font-family: "微软雅黑",verdana,sans-serif;}
+.mainbody .content-desc li dd{line-height: 16px;color: #666;}
+
+.layer {
+  position: absolute;
+  width: 350px;
+  height: 210px;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+  right: -90px;
+  top: 40px;
+  font-size: 14px;
+  /* box-sizing:border-box; */
+}
+
+.content-menu li {
+  float:left;
+  font-size: 16px;
+  color: #333;
+  cursor:pointer;
+  display: block;
+  padding: 0 30px;
+  border-bottom:4px solid #a7a7a7;
+}
+
+.content-menu li.on{border-bottom:4px solid #EB9641;font-weight: bold;}
+
+.content-menu ul {
+  line-height: 43px;
+  height: 45px;
+  padding: 0 80px;
+  margin-bottom:10px;
+}
+
+.content-form {  width: 350px;position: absolute;text-align: right;}
+
+.content-form ul li input[type="text"],input[type="password"] {
+  width: 65%;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-indent: 10px;
+  margin: 3px 0;
+  margin-right:40px;
+}
+
+.content-form input[type="button"],input[type="submit"]{
+	position:absolute;
+	left:115px;
+	top:110px;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	background-color: #3B79B3;
+	width: 120px;
+	height: 40px;
+	border:0;
+}
+
+  

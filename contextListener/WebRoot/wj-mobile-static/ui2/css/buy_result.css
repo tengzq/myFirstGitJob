@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.success{text-align: center; margin-bottom: 50%;}
+.success img{
+    margin-top: 85px;
+    margin-bottom: 18px;
+    width: 35%;
+}
+.success p{margin-bottom: 18px; color: #555;}
+#suc1{font-size: 18px;}
+#suc2,#suc3{ width:58%;margin-left: auto; margin-right: auto; height:36px; line-height: 36px; font-size: 16px; border-radius: 18px;}
+#suc2{background-color: #f8b62c;}
+#suc3{background-color: #00a1e9;}
+#suc2 a,#suc3 a{color: #ffffff;}

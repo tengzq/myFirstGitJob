@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* login page css */
+
+.login-logo { overflow:hidden; margin:20px 0; font-size:24px; line-height:80px; font-family:"微软雅黑"; color:#999}
+.login-logo h1 { padding-right:20px; margin-right:20px; border-right:2px solid #a4a4a4}
+
+.login{ overflow:hidden; border:9px solid #ededed}
+.login>div { width:50%;}
+.login>div>img { width:100%}
+.login .form{ background:#fff; height:480px;}
+.login .form form{ width:400px; margin:auto; padding-top:90px;}
+.login .form form ul li { padding:5px; position:relative; padding-left:90px; font-size:14px;}
+.login .form form ul li input { height:38px; border:1px solid #ddd; width:100%; text-indent:10px}
+.login .form form ul li span { width:80px; position:absolute; left:0; top:5px; text-align:right; line-height:38px;}
+.login .form form ul li a{ color:#e74e17; font-size:12px;}
+.login .form form ul li #to-recover { background:#e74e17; font-size:16px; color:#fff; border:0; width:100%; line-height:40px;}
+.login .form form>p{ padding:20px 90px; line-height:1.7; font-size:14px; padding-right:0; color:#666; background:url(../images/logo_10.png) no-repeat 50px 20px ;}
+.login .form form ul li label input { width:12px; height:12px;}
+.login .form form ul li label{ font-size:12px;}

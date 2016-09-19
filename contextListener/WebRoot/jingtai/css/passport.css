@@ -1,0 +1,567 @@
+#hd {
+	background:transparent;
+}
+#hd .header-clean {
+	width:980px;
+	margin:10px auto;
+}
+.header-clean .logo {
+	position:relative;
+	margin-left:-8px;
+}
+.header-clean .logo img {
+	height:134px;
+	height:62px;
+}
+.header-clean .logo span {
+	position:absolute;
+	display:block;
+	left:140px;
+	top:0;
+	height:62px;
+	line-height:62px;
+	font-size:24px;
+	color:#6a6969;
+}
+
+#bd {
+	width:980px;
+	padding:8px;
+	margin:0 auto;
+	background:#e9e8e8;
+}
+#bd .main {
+	background:#fff;
+	border:1px solid #dcdcdc;
+}
+.verify-code-area {
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+#bd .page-register {
+	margin:10px 15px 50px;
+}
+.page-register h1 { 
+	padding-left:12px;
+	font-size:24px;
+	color:#4c4b4b;
+	height:30px;
+	line-height:30px;
+	border-left:8px solid #f66;
+}
+.page-register .layout-register-form {
+	position:relative;
+}
+.page-register .psp-form-reg {
+	width:624px;
+}
+.page-register .reg-area {
+	margin-top:40px;
+}
+.page-register .form-field {
+	margin:20px 0;
+}
+.psp-form-reg .f-k {
+	margin-right:26px;
+	width:116px;
+	text-align:right;
+	letter-spacing:2px;
+	font-size: 16px;
+}
+.psp-form-reg .f-v {
+	margin-right:10px;
+}
+.psp-form-reg .f-v input {
+	width:250px;
+}
+.psp-form-reg .f-t {
+	text-indent:142px;
+}
+.psp-form-reg .agreement {
+	margin:20px 94px;
+}
+.psp-form-reg .btn {
+	margin-left:142px;
+	text-indent: 0;
+}
+.page-register .psp-prompt-reg {
+	width:316px;
+	height:384px;
+	border-left:1px solid #ccc;
+	text-align:center;
+}
+.page-register .dawanjiauser-tips {
+	margin-top:60px;
+	font-size:18px;
+	color:#4c4b4b;
+}
+.page-register .psp-prompt-reg >a {
+	display:block;
+	color:#fff;
+	width:86px;
+	height:26px;
+	line-height:26px;
+	margin:10px auto;
+	background:#f93;
+}
+.page-register .psp-prompt-reg p a{
+	font-size:18px;
+	color:#4c4b4b;
+}
+.page-register .psp-prompt-reg img {
+	margin-top:20px;
+}
+
+.page-register .layout-register-done {
+	display:none;
+	padding:100px 0 50px;
+	text-align:center;
+	background:url(../imgs/success.png) 280px 84px no-repeat;
+}
+.layout-register-done h3 {
+	font-size:36px;
+	color:#4c4b4b;
+}
+.layout-register-done p {
+	margin:20px 0;
+	font-size:24px;
+	color:#a0a0a0;
+}
+.layout-register-done p.hongbao {
+	font-size:30px;
+}
+.layout-register-done p.hongbao em {
+	font-size:48px;
+}
+.layout-register-done .btn {
+	margin:30px auto;
+}
+.page-register .verify-feedback {
+	display:block;
+	font-size:14px;
+	color:#a4a4a4;
+	margin-left:90px;
+	margin-bottom:20px;
+}
+.page-register .login-link {
+	position: absolute;
+	color:#f66;
+	font-size:14px;
+	top:-80px;
+	right:0px;
+}
+.page-register .login-link:hover {
+	text-decoration:underline;
+}
+
+.page-verify {
+	*width:978px;
+	overflow:hidden;
+}
+.page-verify .verify-step {
+	height:35px;
+	background:url(../imgs/bg_verify_step.png) no-repeat;
+}
+.page-verify-email .verify-step{
+	background-position:0 -35px;
+}
+.page-verify-idcard .verify-step{
+	background-position:0 -70px;
+}
+.page-verify-done .verify-step{
+	background-position:0 -105px;
+}
+.page-verify .verify-bd {
+	padding:76px 0 110px; 
+}
+.page-verify .verify-bd .form {
+	margin-left:220px;
+}
+.page-verify .form-field {
+	margin:20px 0;
+}
+.page-verify .f-k {
+	margin-right:26px;
+	width:116px;
+	text-align:right;
+	letter-spacing:2px;
+}
+.page-verify .f-v {
+	margin-right:10px;
+}
+.page-verify .f-v input {
+	width:250px;
+}
+.page-verify .btn {
+	margin-left:142px;
+}
+.page-verify .verify-feedback {
+	display:block;
+	margin:10px 0 10px 142px;
+	font-size:18px;
+	color:#A4A4A8;
+}
+
+.get-mobile-code {
+	display:block;
+	margin:4px 5px 4px 10px;
+	background:#f96;
+	padding:0 15px;
+	height:36px;
+	line-height:36px;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	*display:inline;
+	*zoom:1;
+}
+.get-mobile-code .a {
+	display:none;
+}
+.get-mobile-code .b {
+	display:block;
+}
+.send-waitting {
+	background:#ccc;
+	cursor:not-allowed;
+}
+.send-waitting .a {
+	display:block;
+}
+.send-waitting .b {
+	display:none;
+}
+
+.page-verify-done {
+	text-align:center;
+}
+.page-verify-done h2 {
+	font-size:30px;
+	color:#a0a0a0;
+}
+.page-verify-done h2 em {
+	font-size:48px;
+}
+.page-verify-done .btn {
+	margin:30px auto;
+}
+
+.page-login {
+	position:relative;
+	height:400px;
+}
+.page-login .login-picshow {  
+	width:480px;
+	height:400px;
+	overflow:hidden;
+	background:url(../imgs/bg_login.png) no-repeat center top;
+	*width:468px;
+}
+.page-login .login-form {
+	width:495px;
+	background:#fff;
+}
+#login-form {
+	margin-top:60px;
+}
+#login-form .login-form-field {
+	margin-bottom:20px;
+	position:relative;
+}
+#login-form .f-k {
+	width:100px;
+	text-align:right;
+	font-size:16px;
+	color:#999;
+	margin-right:10px;
+}
+#login-form .f-v input {
+	width:260px;
+}
+
+#login-form .tit{
+	margin-top:20px;
+	line-height:30px;
+	font-size:18px;
+	color:#a0a0a0
+}
+#login-form .user-info-input {
+	height:51px;
+	width:392px;
+	background:url(../imgs/spr.png) 0 -420px;
+	overflow:hidden;
+}
+#login-form .user-info-psw {
+	background-position:0 -471px;
+}
+#login-form .user-info-input input {
+	border:0;
+	height:22px;
+	font-size:20px;
+	padding:10px 5px;
+	margin:5px 0 5px 60px;
+	width:316px;
+}
+#login-form .user-info-code {
+	width:160px;
+	background-position: -230px -420px;
+	border-left:1px solid #ccc;
+}
+#login-form .user-info-code input {
+	width:140px;
+	margin-left:5px;
+	padding-left:0;
+	*margin-left:2px;
+}
+#login-form .login-form-field-code .verify-code-area {
+	position: absolute;
+	top:-14px;
+	left:230px;
+}
+#login-form .user-info-input input:focus {
+	outline:none;
+}
+#login-form .forget-psw {
+	padding-left:10px;
+	color:#666;
+}
+#login-form .forget-psw:hover {
+	text-decoration:underline;
+}
+#login-form .login-tips {
+	display:none;
+	margin-left:110px;
+	height:30px;
+	line-height:30px;
+	color:#f66;
+	font-size:18px;
+}
+#login-form .btn {
+	margin:30px 0 0 110px;
+	width:270px;
+	height:40px;
+	line-height:40px;
+	font-size:24px;
+	text-indent: 0;
+}
+#login-form .dwj-user-tips {
+	position: relative;
+	margin:20px 0 0 100px;
+	color:#a0a0a0;
+	font-size:14px;
+}
+#login-form .login-safe{
+	display: block;
+	background: url(https://s1.lantouzi.com/img/201503/login_safe.png) no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 25px;
+	left: -25px;
+	top: 0;
+}
+#login-form .dwj-user-tips a,.dawanjia-reader{
+	text-decoration:underline;
+	color:#6bafff !important;
+}
+.page-login .reg {
+	position:absolute;
+	right:-51px;
+	top:52px;
+	border:8px solid #e9e8e8;
+	border-left:0;
+}
+.page-login .reg a {
+	display:block;
+	width:42px;
+	padding:10px 0;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	background:#7cbe56;
+	letter-spacing:3px;
+}
+.page-login .reg a:hover {
+	opacity:.8;
+}
+
+.layout-fgtpsw-form .fgtpsw-area{
+	margin-left:280px;
+}
+.layout-fgtpsw-form h2 {
+	margin-top:20px;
+	text-align:center;
+	font-size:36px;
+	color:#f66;
+}
+#verify_code{
+	width: 100px;
+}
+.valid-code-em{
+	margin-left: 50px;
+}
+#mobile-verify-code{
+	width: 100px;
+}
+.btn-forbidden{
+	background: #ccc;
+	cursor: not-allowed;
+}
+.idcard_only{
+	margin: 50px 0 50px 300px
+}
+.idcard_only .form-field{
+	margin: 20px 0;
+}
+.idcard_only .f-k{
+	font-size: 16px;
+	width: 50px;
+	color: #666666;
+}
+.idcard_only .f-v{
+	margin-left: 30px;
+}
+.idcard_only .f-v input{
+	width: 220px;
+}
+::-webkit-input-placeholder {
+	color:#ccc;
+	font-size:14px;
+}
+::-moz-placeholder {
+	color:#ccc;
+	font-size:14px;
+}
+:-ms-input-placeholder {
+	color:#ccc;
+	font-size:14px;
+}
+input:-moz-placeholder {
+	color:#ccc !important;
+	font-size:14px !important;
+}
+
+.resent-mobile-code {
+	display:block;
+	margin:4px 5px 4px 10px;
+	background:#f96;
+	padding:0 15px;
+	height:36px;
+	line-height:36px;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	*display:inline;
+	*zoom:1;
+	cursor: pointer;
+}
+.resent-mobile-code .a {
+	display:block;
+}
+.resent-mobile-code .b {
+	display:none;
+}
+.disabled{
+	background: #666;
+	cursor: not-allowed;
+}
+/*new register*/
+.reg-form-list{
+	margin: 20px 0;
+	position: relative;
+}
+.reg-form-list .list-title{
+	margin-right: 26px;
+	float: left;
+	width: 116px;
+	text-align: right;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #4c4b4b;
+	vertical-align: top;
+	line-height: 42px;
+}
+.reg-form-list .list-input{
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+	padding: 10px 4px;
+	border: 1px solid #c4c5c5;
+	font-size: 18px;
+	color: #666;
+	outline: none;
+}
+.reg-form-list .list-input:focus{
+	border: 1px solid #6bafff;
+}
+.reg-form-list .list-input-short{
+	width: 130px;
+}
+.reg-form-list .send-sms{
+	display: block;
+	width:110px ;
+	height:44px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-color: #48aaee;
+	font-size: 16px;
+	line-height: 44px;
+	margin-right: 10px;
+}
+.reg-form-list .send-sms:hover{
+	opacity: 0.85;
+}
+.reg-form-list .send-sms.send-waitting,.btn-reg.loading{
+	background: #ccc;
+	cursor: not-allowed;
+}
+.reg-form-list .countdown-text{
+	font-size: 14px;
+	display: none;
+}
+.reg-form-list .list-checkbox{
+	float: left;
+	margin: 10px 0 0 145px;
+}
+.ie6 .reg-form-list .list-checkbox{
+	margin: 10px 0 0 70px;
+}
+.reg-form-list .list-checkbox label a{
+	color: #f63;
+}
+.reg-form-list .err-area{
+	color: #a4a4a4;
+	line-height: 42px;
+	float: left;
+	font-size: 14px;
+}
+.reg-form-list .err-tips{
+	padding: 4px 0 4px 30px;
+	background: url(https://s1.lantouzi.com/img/ltz/spr.png) no-repeat;
+}
+.reg-form-list.err .err-tips{
+	background-position: -380px -296px;
+}
+.reg-form-list.ok .err-tips{
+	color: transparent;
+	background-position: -378px -359px;
+}
+.short-err .err-tips{
+	font-size: 12px;
+	padding: 4px 0 8px 30px;
+}
+.feedback-err{
+	display: none;
+	margin: 0;
+}
+.feedback-err .err-area{
+	margin: 0px 0px 15px 142px;
+	line-height: 25px;
+}
+.reg-form-list .ie-holder{
+	left: 140px;
+}

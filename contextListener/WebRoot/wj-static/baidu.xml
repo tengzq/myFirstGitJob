@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gbk" ?><!--xml 编码可以是gbk或者utf-8,但必须保证xml内容编码与头信息一致-->
+<!--xml文件头，文档需以gbk方式编码-->
+<DOCUMENT>
+<!--需要大写，标记整个文档的开头-->
+<item>
+<!--标记每个关键词所对应信息的开始和结束，不得嵌套出现。每个item对应一个关键词和该关键词对应的展现内容。当需要提交多个item时，可以在一个xml文件中填入多个item。同一份XML文档中item的个数上限为10000个-->
+	<key>万金先生</key>
+	<!--关键词，目前一个key标签中只支持输入一个关键词，不支持罗列关键词。当用户在百度检索此关键词时，即可检索到item中指定的内容。每个key的长度限制为1－76字节-->
+	<display>
+	<!--表示该关键词要显示的搜索结果信息，包含以下的url、title等标签。display标签中的文本长度上限为2k-->
+		<title>万金先生 - 会理财，好先生</title>	
+		<!--展现在百度搜索结果页中的标题，可通过空格调节各信息段之间的距离，建议至少1个空格。长度限制为4-62字节-->	
+		<url>http://www.wanjinxiansheng.com</url>
+		<!--表示资源的链接地址，即title指向的链接，链接指向该航班号查询结果页。url长度限制为6－512字节-->
+		<iconlbs  iconaddress="http://www.wanjinxiansheng.com/wj-static/images/index1_31.png"  iconlink="http://www.wanjinxiansheng.com" />
+		<!--用于指定搜索结果中icon的来源和链接指向地址。包括iconaddress、iconlink标签，iconaddress用于表示icon的来源地址，iconlink指向title链接页面。icon图片大小建议竖版为54*76px，横板为80*60px，无论横竖版，图片大小应在40*40~80*80之间。只支持jpg\png\gif格式。iconaddress和iconlink长度均为6~512字节-->
+		<content1>万金先生 - 会理财，好先生。个人中心国内领先的互联网金融平台，来自500强企业优质资产，银行千亿级授信企业。年化收益13-20%，玩转邀请码尽享3%加息。创始人团队全部来自清华，北大。</content1>
+		<!--表示搜索结果的文字内容（摘要），为一段内容，会被动折行，文字长度限制为200字节，如果超过200字节，请截断，并增加省略符号“…”，且保证内容加上省略符号总长度不超过200字节-->
+		<link1 linkurl="http://www.wanjinxiansheng.com/_project/goDetails.do?ID=07b99584df9144b9a3f2346531a2db48" linkcontent="年计划"/>
+		<!--该标签可选，内容为空则不显示。用于指定搜索结果中的文字链内容，包含linkurl、linkcontent标签。Link1标签的个数限制为3。linkurl指链接指向的地址，在此为具体集数的播放页，长度限制为6－512字节。linkcontent指链接的文字描述（anchor），长度1－25字节。-->
+		<link1 linkurl="http://www.wanjinxiansheng.com/_project/goDetails.do?ID=187eb41ff55545efb35b5e99eb7c491e"  linkcontent="月计划 - 7个月"/>
+		<link1 linkurl="http://www.wanjinxiansheng.com/_project/goDetails.do?ID=1d37f3963f4940ce9d4206c25abe4bd3"  linkcontent="月计划 - 8个月"/>
+		<link1 linkurl="http://www.wanjinxiansheng.com/_project/goDetails.do?ID=9e51ae7bcb1946c48a92de197c1283fc"  linkcontent="月计划 - 4个月"/>
+		<link2 linkurl="http://www.wanjinxiansheng.com/_project/goProjectList"  linkcontent="更多>>"/>
+		<showurl>www.wanjinxiansheng.com</showurl>
+		<!--请填写资源所属站点的一级域名，用于显示在搜索结果的下方。不需要有”http://”的部分；Showurl的长度限制为2－42字节，如果超过42字节，请截断，并增加省略符号“…”，并保证截断后的showurl加上省略符号总长度不超过42字节。-->
+		<date>2015-07-23</date>
+		<!--资源的最后更新日期。该标签可选，内容为空则不显示。格式为yyyy-mm-dd，例如：2008-10-26-->
+	</display>
+</item>
+</DOCUMENT>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* touzijilu page css */
+
+.touzijilu .box { border:1px solid #ddd; border-left:5px solid #e9953f; margin-top:30px;}
+.touzijilu .box .top { height:50px; line-height:50px; font-size:16px; padding:0 20px; border-bottom:1px solid #ddd;}
+.touzijilu .box .top span { padding-right:10px; }
+.touzijilu .box .center{ padding:20px;}
+.touzijilu .box .center h3{ font-size:22px; padding-bottom:10px;}
+.touzijilu .box .center h3 span { font-size:16px; display:inline-block; padding:5px 10px; background:#EB9641; color:#fff; margin-left:10px;}
+.touzijilu .box .center p { font-size:14px;}
+.touzijilu .box .center .ollist { padding:20px 0; overflow:hidden; padding-bottom:0}
+.touzijilu .box .center .ollist ol { width:33.33%; float:left; padding-left:0;}
+.touzijilu .box .center .ollist ol li { padding:10px 20px; border-right:1px solid #ddd; font-size:14px}
+.touzijilu .box .center .ollist ol:last-child li{ border:0}
+.touzijilu .box a { font-size:14px; color:#e9953f;}
+.touzijilu .box .bot { border-top:1px solid #ddd; height:50px; line-height:50px; padding:0 20px}
+
+

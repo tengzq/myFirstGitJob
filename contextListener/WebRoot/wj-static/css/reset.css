@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+font-family: 'Microsoft_YaHei337574';
+src: url('../fonts/Microsoft_YaHei.eot');
+src: url('../fonts/Microsoft_YaHei.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Microsoft_YaHei.woff') format('woff'),
+     url('../fonts/Microsoft_YaHei.ttf') format('truetype'),
+     url('../fonts/Microsoft_YaHei.svg#Microsoft_YaHei') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+   
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Arial, "Microsoft YaHei", "ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â½Ã‚Â¯ÃƒÂ©Ã¢â‚¬ÂºÃ¢â‚¬Â¦ÃƒÂ©Ã‚Â»Ã¢â‚¬Ëœ", verdana, "Microsoft_YaHei337574", Heiti, "ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* add */
+body {font-size:12px;margin:0;padding:0;font-family:Arial,"ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â½Ã‚Â¯ÃƒÂ©Ã¢â‚¬ÂºÃ¢â‚¬Â¦ÃƒÂ©Ã‚Â»Ã¢â‚¬Ëœ";}
+body,html{height:100%;}
+img{border:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+select,input{vertical-align:middle;outline:none;}
+.clear { display:block !important; clear:both !important; float:none !important; margin:0 !important; padding:0 !important; height:0; line-height:0; font-size:0; overflow:hidden;}
+.clearfix { zoom:1; }
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+.spacer{clear:both; font-size:0; height:0; line-height:0;}
+a{color:#333;text-decoration:none}
+a:hover{color: #2e9dd0; text-decoration:none}
+img,input,label{vertical-align:middle;outline:none;}/*ÃƒÂ¥Ã…Â¾Ã¢â‚¬Å¡ÃƒÂ§Ã¢â‚¬ÂºÃ‚Â´ÃƒÂ¥Ã‚Â±Ã¢â‚¬Â¦ÃƒÂ¤Ã‚Â¸Ã‚Â­*/
+
+.fl { float:left;}
+.fr { float:right;}
+
+input[type='submit'],input[type='reset'],input[type='button'],button { cursor:pointer; font-family: "微软雅黑","Microsoft YaHei";}

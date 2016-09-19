@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.mainbody .banner{ border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+.mainbody .banner img{ width:100%;}
+.mainbody .index1{ text-align:center; padding:10px; border-bottom:1px dashed #ededed; padding-bottom:10px; background:#fff;}
+.mainbody .index1 a { display:inline-block; width:32%; text-align:center; color:#727171}
+.mainbody .index1 a img{ width:70%;}
+
+.index2{ padding:10px; background:#fff}
+.index2>h3{ font-size:14px; font-weight:bold; color:#e74e17}
+.index2 .con{ text-align:center; padding:10px 0}
+.index2 .con .box { width:32%; display:inline-block; font-size:12px; color:#666; line-height:1.5}
+.index2 .con .box img { width:70%;}
+.index2 .con .box h4{ font-size:17px; color:#e9943f; font-weight:bold}
+
+.barbox{ padding:10px; padding-top:0; overflow:hidden; background:#fff}
+.barbox .fl { font-size:14px; font-weight:bold; width:50%; overflow:hidden}
+.barbox .fl b { color:#e74e17; font-size:20px;}
+.barbox .fr{ width:50%; overflow:hidden}
+.barbox .fr .bar{ padding-right:30px; position:relative; height:12px; padding-top:5px; margin-top:5px}
+.barbox .fr .bar em { position:absolute; right:0; top:0}
+.barbox .fr .bar p { height:3px; background:#ddd; }
+.barbox .fr .bar p i { display:block; height:3px; width:28%; background:#ea5453}
+
+
+.index3>a>h3{ height:40px; text-align:center; line-height:40px; background:#e74e17; color:#fff; font-size:18px}
+.index3 .con{ background:#e9e8e8; padding:10px;}
+.index3 .con .box { background:#fff; margin-bottom:10px; text-align:center; padding-top: 10px;}
+.index3 .con .box img { width:50%; padding:10px;}
+.index3 .con .box h4{ position:relative; height:34px; background:#eca62b;}
+.index3 .con .box h4 .p1{ position:absolute; left:10px; top:-20px; font-weight:bold;}
+.index3 .con .box h4 .p1 b{ color:#eca62b}
+.index3 .con .box h4 .p2{ width:48px; height:48px; text-align:center; line-height:48px; position:absolute; top:-35px; background:#eca62b; right:10px; color:#fff; border-radius:5px; border:1px solid #fff;}
+.index3 .con .box h4 .p2 b { font-size:20px;}
+.index3 .con .box h4 .p3{ color:#fff; line-height:34px; font-size:16px;}
+
+.project-profit {
+	/* float:left; */
+	position: relative;
+	width: 116px;
+	height: 116px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px dotted #299ad2
+}
+
+.platform_rate {
+	position: absolute;
+	display: block;
+	width: 40px;
+	box-sizing: border-box; 
+	height: 40px;
+	padding-top: 13px;
+	top: 2px;
+	right: 1px;
+	z-index: 50;
+	font-size: 12px;
+	/* font-weight: 700; */
+	color: #299ad2;
+	background: #fdf4f4;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 1px 1px 0px 0px #d3d0d0;
+	box-shadow: 1px 1px 0px 0px #d3d0d0;
+	border: 2px solid #fdf4f4;
+}
+.platform_rate sub {
+	/* margin-right: 3px; */
+	font-size: 14px;
+	font-weight: 800;
+	color: #e9953f;
+	z-index: 50;
+	position: relative;
+	top: -1px;
+}
+sub {vertical-align: text-bottom;}
+.project-profit p {
+	position: absolute;
+	z-index: 20;
+	display: block;
+	left: 27px;
+	margin-top: 48px;
+	width: 150px;
+	text-align: center;
+	font-size: 13px;
+	color: #299AD2;
+}
+.project-profit p strong {
+	position: absolute;
+	font-size: 51px;
+	line-height: 70px;
+	margin-left: -87px;
+	top: -25px;
+}
+.project-profit p span {
+	font-size: 15px;
+}
+.project-profit p span.zero {
+    left: 46px;
+	
+    bottom: -32px;
+    position: absolute;
+}
+.project-profit p.pb {
+    top: -3px;
+	
+    left: 11px;
+    font-size: 20px;
+}
+.project-profit p.yearp {
+    left: -14px;
+    top: 39px;
+	
+}
+.project-profit canvas {
+	position: absolute;
+	left: 0;
+}

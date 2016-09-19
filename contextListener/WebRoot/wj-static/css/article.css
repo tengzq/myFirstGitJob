@@ -1,0 +1,78 @@
+.news-list{margin: 10px 18px;font-size: 16px;}
+.news-list li {
+position: relative;
+padding-left: 10px;
+}
+.news-list li a {
+display: block;
+height: 40px;
+line-height: 40px;}
+.news-list li span {
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+height: 40px;
+line-height: 40px;
+color: #999;
+}
+.container_12{background-color: white; padding: 10px 0px;border: 1px solid #ddd;}
+
+/* ---- 文章页 ---- */
+.article{margin: 30px auto;width: 980px;font-family: "微软雅黑",verdana,sans-serif;font-size: 16px;}
+.article .left-menu{ width: 220px; background-color: #FFF; color: #666;text-align: center;}
+.article .left-menu .title{height: 52px;line-height: 52px;font-size: 20px;color: #eb9641;border-bottom: 1px solid #EEE;}
+.article .left-menu li{height: 40px;line-height: 40px;border-bottom: 1px solid #EEE;cursor: pointer;}
+.article .left-menu li:hover,
+.article .left-menu li.hover{background-color: /* #f96 */#eb9641;color: #FFF;}
+.article .mainbody{ width: 684px; padding: 30px; background: #FFF;}
+.article .article-title{font-size: 28px;padding-bottom: 30px;border-bottom: 1px solid #EEE;font-weight: bolder;text-align: center;}
+.article .article-content{margin-top: 20px;}
+
+
+/*  >>>>>>  媒体报道  <<<<<<  */
+
+.press-desc h2 {
+    background-color: #FFF;
+}
+.title-area{
+    margin-left: 30px;
+}
+.title-area p{
+    font-size: 12px;
+}
+.record-list{
+    margin: 15px 5px 10px 15px;
+}
+.record-list ul li{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.record-list ul li h5{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #EB9641;
+    margin-bottom: 5px;
+}
+.record-list ul li h5 a{
+    font-size: 18px;
+    color: #EB9641;
+}
+.right-icon{
+    float: right;
+    color: #909090 !important;
+    font-size: 22px !important;
+}
+.right-icon:hover{
+    color:#EB9641 !important;
+}
+.desc-title{
+    font-size: 13px;
+    margin: 10px 0;
+    color:#909090;
+}
+.desc-content{
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 30px;
+}

@@ -1,0 +1,55 @@
+.content {width:980px;margin:0 auto;}
+.inner {padding:30px 55px 50px;background:#fff;margin-top:20px;}
+.inner h3 {width:250px;margin:0 auto 30px;color:#ff6666;font-size:18px;text-align:center;border-bottom: solid 1px #ccc;height:13px;}
+.inner h3 span {background: #fff;padding:0 10px;}
+.info-box {position:relative;margin-top:50px;padding-top:30px;background:url('../images/buy_bg.png') 0 -24px no-repeat;background-position: 10px -24px;}
+.info-box .bd {overflow:hidden;width:840px;margin:0 auto;padding-bottom:30px;border:1px solid #ccc;border-top:none;border-bottom:none;}
+.info-box .ft {height:20px;margin:0 auto;background:url('../images/buy_bg.png') center 0 no-repeat;background-position: 9px 0px;}
+.info-box .alert {position: absolute;top:25px;right:50px;background: url('https://s1.lantouzi.com/img/201503/buy/alert_icon.png') left 1px no-repeat;padding-left:26px;color:#339933;font-size:14px;}
+.prj_info {padding:30px 50px 30px;border-bottom:solid 1px #eee;margin:0 10px 20px;}
+.prj_info .line {font-size: 16px;line-height: 45px;}
+.prj_info .line .left {display:inline-block;width:100px;text-align: right;color:#999;*display:inline;}
+.prj_info .line .right {display:inline-block;margin-left:10px;text-align: left;color:#333;vertical-align:top;*display:inline;}
+.prj_info .coupon_display {width:360px;position:relative;height:35px;line-height:35px;margin-top:5px;padding:0 10px;background:#fef1e5;color:#996633;text-align:center;cursor: pointer;font-size:14px;}
+.prj_info .coupon_display.show {padding:0 40px 0 10px;}
+.prj_info .coupon_display.none {background: #ccc;color:#fff;cursor:auto;}
+.prj_info .coupon_display .arrow {display: none;position:absolute;top:14px;right:12px;width:0;height:0;border:8px solid; border-color:#ffcc99 #fef1e5 #fef1e5 #fef1e5;}
+.prj_info .coupon_display.show .arrow {display: block;}
+.prj_info .coupon_display.expanded .arrow {top:6px;border-color:#fef1e5 #fef1e5 #ffcc99 #fef1e5;}
+.prj_info .coupon_list {position:absolute;width:550px;height:200px;margin-top:10px;background: #fef1e5;overflow-y:scroll;color:#ff9966;font-size:12px;z-index:10;border-top:solid 10px #fef1e5;border-bottom:solid 10px #fef1e5;display: none;}
+.prj_info .coupon_list li {line-height:28px;}
+.prj_info .coupon_list li.dis {color:#666;}
+.prj_info .coupon_list li.on {background: #ff9966;color:#fff;}
+.prj_info .coupon_list li .coupon {margin-left:15px;}
+.prj_info .coupon_list li label {padding:0 10px;}
+#amount {width:150px;text-align:right;font-size:16px;color:#333;height:28px;line-height:28px;padding:0 5px;}
+.invest_info {float: right; margin-right:50px;width:500px;font-size:16px;text-align:right;}
+.invest_info .balance {color:#999;padding:0 35px;}
+.invest_info .invest {color:#333;}
+.invest_info .high {color:#ff6666;font-size:18px;}
+.btns {clear:both;float:right;margin: 15px 50px 15px 0;}
+.btn_buy_now:hover {background:#ff8585;cursor: pointer;}
+.btn_buy_now.disabled {background: #ccc;}
+#recharge_form {color:#333;font-size:14px;/*display: none;*/}
+#recharge_form .summary {float: right;margin-right:50px;}
+#realpay-show {color:#ff3333;}
+#recharge_form .btn_recharge {display: inline-block;background: #ff9933;font-size:14px;width:65px;height:28px;line-height:28px;letter-spacing:0;text-indent: 0;margin-left:5px;cursor: pointer;}
+
+.tmpl {display: none;}
+
+/*ä½¿ç”¨é›¶é’±è®¡åˆ’ä½™é¢*/
+.lqjh_box {clear:both;float:right;margin:10px 50px 0 0;border:dashed 1px #ddd;color:#333;padding:8px 12px;}
+.lqjh_box.on {border:solid 1px #ff9966;}
+#use_lqjh {width:auto;height:auto;}
+.lqjh_box label {padding-left:5px;padding-right:40px;}
+.lqjh_box span {float:right;font-size: 12px;color:#666;}
+
+.ecope_dialog .dialog-recharge-buy {
+	background-image:url('https://s1.lantouzi.com/img/201503/buy/bg_dialog_cztz.png');
+	background-position: 394px 110px;
+}
+.ecope_dialog .ret .t {
+	display: inline-block;
+	text-align: right;
+	width:100px;
+}

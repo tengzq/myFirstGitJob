@@ -1,0 +1,218 @@
+@charset "utf-8";
+body{font-family: "微软雅黑"; color:#666}
+.main{ width:996px; margin:0 auto}
+
+
+.header .top { height:84px; background:#090500; line-height:84px; vertical-align:middle; overflow:hidden}
+.header .top a { color:#d6b470; font-size:18px; padding:0 15px; display:inline-block}
+.header .top .menu{ padding-left:20px;}
+.header .top .menu a { padding:0 20px;}
+.header .top a:hover{ color:#fff;}
+.header .top .nav a { float:left}
+.header .top .menu a.hover{ color:#fff}
+
+.content{
+	
+}
+
+.mainbanner{ overflow:hidden}
+.mainbanner .main { position:relative}
+.mainbanner .window{width:1920px; margin-left:-462px}
+.mainbanner .window img { width:100%;}
+
+.index1{ border-top:2px solid #312f2f; position:absolute; top:540px; padding-top:20px;}
+.index1 dl { width:249px; float:left; text-align:center}
+.index1 dl img { padding:30px 0}
+.index1 dl dd { line-height:1.5; font-size:14px; color:#cca047; text-align:center;}
+.index1 dl dd h3 { font-size:20px;}
+
+.styletitle1{ padding:40px 0; text-align:center}
+.styletitle1 h3{ font-size:30px; line-height:1.5}
+.styletitle1 h6{ background:url(../images/index_16.jpg) repeat-x center;}
+.styletitle1 h6 span { background:#fff; padding:0 20px; color:#b7b6b6; font-size:14px;}
+
+.index2{}
+.index2 .box { width:324px; border:1px solid #ececeb; box-shadow:0 0 5px #ececeb; float:left; margin-right:6px; margin-bottom:50px;}
+.index2 .box h3{ font-size:20px; line-height:55px; text-align:center}
+.index2 .box h4{ background:#676666; color:#fff; padding:10px; text-align:center}
+.index2 .box h4 b { font-size:48px; display:block; padding-bottom:10px;}
+.index2 .box ol{ padding:20px 0;}
+.index2 .box ol li{ padding:20px; font-size:14px; color:#9c9c99}
+.index2 .box ol li i { font-size:20px; padding-left:10px;}
+.index2 .box ol li em { color:#d0a44a; font-size:24px}
+.line h5{ background:#9c9c99; height:10px;}
+.line h5 span { position:relative; height:10px; background:#c2933f; display:block}
+.line h5 span i{ width:13px; height:25px; position:absolute; display:block; right:-13px; top:-8px; background:url(../images/line.png) no-repeat;}
+.index2 .box .btn1{ padding:40px;}
+.btn1 button { height:42px; width:215px; color:#fff; font-size:18px; background:url(../images/index_20.jpg); border:0;}
+.index2 .box:last-child{ margin-right:0}
+
+.LRbtn{ margin:58px auto; text-align:center}
+.LRbtn>div { width:72px; height:33px; display:inline-block; cursor:pointer}
+.LRbtn .left{ background:url(../images/index_24.jpg)}
+.LRbtn .right{ background: url(../images/index_26.jpg)}
+
+.index2{ background:#fcfbf9; padding-bottom:28px;}
+.index2 ul li { padding-top:28px; padding-left:230px; position:relative; height:134px;}
+.index2 ul li img { width:200px; position:absolute; left:0; height:134px;}
+.index2 ul li h3{ font-size:18px; padding-bottom:25px;}
+.index2 ul li p { font-size:14px; color:#878785; line-height:1.5}
+.index2 ul li a { color:#d0a44a}
+
+.footer{ background:#f5f4f3; overflow:hidden; color:#474747}
+.footer1{ overflow:hidden}
+.footer1 .fl dl { float:left; width:200px;line-height:40px;}
+.footer1 .fl dl dt { font-size:18px; color:#474d51; padding-top:20px;}
+.footer1 .fl dl dd a { display:block; color:#656565; font-size:14px; }
+.footer1 .fr{ padding-top:30px;}
+.footer1 .fr .box { float:left; width:110px; height:140px; margin-left:60px; text-align:center; line-height:1.5; font-size:14px;}
+
+.footer2{ overflow:hidden; padding-bottom:20px;}
+.footer2 .fl{ padding-top:30px;}
+.footer2 .fl a { padding-right:15px;}
+.footer2 .fr{ width:400px; line-height:1.5; font-size:14px; padding-top:15px}
+
+.footer3{ background:#090500; line-height:46px; text-align:center; font-size:14px; color:#474d51;}
+
+
+.backTop{ position:fixed; right:50px; bottom:200px; cursor:pointer; z-index:9}
+
+
+
+
+.header2{ background:#44423b; height:80px; line-height:80px; overflow:hidden}
+.header2 a { color:#d6b470; padding-right:60px; font-size:18px;}
+.header2 a:hover{ color:#fff;}
+.header2 a.hover{ color:#fff;}
+.header2 button { background:url(../images/wodezhuye_03.jpg); height:36px; width:105px; color:#fff; border:0; font-size:16px; margin-top:20px;}
+
+
+.wdzy1{ padding:20px 0; overflow:hidden}
+.wdzy1 dl dt { width:74px; height:74px; border-radius:50%; overflow:hidden;}
+.wdzy1 dl dt img { width:100%; height:100%;}
+.wdzy1 dl dd { padding-top:10px; font-size:16px; color:#676666}
+.wdzy1 .t2{ padding-left:20px; padding-top:30px;}
+.wdzy1 .t2 a { padding-right:5px;}
+.wdzy1 .t2 h6{ padding-left:15px; font-size:12px; color:#9c9c99; padding-top:10px;}
+.wdzy1 .t2 h6 b { font-size:14px; color:#666; padding-left:10px;}
+
+.wdzy2{ overflow:hidden; font-size:22px; color:#666}
+.wdzy2 .fl { border-right:1px solid #ececeb;  border-left:1px solid #ececeb; width:396px; padding-left:100px; line-height:45px; height:130px;}
+.wdzy2 b { color:#ba8a39}
+.wdzy2 i { font-size:30px}
+.wdzy2 .fr{ padding-right:60px; width:320px; border-right:1px solid #ececeb;  height:130px;}
+.wdzy2 .fr .btn { padding-top:46px; float:right}
+.sbtn1{ width:106px; height:35px; color:#fff; border:0; font-size:18px; background:url(../images/wodezhuye_03.jpg)}
+.sbtn2{width:106px; height:35px; color:#fff; border:0; font-size:18px; background: url(../images/wdzy_21.jpg)}
+
+
+.wdzy3 { border:1px solid #f9f9f9; padding:10px; margin:10px; border-bottom-width:2px}
+.wdzy3 ul{ overflow:hidden; border-left:1px solid #ececeb; border-right:1px solid #ececeb}
+.wdzy3 ul li { float:left; width:198px; float:left; text-align:center; position:relative; font-size:20px; line-height:60px;}
+.wdzy3 ul li b { position:absolute; right:-10px;}
+.wdzy3 ol{ border-left:1px solid #ececeb; border-right:1px solid #ececeb; overflow:hidden; text-align:center}
+.wdzy3 ol li{ width:198px; border-right:1px solid #ececeb; float:left; line-height:80px; font-size:18px;}
+.wdzy3 ol li:last-child{ border-right:0;}
+.wdzy3 ol li i{ font-size:22px;}
+
+.sbtn3{ width:106px; height:36px; color:#fff; background:#c5c4c4; border:0; font-size:16px;}
+.chart .title{ text-align:right; overflow:hidden}
+.chart .title h3{ font-size:18px;}
+
+.mainline{ border-bottom:2px solid #f9f9f9; margin:20px 0;}
+
+.search .box{ width:502px; height:36px; margin:0px auto; border:3px solid #d0a44a; border-radius:5px; overflow:hidden; margin-bottom:50px}
+.search .box input[type="text"]{ width:420px; padding:0 10px; float:left; height:36px; border:0; background:0;}
+.search .box input[type='image']{ float:right}
+
+
+
+.mainmenu2{margin-bottom:50px; overflow:hidden}
+.mainmenu2 ul li { float:left; width:25%; background:#f8f7f6; border-bottom:3px solid #f8f7f6; border-top:2px solid #fff; font-size:18px; text-align:center; line-height:70px;}
+.mainmenu2 ul li a { color:#666}
+.mainmenu2 ul li.hover{ border-top-color:#bb8f41; background:#fff; }
+
+
+
+.Bnav{ text-align:center; margin-bottom:50px;}
+.Bnav ul{ display:inline-block;}
+.Bnav ul li { display:inline-block; width:30px; height:30px; text-align:center; line-height:30px; color:#666}
+.Bnav ul li:first-child,.Bnav ul li:last-child{ width:70px}
+.Bnav ul li a { color:#666; display:block}
+.Bnav ul li:hover a { color:#fff; background:#d0a44a}
+.Bnav .tz{ display:inline-block}
+.Bnav .tz input { width:40px; height:28px; border:1px solid #ddd; margin:0 5px}
+.Bnav .tz button { border:1px solid #BB8F41; height:28px; width:60px; color:#333; background:#fff; margin-left:20px}
+.Bnav .tz button:hover{ background:#BB8F41; color:#fff;}
+
+
+.cpxq1{ overflow:hidden; border-bottom:1px solid #f9f9f9}
+.cpxq1 .left { padding-top:70px; padding-left:20px}
+.cpxq1 .left h3{ font-size:24px; color:#444;}
+.cpxq1 .left h2{ padding:30px; padding-left:100px; font-size:14px; line-height:1.2;}
+.cpxq1 .left h2 b { display:block; color:#bb8f41; font-size:48px; margin-left:-10px}
+.cpxq1 .left ol li { line-height:2; font-size:16px;}
+.cpxq1 .left ol li b { width:120px; color:#999; display:inline-block}
+.cpxq1 .left ol li i{ font-size:24px;}
+.cpxq1 .left p { line-height:3; border-top:1px solid #f7f7f7; margin-top:10px; color:#9c9c99; font-size:14px;}
+.cpxq1 .right{ border-left:2px solid #f9f9f9; padding:70px 10px; width:300px;}
+.cpxq1 .right h3{ line-height:50px; font-size:18px;}
+.cpxq1 .right h3 .fr{ font-size:24px; color:#d0a44a}
+.cpxq1 .right ol li { line-height:48px; border-bottom:1px solid #f5f5f5; padding:0 10px; color:#999; overflow:hidden}
+.cpxq1 .right ol li:last-child{ border-bottom:0;}
+.cpxq1 .right ol li i { float:right}
+.cpxq1 .right ol li b { color:#333; font-size:20px;}
+.cpxq1 .right form h4{ font-size:16px; line-height:50px;}
+.cpxq1 .right form input { text-align:right; border:; border-radius:5px; background:#ececeb; height:48px;  border:0; width:289px; padding:0 10px; font-size:24px;}
+.cpxq1 .right form p { padding-top:10px; font-size:14px;}
+.cpxq1 .right form p b{ color:#cd9a3c; text-align:right}
+.cpxq1 .right .btn1 { text-align:center; padding-top:20px;}
+
+.smenu1{ border-bottom:1px solid #e9e9e9; overflow:hidden}
+.smenu1 ul li { float:left; padding:0 40px; line-height:60px;}
+.smenu1 ul li a { color:#666666}
+.smenu1 ul li.hover a { color:#bb8f41; border-bottom:2px solid #bb8f41; display:block}
+
+.cpxq2 table { width:100%;  margin:20px 0;border:1px solid #ececeb; text-align:center; line-height:84px; font-size:18px;}
+.cpxq2 table tr td { border:1px solid #ececeb;}
+.cpxq2 table tr th { background:#f8f7f6}
+
+.tzcg1{ text-align:center; padding:150px;}
+.tzcg1 h2{ font-size:40px; font-weight:bold; padding-top:10px;}
+.tzcg1 h3 {font-weight:bold; font-size:20px; line-height:2.2}
+.tzcg1 .btn { padding-top:50px;}
+.tzcg1 .btn button { width:175px; height:42px; border:0; background:#c4c4c4; color:#fff; font-size:16px;}
+.tzcg1 .btn button:last-child{ background:#cd9b3c}
+
+.login { position:fixed; left:0; right:0; top:0; bottom:0; background:#F9F9F9 url(../images/login.jpg) no-repeat center center;}
+
+.login .window {float:right;background:#fff;width: 417px;height: 430px;background:#fff;/* padding:25px; */margin-top:85px;box-sizing: border-box;}
+.login .window h3{ text-align:center; padding-bottom:20px; border-bottom:1px solid #e8e8e8; margin-bottom:15px;}
+.login .window h4{ text-align:right; padding:10px 0;}
+.login .window h4 label{ display:inline-block; padding-left:10px;}
+.login .window h4 label em { width:15px; height:15px; background:url(../images/login_09.jpg); float:left; margin-right:5px; margin-top:1px; cursor:pointer}
+.login .window h4 label em.hover{ background-image:url(../images/login_07.jpg); }
+.login .window ol.tabs{background-color:#F1F1F1;/*#fefdfa*/}
+.login .window ol.tabs li{float: left;width: 208px;height: 68px;box-sizing: border-box;border-bottom: 1px solid #ececeb;line-height: 68px;color: #9c9c99;text-align: center;font-size: 25px;font-family: "微软雅黑",verdana,sans-serif;cursor: pointer;}
+.login .window ol.tabs li.on{background-color: #FFF;}
+.login .window ol.tabs li:first-child.on{border-right: 1px solid #ececeb;}
+.login .window ol.tabs li:first-child+li.on{border-left: 1px solid #ececeb;border-bottom: 0;}
+.login .window ul{overflow:hidden;padding: 34px 39px 0 34px;}
+.login .window ul li p{ height:42px; border:1px solid #ececeb; border-radius:5px; overflow:hidden; margin-bottom:7px; padding-left:44px; position:relative;}
+.login .window ul li p input { width:100%; border:0; background:0; height:42px; outline:none}
+.login .window ul li p em { position:absolute; width:26px; height:26px; position:absolute; background:url(../images/login_14.jpg); top:7px; left:10px;}
+.login .window ul li p.fl{width: 143px;margin-right:10px;}
+.login .window ul li a { float:right; margin-top:8px; margin-right:5px;}
+.login .window h5{padding: 10px 39px;line-height:20px;font-size:14px;overflow:hidden;}
+.login .window h5 a { float:right; color:#ce9e48}
+.login .window h5 a:hover{ text-decoration:underline}
+.login .window h5 .fl em { width:20px; height:20px; border:1px solid #ce9e48; border-radius:50%; float:left; margin-right:5px; cursor:pointer}
+.login .window h5 .fl em.hover{ background:url(../images/login_32.jpg) no-repeat center;}
+.login .window .btn {
+    padding: 0 39px;
+}
+.login .window .btn button { color:#fff; background:url(../images/login_36.jpg); height:43px; border:0; border-radius:5px; width:100%; font-size:18px;}
+.login .window h6{ line-height:2; text-align:center; font-size:16px; padding-top:10px;}
+.login .window h6 a { color:#ce9e48;}
+
+.footer4{position:fixed;left:0;right:0;bottom: 80px;color:#908a8a;font-size:14px;text-align:center;}

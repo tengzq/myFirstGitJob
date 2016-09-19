@@ -1,0 +1,12 @@
+#slider1_container {position: relative; top: 0px; left: 0px;}
+#slider1_container a {display:block;width:1400px;height:355px;}
+/*slider bullet navigator*/
+#slider1_container .jssorb21 {position: absolute;}
+#slider1_container .jssorb21 div, #slider1_container .jssorb21 div:hover {position: absolute;width: 12px;height: 12px;text-align: center;line-height: 19px;color: white;font-size: 12px;overflow: hidden;cursor: pointer;border-radius: 50%;background: #ffffff;border: 1px solid #909090;opacity: 0.8;}
+.jssorb21 .av { background: #909090 !important;border-color: #ffffff;}
+/*slider arrow navigator*/
+.jssora21l, .jssora21r {display: block;position: absolute;width: 55px;height: 355px;cursor: pointer;background: url('//s1.lantouzi.com/img/201504/a21.png') center top no-repeat;overflow: hidden;}
+.jssora21l { background-position: -3px 117px; }
+.jssora21r { background-position: -63px 117px; }
+.jssora21l:hover { background-position: -123px 117px; }
+.jssora21r:hover { background-position: -183px 117px; }
