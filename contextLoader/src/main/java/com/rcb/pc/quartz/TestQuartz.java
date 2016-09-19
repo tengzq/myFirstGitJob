@@ -14,5 +14,6 @@ public class TestQuartz {
 		System.out.println("7878787");
 		System.out.println("dgfgfgfg++++++++++");
 		System.out.println("ffffffffff");
+		System.out.println("这次总算行了吧");
 	}
 }
